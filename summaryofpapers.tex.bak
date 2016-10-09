@@ -1,0 +1,69 @@
+\chapter{Summary of papers}
+
+\subsection{Quality analysis of open street map data \cite{Wang2013}}\label{sec:wang}
+Crowd sourcing geographic data is an opensource geographic data which is contributed by lots of non-professionals and provided to the public. Compared with conventional data collection and update methods, the crowd sourced geographic data has characteristics or advantages of large data volume, high currency, abundance information and low cost and becomes a research hotspot of international geographic information science in the recent years.\\ 
+The primary problem is to analyse the quality of crowd sourcing geographic data. 
+There are three factors that influence the quality of OSM: First data collected and mapped by non-professionals, secondly the collected data may be from different data sourcing with different precision and thirdly the data collected by different GPS may have different precisions. \\
+The paper assesses three quality elements: 1. Data completeness, 2. Attribute accuracy and 3. Position accuracy. 
+
+Enter twice to get spacing between paragraphs.
+
+\paragraph{Data completeness}
+Includes length completeness and name completeness. Length completeness is the geometric quality and data coverage. Formula: $Q_{L}=\frac{L_{OSM}}{L_{R}}$ \\(L = percentage of the length).  
+\paragraph{Name completeness}
+Name completeness means the completeness of the name attribute. 
+
+\subsection{User generated Street Maps \cite{Weber2008}}\label{sec:weber}
+Until recently the mapping of the Earth was preserved highly skilled, well-equipped and organized individuals and groups. The big change happened in 2000 when Bill Clinton removed the selective availability of the GPS signal, this provided much improved accuracy for simple, low-cost GPS receivers. The wide availability of high-quality location information has enabled mass-market mapping based on affordable GPS receivers, home-computers and the Internet. 
+\paragraph{OSM background}
+OSM follows the peer production model that created Wikipedia. Its aim is to create a set of map data thats free to use, editable, and licensed under new copyright schemes. Was founded in 2004 at University College London. In May 2008 OSM had more than 33,000 registered users and about 3,500 currently active contributors. OSM decided to follow the route of allowing only registered users to edit the map, this way they can trace the information source. OSM GeoStack is the set of tools that lets users capture, procedure, communicate, aggregate, and consume the geographical information produced in the project.  
+\paragraph{Editing Tools}
+OSM developers implement tools to facilitate user contributions to the database. In 2008 they had a Flash-based editor called Potlatch. Today JOSM is more common, even though this is used by more experienced OSM contributors. At the end of 2006, Yahoo granted OSM the right to use its satellite imagery to trace roads and other features. 
+
+\subsection{\href{http://icaci.org/files/documents/ICC_proceedings/ICC2009/html/nonref/22_6.pdf}{CROWDSOURCING IS RADICALLY CHANGING THE GEODATA LANDSCAPE: CASE STUDY OF OPENSTREETMAP \cite{Chilton}}}\label{crowdsourcing}
+Examining the effect of the changing cartography has on data collection using OSM crowdsourcing as a case study. Are parallels to what is happening with data collection in other aspects, like WIKIPEDIA, Flickr and YouTube. \\
+
+	- Today: A need for instant information, particularly in crisis situations\\
+	- User Generated Content providers / crowdsourced data collectors are allowed to collect geodata\\
+		- Reason: More available satellite imagery, cheaper GPS units, etc \\
+		- OSM the leading global example \\
+		- OSM was the first online mapping service to accurately map and display the new London Heathrow Terminal 5, on the official opening day. \\
+	- OSM project \href{http://wiki.openstreetmap.org/wiki/No:Main_Page} - the achieved coverage, its accuracy, availability and global impact are all changing the way individuals and org are thinking about the collection, purchase and use of geodata. \\
+	- Makes OSM stand out from other data sources: \\
+		- Completely free of charge \\
+		- Is released under a license which allows you to do pretty much what you like \\
+			As long as you mention the original creator and the license 
+			\href{http://wiki.openstreetmap.org/wiki/OpenStreetMap_License} \\
+	- The availability, accuracy and price of OSM data has lead some local authorities in the UK to question the need to have total reliance on being locked into a contract for their geodata with the National Mapping Agency. \\
+	- OSM gives the possibility of having really current data available, other services may have a large lead for getting the data from survey to map output. \\
+OSM have specialist maps for cycling, routing, applications, skiing, topography and for maritime use. 
+
+\subsection{\href{http://www.giscience2010.org/pdfs/paper_213.pdf}{The impact of crowdsourcing on spatial data quality indicators}}
+Introduce the concept "Crowd Quality" (CQ) to describe and quantify the quality of crowdsourced geospatial information. Together with the growth in volume, the usage of crowdsourced geospatial info. grew extensively as well.
+
+	- Quality: Has a meaning if we have a common understanding of its definition \\
+		 - ISO19113(2002): Quality is the "totality of characteristics of a product that bear on its ability to satisfy stated and implied needs".  \\
+	 - Van Oort: Identified eleven elements of spatial data quality. The elements are used to describe the quality of geo-data collected and produced. \\
+	  -  Uniform method to produce and process the data --> Homogenous and consistent quality \\
+	- Crowd Quality (CQ): \\
+		- 2 dim.: \\
+			1. User-related quality aspects: Quality of information from an individual contributors perspective. This is the typical char. of crowdsourced data.\\
+			2. Feature-related quality aspects: Perspective of the spatial feature. \\
+			
+	1. 3 components: Local Knowledge, Experience and Recognition. \\
+		a. Familiarity to an area can be correlated to the quality of the users contribution \\
+		b. Quality of a users contribution is correlated with his overall experience in contributing to the project \\
+		c. Online social networks that allow for user contributions, often feedback are established (ratings, recognition for specific contributions). This type of User recognition is largely unknown in crowdsourced geospatial data --> Puts a strain in our ability to assess CQ. \\
+	2. In crowdsources datasets quality elements can be different for similar features, one user can add his personal attributes when adding a restaurant in OSM, while another restaurant only have one attribute. In traditional datasets the quality elements will be uniform, have the same attributes. \\ 
+		a. Quality elements that are particular interesting, since they are not consistent for crowdsourced data: \\
+			1. Lineage, positional accuracy and sematic accuracy.  \\
+			When data is imported from other sources, these imported features have a very clear lineage with regard to positional accuracy and precision. When imported from GPS data, the positional accuracy is harder to establish. \\
+Sematic accuracy  - related to the completeness and internal consistency of the attribute metadata. A schema for attribute metadata is not common in crowdsources geospatial data projects --> Create a threat to internal consistency. 
+
+\chapter{Movies}
+\subsection{\href{http://stateofthemap.us/2015/less-bots-more-humans-using-maproulette-to-import-data/}{State of the Map, microtasking}}\label{sec:movie}
+A bot is a tool that carries out repetitive and mundane (dagligdagse) automated edits on a regular basis to help maintain OSM. Most bots deal with tagging, ex xybot. BugBuster deals with removing nodes. Czechreg deals with changing geometries. 
+
+Issues with importing: The person need to have experience with the tool and the data, but also need to have the time to manually verify each task. Therefore we have microtasking - A process of splitting a task into multiple subtasks and distributing these subtasks to humans over the internet. He things this is the way of the future. Breaking up tasks tools - OSMLY, MapRoulette, BattleGrid. They can solve our issue, but we need different tools. One to determine conflicting objects,  saving the tasks in a backend and then make a usable and easy frontend to work on the tools. \href{http://wiki.openstreetmap.org/wiki/OSM_Tasking_Manager}{OSM Tasking manager, divide up a mapping job}.
+
+Microtasked conflation may lead to standard procedures that can help other groups import data.  Can help provide a validation step to force someone to look at each and every contribution. 

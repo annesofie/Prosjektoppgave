@@ -1,0 +1,46 @@
+\documentclass[12pt, a4paper]{report}   	% use "amsart" instead of "article" for AMSLaTeX format
+
+\usepackage{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   		% ... or a4paper or a5paper or ... 
+
+\usepackage[parfill]{parskip}    		% To begin paragraphs with an empty line rather than an indent
+
+%Tables
+\usepackage[none]{hyphenat}  % Stops breaking up words in a table
+\usepackage{array}
+
+%Img
+\usepackage{graphicx}				% To import images
+\usepackage{float}						% Control of float positions
+
+\usepackage{hyperref} % Clicable references
+\hypersetup{hidelinks, urlcolor=cyan}									
+\usepackage{amssymb}
+
+\title{Mapping the  technical challenges regarding OSM, with examples from the norwegian open and free governmental data}
+\author{Anne Sofie S. Erichsen}
+%\date{}							% Activate to display a given date or no date
+
+\begin{document}
+
+\input{tableofcontent.tex}
+
+\setcounter{page}{1}
+
+
+\abstract
+A big problem with OSM is finding a good, fast and easy way of correcting data. There exists multiple tools that finds possible errors, but there also has to be a good way of fixing them. A solution to this problem can be can be microtasking. Microtasks are formed basically by dividing a project into smaller tasks, clearly defined, that can be performed independently \cite{EstellesArolas}.  
+
+\chapter{Introduction}\label{sec:intro}
+This paper will inform you on the technical challenges regarding OpenStreetMap and governmental data \cite{Exel2010}. For a summary of papers you can see on page \pageref{sec:wang}
+
+In theory micotasking seems to solve a lot of OSM problems like overlapping data, deletion of good metadata (read: tags) when running import-scripts and makes it easier to control, both the workflow and quality of the data. Microtasking splits a task into multiple subtasks and distributing these subtasks to humans over the internet.  The OSM mindset  of schema-less datasets and tags differs from many organizations. With the success of OSM it is time to start taking this mindset serious. OSM also has its weaknesses , but many people believe microtasking solves the majority of them. By using FKB building dataset I will try too look further into mapping governmental data over to the OSM format, also trying to experience if microtasking is the solution of the weaknesses of OSM, like the ones I mentioned above. 
+
+\input{generalOSM.tex}
+
+\input{summaryofpapers.tex}
+
+
+\bibliography{prosjektoppg.bib}
+\bibliographystyle{plain}
+\end{document}  

@@ -1,0 +1,18 @@
+\contentsline {section}{\hbox to\@tempdima {\hfil }List of Figures}{i}{chapter*.2}
+\contentsline {section}{\hbox to\@tempdima {\hfil }List of Tables}{ii}{chapter*.3}
+\contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}
+\contentsline {chapter}{\numberline {2}Characteristics of Open Street Map}{3}{chapter.2}
+\contentsline {subsection}{\numberline {2.0.1}Introduction}{3}{subsection.2.0.1}
+\contentsline {subsection}{\numberline {2.0.2}Structure}{4}{subsection.2.0.2}
+\contentsline {subsection}{\numberline {2.0.3}File format, .osm files}{4}{subsection.2.0.3}
+\contentsline {chapter}{\numberline {3}Summary of papers}{5}{chapter.3}
+\contentsline {subsection}{\numberline {3.0.1}Quality analysis of open street map data \cite {Wang2013}}{5}{subsection.3.0.1}
+\contentsline {paragraph}{Data completeness}{5}{section*.4}
+\contentsline {paragraph}{Name completeness}{6}{section*.5}
+\contentsline {subsection}{\numberline {3.0.2}User generated Street Maps \cite {Weber2008}}{6}{subsection.3.0.2}
+\contentsline {paragraph}{OSM background}{6}{section*.6}
+\contentsline {paragraph}{Editing Tools}{6}{section*.7}
+\contentsline {subsection}{\numberline {3.0.3}\href {http://icaci.org/files/documents/ICC_proceedings/ICC2009/html/nonref/22_6.pdf}{CROWDSOURCING IS RADICALLY CHANGING THE GEODATA LANDSCAPE: CASE STUDY OF OPENSTREETMAP \cite {Chilton}}}{6}{subsection.3.0.3}
+\contentsline {subsection}{\numberline {3.0.4}\href {http://www.giscience2010.org/pdfs/paper_213.pdf}{The impact of crowdsourcing on spatial data quality indicators}}{7}{subsection.3.0.4}
+\contentsline {chapter}{\numberline {4}Movies}{9}{chapter.4}
+\contentsline {subsection}{\numberline {4.0.1}\href {http://stateofthemap.us/2015/less-bots-more-humans-using-maproulette-to-import-data/}{State of the Map, microtasking}}{9}{subsection.4.0.1}

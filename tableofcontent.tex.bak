@@ -1,0 +1,22 @@
+%Front stuff
+\pagenumbering{roman}
+
+\maketitle
+
+%Table of contents with no page number
+\tableofcontents   
+\thispagestyle{empty}
+\cleardoublepage
+
+%List of figures, list of tables
+\setcounter{page}{1}
+\listoffigures
+\addcontentsline{toc}{section}{\numberline{}List of Figures}
+\cleardoublepage
+
+\listoftables
+\addcontentsline{toc}{section}{\numberline{}List of Tables}
+\cleardoublepage
+
+%Main document and numbering starts here
+\pagenumbering{arabic}
