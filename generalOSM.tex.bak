@@ -17,6 +17,13 @@ Verifiability: From a given scenario, a tag/value combination is verifiable if a
  \subsection{File format, .osm files}
 The .osm file format is specific to OpenStreetMap and it is not easy to open these files using GIS-software like QGIS. The file format is designed to be easily sent and received across the internet in a standard format. Therefore .osm files are easily obtained, but using the files directly to do analysing and map design is not easy. The .osm files are coded in the XML format. It is recommended to convert the data into other formats when using the files \href{http://learnosm.org/en/osm-data/file-formats/}{source}. 
 
+The file is very difficult
+
+
+\chapter{Technical}
+\subsection{Existing libraries}
+The internet consists of hundreds of software libraries and packages. It can be overwhelming for newcomers and hard to find the most suited ones. A good tip is to learn the handful of libraries and packages that most software is derived from, so called root libraries. They are actively maintained and not significantly derived from any other libraries. The libraries do geospatial operations that are hard to implement, so people choose to use the libraries instead. Geospatial datasets are large, often complex and varied. This makes the implementation harder, and some of the reasons for the libraries success. The root libraries are GDAL, OGR, GEOS and PROJ. 4 \ref{Lawhead2013}.  They are, according to J. Lawhead, "the heart and soul of of the geospatial analysis community". All the libraries are written in C or C++. 
+
 
 
 
