@@ -14,6 +14,22 @@ The norm in OSM is to try to map new data with existing tags. Good practice is t
 
 Verifiability: From a given scenario, a tag/value combination is verifiable if and only if independent users when observing the same feature would make the same observation every time.\href{http://wiki.openstreetmap.org/wiki/Verifiability}. 
 
+\subsection{Organizational}
+%Redgjøre for hva OSM er og hvordan det fungerer teknisk og organisatorisk
+Organization and communication 
+
+The OpenStreetMap Project is supported by the OpenStreeMap Foundation (OSMF) which is a UK-registered non-profit organization. The foundation was founded in 2006 and consists of members from all over the world, as of December 2015 consist of 350 normal-, 351 associate- and 18 corporate members \cite{OSMF2015}. OSMF include a board of seven members and is critical to the ongoing function and growth of the OpenStreetMap project \cite{OSMF}.  The foundation has the responsibility for the servers and services necessary for hosting the OSM project. Also, they support and communicates with the working groups, and delegates tasks that has to be done, like Web site development etc. 
+
+A person can contribute to the OSM project without being a member of the foundation. The project has over 3 million registered users \cite{OSMProject2016} who are collecting and updating data. The crowdsourced data are then released under the Open Database License, \textit{"a license agreement intended to allow users to freely share, modify, and use this Database while maintaining this same freedom for others"} \cite{ODbL}.  Users can edit maps through different tools made by different OSM contributors. One tools is called iD and is the default web browser editor written by MapBox. There are also desktop editing applications like JOSM and Merkaartor which are more powerful and better suited for advanced users. 
+
+Communication is country-mailing lists, wiki-pages and conferences. State of the map is the main OSM conference. Number of mappers and organizations are constantly increasing, what started as a crazy hacker project is now a vital part of the global data ecosystem. The community are constantly developing new ways to contribute.  Users can join a mapathon in their hometown, they can sit at home adding data, 
+
+\href{http://2016.stateofthemap.org/2016/a-map-of-openstreetmap/}{The degree to how you can get involved in OSM is so deep, mapping, software processes etc. - keeps people interested. One problem is the communication through the different groups, the energy level is not high enough.  Lots of people exited about communication, everyone have a obligation to show the users their different possibilities}.   
+
+Communication through mailing lists works for the people who subscribes to that list, but with over 150 different list it is impossible for an interested user to stay updated with all the latest achievements.  What is happening in the mailing lists has to be available to everyone in the community. A solution to this is called weeklyOSM. It started in 2010 in German, who alone has 50 different mailing lists. The weeklyOSM team are scanning mailing lists, twitter, blogs and so on. There are a international team translating the German blog into different languages. Little by little the rest of the community gets involved, translating the blog into languages thats not supported. 
+
+There are different groups creating the different versions. The goal is to integrate more languages. There are a lot of work every week, hard to find volunteers. 
+
  \subsection{File format, .osm files}
 The .osm file format is specific to OpenStreetMap and it is not easy to open these files using GIS-software like QGIS. The file format is designed to be easily sent and received across the internet in a standard format. Therefore .osm files are easily obtained, but using the files directly to do analysing and map design is not easy. The .osm files are coded in the XML format. It is recommended to convert the data into other formats when using the files \href{http://learnosm.org/en/osm-data/file-formats/}{source}. 
 
@@ -22,10 +38,11 @@ The file is very difficult
 
 \chapter{Technical}
 \subsection{Existing libraries}
-The internet consists of hundreds of software libraries and packages. It can be overwhelming for newcomers and hard to find the most suited ones. A good tip is to learn the handful of libraries and packages that most software is derived from, so called root libraries. They are actively maintained and not significantly derived from any other libraries. The libraries do geospatial operations that are hard to implement, so people choose to use the libraries instead. Geospatial datasets are large, often complex and varied. This makes the implementation harder, and some of the reasons for the libraries success. The root libraries are GDAL, OGR, GEOS and PROJ. 4 \ref{Lawhead2013}.  They are, according to J. Lawhead, "the heart and soul of of the geospatial analysis community". All the libraries are written in C or C++. 
+The internet consists of hundreds of software libraries and packages. It can be overwhelming for newcomers and hard to find the most suited ones. A good tip is to learn the handful of libraries and packages that most software is derived from, so called root libraries. They are actively maintained and not significantly derived from any other libraries. The libraries do geospatial operations that are hard to implement, so people choose to use the libraries instead. Geospatial datasets are large, often complex and varied. This makes the implementation harder, and some of the reasons for the libraries success. The root libraries are GDAL, OGR, GEOS and PROJ. 4 \cite{Lawhead2013}.  They are, according to J. Lawhead, "the heart and soul of of the geospatial analysis community". All the libraries are written in C or C++. 
 
 
 
 
 
 
+ 

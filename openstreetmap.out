@@ -4,13 +4,14 @@
 \BOOKMARK [0][-]{chapter.2}{Characteristics of Open Street Map}{}% 4
 \BOOKMARK [1][-]{subsection.2.0.1}{Introduction}{chapter.2}% 5
 \BOOKMARK [2][-]{subsection.2.0.2}{Structure}{subsection.2.0.1}% 6
-\BOOKMARK [2][-]{subsection.2.0.3}{File format, .osm files}{subsection.2.0.1}% 7
-\BOOKMARK [0][-]{chapter.3}{Technical}{}% 8
-\BOOKMARK [1][-]{subsection.3.0.1}{Existing libraries}{chapter.3}% 9
-\BOOKMARK [0][-]{chapter.4}{Summary of papers}{}% 10
-\BOOKMARK [1][-]{subsection.4.0.1}{Quality analysis of open street map data Wang2013}{chapter.4}% 11
-\BOOKMARK [2][-]{subsection.4.0.2}{User generated Street Maps Weber2008}{subsection.4.0.1}% 12
-\BOOKMARK [2][-]{subsection.4.0.3}{CROWDSOURCING IS RADICALLY CHANGING THE GEODATA LANDSCAPE: CASE STUDY OF OPENSTREETMAP Chilton}{subsection.4.0.1}% 13
-\BOOKMARK [2][-]{subsection.4.0.4}{The impact of crowdsourcing on spatial data quality indicators}{subsection.4.0.1}% 14
-\BOOKMARK [0][-]{chapter.5}{Movies}{}% 15
-\BOOKMARK [1][-]{subsection.5.0.1}{State of the Map, microtasking}{chapter.5}% 16
+\BOOKMARK [2][-]{subsection.2.0.3}{Organizational}{subsection.2.0.1}% 7
+\BOOKMARK [2][-]{subsection.2.0.4}{File format, .osm files}{subsection.2.0.1}% 8
+\BOOKMARK [0][-]{chapter.3}{Technical}{}% 9
+\BOOKMARK [1][-]{subsection.3.0.1}{Existing libraries}{chapter.3}% 10
+\BOOKMARK [0][-]{chapter.4}{Summary of papers}{}% 11
+\BOOKMARK [1][-]{subsection.4.0.1}{Quality analysis of open street map data Wang2013}{chapter.4}% 12
+\BOOKMARK [2][-]{subsection.4.0.2}{User generated Street Maps Weber2008}{subsection.4.0.1}% 13
+\BOOKMARK [2][-]{subsection.4.0.3}{CROWDSOURCING IS RADICALLY CHANGING THE GEODATA LANDSCAPE: CASE STUDY OF OPENSTREETMAP Chilton}{subsection.4.0.1}% 14
+\BOOKMARK [2][-]{subsection.4.0.4}{The impact of crowdsourcing on spatial data quality indicators}{subsection.4.0.1}% 15
+\BOOKMARK [0][-]{chapter.5}{Movies}{}% 16
+\BOOKMARK [1][-]{subsection.5.0.1}{State of the Map, microtasking}{chapter.5}% 17

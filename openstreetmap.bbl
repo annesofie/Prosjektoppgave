@@ -1,42 +1,62 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{}
 
-\bibitem{Chilton}
-Steve Chilton, Fenella Building, and The Burroughs.
+\bibitem[Chilton et~al., ]{Chilton}
+Chilton, S., Building, F., and Burroughs, T.
 \newblock {CROWDSOURCING IS RADICALLY CHANGING THE GEODATA LANDSCAPE : CASE
   STUDY OF OPENSTREETMAP}.
 
-\bibitem{Debruyne2015}
-Christophe Debruyne, Herve Panetto, Robert Meersman, Tharam Dillon, Georg
-  Weichhart, Yuan An, and Claudio {Ardagna Afostino}.
+\bibitem[Debruyne et~al., 2015]{Debruyne2015}
+Debruyne, C., Panetto, H., Meersman, R., Dillon, T., Weichhart, G., An, Y., and
+  {Ardagna Afostino}, C. (2015).
 \newblock {On the Move to Meaningful Internet Systems: OTM 2015 Conferences}.
-\newblock {\em Springer International Publishing}, 2015.
+\newblock {\em Springer International Publishing}.
 
-\bibitem{EstellesArolas}
-Enrique {Estell{\'{e}}s Arolas}.
+\bibitem[{Estell{\'{e}}s Arolas}, ]{EstellesArolas}
+{Estell{\'{e}}s Arolas}, E.
 \newblock {Microtasking: a way of begin using crowdsourcing | My crowdsourcing
   blog}.
 
-\bibitem{Exel2010}
-M~Van Exel, E~Dias, and S~Fruijtier.
+\bibitem[Exel et~al., 2010]{Exel2010}
+Exel, M.~V., Dias, E., and Fruijtier, S. (2010).
 \newblock {The impact of crowdsourcing on spatial data quality indicators}.
-\newblock pages 1--4, 2010.
+\newblock pages 1--4.
 
-\bibitem{Neis2012}
-Pascal Neis and Alexander Zipf.
+\bibitem[Lawhead, 2013]{Lawhead2013}
+Lawhead, J. (2013).
+\newblock {Learning Geospatial Analysis with Python.}
+\newblock {\em Packt Publishing}, (October).
+
+\bibitem[Neis and Zipf, 2012]{Neis2012}
+Neis, P. and Zipf, A. (2012).
 \newblock {Analyzing the Contributor Activity of a Volunteered Geographic
   Information Project — The Case of OpenStreetMap}.
-\newblock {\em ISPRS International Journal of Geo-Information}, 1(3):146--165,
-  jul 2012.
+\newblock {\em ISPRS International Journal of Geo-Information}, 1(3):146--165.
 
-\bibitem{Wang2013}
-M~Wang, Q~Li, Q~Hu, and M~Zhou.
+\bibitem[ODbL, ]{ODbL}
+ODbL.
+\newblock {Open Database License (ODbL) v1.0 | Open Data Commons}.
+
+\bibitem[{OSM Project}, 2016]{OSMProject2016}
+{OSM Project} (2016).
+\newblock {Stats - OpenStreetMap Wiki}.
+
+\bibitem[OSMF, ]{OSMF}
+OSMF.
+\newblock {About | OpenStreetMap Blog}.
+
+\bibitem[OSMF, 2015]{OSMF2015}
+OSMF (2015).
+\newblock {Membership/Statistics - OpenStreetMap Foundation Wiki}.
+
+\bibitem[Wang et~al., 2013]{Wang2013}
+Wang, M., Li, Q., Hu, Q., and Zhou, M. (2013).
 \newblock {Quality analysis of open street map data}.
 \newblock {\em 8th International Symposium on Spatial Data Quality},
-  40(June):155--158, 2013.
+  40(June):155--158.
 
-\bibitem{Weber2008}
-Patrick Weber.
+\bibitem[Weber, 2008]{Weber2008}
+Weber, P. (2008).
 \newblock {User-Generated Street Maps}.
-\newblock pages 12--18, 2008.
+\newblock pages 12--18.
 
 \end{thebibliography}
