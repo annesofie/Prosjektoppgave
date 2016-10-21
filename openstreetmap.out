@@ -8,10 +8,15 @@
 \BOOKMARK [2][-]{subsection.2.0.4}{File format, .osm files}{subsection.2.0.1}% 8
 \BOOKMARK [0][-]{chapter.3}{Technical}{}% 9
 \BOOKMARK [1][-]{subsection.3.0.1}{Existing libraries}{chapter.3}% 10
-\BOOKMARK [0][-]{chapter.4}{Summary of papers}{}% 11
-\BOOKMARK [1][-]{subsection.4.0.1}{Quality analysis of open street map data Wang2013}{chapter.4}% 12
-\BOOKMARK [2][-]{subsection.4.0.2}{User generated Street Maps Weber2008}{subsection.4.0.1}% 13
-\BOOKMARK [2][-]{subsection.4.0.3}{CROWDSOURCING IS RADICALLY CHANGING THE GEODATA LANDSCAPE: CASE STUDY OF OPENSTREETMAP Chilton}{subsection.4.0.1}% 14
-\BOOKMARK [2][-]{subsection.4.0.4}{The impact of crowdsourcing on spatial data quality indicators}{subsection.4.0.1}% 15
-\BOOKMARK [0][-]{chapter.5}{Movies}{}% 16
-\BOOKMARK [1][-]{subsection.5.0.1}{State of the Map, microtasking}{chapter.5}% 17
+\BOOKMARK [0][-]{chapter.4}{OSM import methods}{}% 11
+\BOOKMARK [1][-]{subsection.4.0.1}{Fully automatic import script}{chapter.4}% 12
+\BOOKMARK [2][-]{subsection.4.0.2}{Fully manually import}{subsection.4.0.1}% 13
+\BOOKMARK [2][-]{subsection.4.0.3}{Guided automatic import}{subsection.4.0.1}% 14
+\BOOKMARK [2][-]{subsection.4.0.4}{Import based on LA-buildings methodology}{subsection.4.0.1}% 15
+\BOOKMARK [0][-]{chapter.5}{Summary of papers}{}% 16
+\BOOKMARK [1][-]{subsection.5.0.1}{Quality analysis of open street map data Wang2013}{chapter.5}% 17
+\BOOKMARK [2][-]{subsection.5.0.2}{User generated Street Maps Weber2008}{subsection.5.0.1}% 18
+\BOOKMARK [2][-]{subsection.5.0.3}{CROWDSOURCING IS RADICALLY CHANGING THE GEODATA LANDSCAPE: CASE STUDY OF OPENSTREETMAP Chilton}{subsection.5.0.1}% 19
+\BOOKMARK [2][-]{subsection.5.0.4}{The impact of crowdsourcing on spatial data quality indicators}{subsection.5.0.1}% 20
+\BOOKMARK [0][-]{chapter.6}{Movies}{}% 21
+\BOOKMARK [1][-]{subsection.6.0.1}{State of the Map, microtasking}{chapter.6}% 22

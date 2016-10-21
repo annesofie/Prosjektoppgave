@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.9.27)  18 OCT 2016 20:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.9.27)  21 OCT 2016 17:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -340,13 +340,13 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./open
 streetmap.toc
-Overfull \hbox (37.53836pt too wide) in paragraph at lines 18--18
+Overfull \hbox (37.53836pt too wide) in paragraph at lines 23--23
  [][] [][][]\OT1/cmr/m/n/12 CROWDSOURCING IS RAD-I-CALLY CHANG-ING THE GEO-DATA
  
  []
 
 
-Overfull \hbox (42.30347pt too wide) in paragraph at lines 18--18
+Overfull \hbox (42.30347pt too wide) in paragraph at lines 23--23
  \OT1/cmr/m/n/12 LAND-SCAPE: CASE STUDY OF OPEN-STREETMAP [[]][][] []  
  []
 
@@ -418,16 +418,32 @@ Overfull \hbox (8.1474pt too wide) in paragraph at lines 25--26
 -ni-za-tions are con-stantly
  []
 
-[5] [6]
+[5]) (./TechnicalOSM.tex [6]
 Chapter 3.
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 40.
+(hyperref)                than one, level fixed on input line 3.
 
-) (./summaryofpapers.tex [7
+) (./ExistingScriptOSM.tex [7
 
 ]
 Chapter 4.
+Missing character: There is no å in font cmr12!
+Missing character: There is no å in font cmr12!
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 9.
+
+[8
+
+]
+Overfull \hbox (24.48819pt too wide) in paragraph at lines 21--22
+\OT1/cmr/m/n/12 Very time con-sum-ing, and also the map-ping qual-ity de-pends 
+on the im-age res-o-lu-tion. 
+ []
+
+[9]) (./summaryofpapers.tex [10]
+Chapter 5.
 
 Overfull \hbox (64.04811pt too wide) in paragraph at lines 3--3
 []\OT1/cmr/bx/n/14.4 Quality anal-y-sis of open street map data [[]] 
@@ -459,7 +475,7 @@ Overfull \hbox (1.69019pt too wide) in paragraph at lines 12--13
 plete-ness and name com-plete-ness. Length
  []
 
-[8
+[11
 
 ]
 
@@ -481,7 +497,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
  []
 
-[9]
+[12]
 Overfull \hbox (5.2154pt too wide) in paragraph at lines 44--52
 \OT1/cmr/m/n/12 1. User-related qual-ity as-pects: Qual-ity of in-for-ma-tion f
 rom an in-di-vid-ual con-trib-u-tors
@@ -492,7 +508,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--52
 
  []
 
-[10]
+[13]
 Overfull \hbox (14.35835pt too wide) in paragraph at lines 53--62
 \OT1/cmr/m/n/12 b. Qual-ity of a users con-tri-bu-tion is cor-re-lated with his
  over-all ex-pe-ri-ence in con-tribut-ing
@@ -504,8 +520,8 @@ Overfull \hbox (16.11667pt too wide) in paragraph at lines 53--62
 -tions). This type of User recog-ni-tion
  []
 
-[11]
-Chapter 5.
+[14]
+Chapter 6.
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 64.
@@ -516,7 +532,7 @@ Overfull \hbox (5.25322pt too wide) in paragraph at lines 65--66
 ng-ing ge-ome-tries. 
  []
 
-) (./openstreetmap.bbl [12
+) (./openstreetmap.bbl [15
 
 ]
 Underfull \hbox (badness 1533) in paragraph at lines 15--18
@@ -526,34 +542,43 @@ ing
 
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ˜ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ˜ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
 Missing character: There is no ” in font cmr12!
 
-Underfull \hbox (badness 1642) in paragraph at lines 30--34
+Underfull \hbox (badness 1642) in paragraph at lines 35--39
 \OT1/cmr/m/n/12 Ac-tiv-ity of a Vol-un-teered Ge-o-graphic In-for-ma-tion Proje
 ct  The Case of
  []
 
-[13
+[16
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 46.
- [14]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 46.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 63.
+ [17]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 63.
  (./openstreetmap.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 46.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 46.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 63.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 63.
 Package rerunfilecheck Info: File `openstreetmap.out' has not changed.
-(rerunfilecheck)             Checksum: 639CF5E4442301FB9FC342D1DA5C5C07;1261.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 46.
+(rerunfilecheck)             Checksum: 92B69E9FC95F6C98312C74DC8437B5A6;1657.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 63.
  ) 
 Here is how much of TeX's memory you used:
- 6062 strings out of 493014
- 89185 string characters out of 6133351
- 180521 words of memory out of 5000000
- 9476 multiletter control sequences out of 15000+600000
+ 6089 strings out of 493014
+ 89591 string characters out of 6133351
+ 180711 words of memory out of 5000000
+ 9485 multiletter control sequences out of 15000+600000
  12750 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,6n,43p,1008b,393s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,6n,43p,1229b,395s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></
@@ -561,10 +586,10 @@ usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
 r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
 local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/lo
 cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on openstreetmap.pdf (18 pages, 117666 bytes).
+Output written on openstreetmap.pdf (21 pages, 124333 bytes).
 PDF statistics:
- 276 PDF objects out of 1000 (max. 8388607)
- 246 compressed objects within 3 object streams
- 52 named destinations out of 1000 (max. 500000)
- 137 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 325 PDF objects out of 1000 (max. 8388607)
+ 292 compressed objects within 3 object streams
+ 64 named destinations out of 1000 (max. 500000)
+ 177 words of extra memory for PDF output out of 10000 (max. 10000000)
 

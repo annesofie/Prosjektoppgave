@@ -21,6 +21,11 @@ Exel, M.~V., Dias, E., and Fruijtier, S. (2010).
 \newblock {The impact of crowdsourcing on spatial data quality indicators}.
 \newblock pages 1--4.
 
+\bibitem[Exel~van, 2010]{Exelvan2010}
+Exel~van, M. (2010).
+\newblock {Data Imports In OpenStreetMap – Love ‘Em Or Loathe ‘Em? |
+  oegeo}.
+
 \bibitem[Lawhead, 2013]{Lawhead2013}
 Lawhead, J. (2013).
 \newblock {Learning Geospatial Analysis with Python.}
@@ -58,5 +63,19 @@ Wang, M., Li, Q., Hu, Q., and Zhou, M. (2013).
 Weber, P. (2008).
 \newblock {User-Generated Street Maps}.
 \newblock pages 12--18.
+
+\bibitem[{Wiki OSM}, 2007]{WikiOSMTIGER2007}
+{Wiki OSM}, T. (2007).
+\newblock {TIGER - OpenStreetMap Wiki}.
+
+\bibitem[Willis, 2007]{Willis2007}
+Willis, N. (2007).
+\newblock {OpenStreetMap project imports US government maps | Linux.com | The
+  source for Linux information}.
+
+\bibitem[Willis, 2008]{Willis2008}
+Willis, N. (2008).
+\newblock {OpenStreetMap project completes import of United States TIGER data |
+  Linux.com | The source for Linux information}.
 
 \end{thebibliography}

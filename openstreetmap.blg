@@ -11,45 +11,45 @@ Warning--there's a number but no volume in Lawhead2013
 Warning--empty year in ODbL
 Warning--empty year in OSMF
 Warning--empty journal in Weber2008
-You've used 12 entries,
+You've used 16 entries,
             1935 wiz_defined-function locations,
-            532 strings with 5221 characters,
-and the built_in function-call counts, 3982 in all, are:
-= -- 390
-> -- 159
-< -- 10
-+ -- 52
-- -- 52
-* -- 302
-:= -- 726
-add.period$ -- 30
-call.type$ -- 12
-change.case$ -- 86
-chr.to.int$ -- 12
-cite$ -- 20
-duplicate$ -- 157
-empty$ -- 258
-format.name$ -- 66
-if$ -- 756
+            548 strings with 5678 characters,
+and the built_in function-call counts, 4926 in all, are:
+= -- 486
+> -- 187
+< -- 14
++ -- 60
+- -- 60
+* -- 362
+:= -- 914
+add.period$ -- 38
+call.type$ -- 16
+change.case$ -- 110
+chr.to.int$ -- 16
+cite$ -- 24
+duplicate$ -- 197
+empty$ -- 318
+format.name$ -- 78
+if$ -- 928
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 7
-newline$ -- 57
-num.names$ -- 36
-pop$ -- 82
+newline$ -- 73
+num.names$ -- 48
+pop$ -- 98
 preamble$ -- 1
-purify$ -- 86
+purify$ -- 110
 quote$ -- 0
-skip$ -- 125
+skip$ -- 161
 stack$ -- 0
-substring$ -- 234
+substring$ -- 282
 swap$ -- 16
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 72
+type$ -- 96
 warning$ -- 8
-while$ -- 34
+while$ -- 42
 width$ -- 0
-write$ -- 133
+write$ -- 173
 (There were 8 warnings)
