@@ -7,6 +7,9 @@ The OSM project stands out from other data sources mainly because its free to us
 
 Today the world has a need for instant information, particularly in crisis situations \cite{Chilton}. Here OpenStreetMap is the leading global example of the effictiveness of crowdsourcing of geodata. The project are changing the way individuals and organisations are thinking about the collection process, purchase and use of geodata \cite{Chilton}.  Crowd sourced geographic data has characteristics or advantages of large data volume, high currency, large quantity of information and low cost \cite{Wang2013}.  
 
+\subsection{Culture}
+OSMhas no notability rule, an arbitrary amount of detail is possible, but somebody has to maintain it! %https://www.youtube.com/watch?v=KNTSZGnQVRw
+
 \subsection{Structure}
 OpenStreetMap uses a topological data structure. This sturcture includes three basic components nodes, ways and relations. Nodes are points with a geographic position stored as coordinates (Lat, long) according to WGS84. Ways are lists of 2 or more nodes, representing a poly-line or polygon, used to represent streets, rivers, among others \cite{Debruyne2015}. A relation is a multi-purpose data structure that documents a relation between two or more components\href{https://wiki.openstreetmap.org/wiki/Elements}. To add metadata to geographic objects OpenStreetMap uses Tags. Tags consist of two items, a key and a value of the form key=value. The key is used to describe the topic, category or type of feature, while the value describes the details of the specific form of the key specified. A example of a key-value pair can be building=church, here the key is building and the value is church, this is a building that was built as a church. 
 
@@ -29,6 +32,8 @@ Communication is country-mailing lists, wiki-pages and conferences. State of the
 Communication through mailing lists works for the people who subscribes to that list, but with over 150 different list it is impossible for an interested user to stay updated with all the latest achievements.  What is happening in the mailing lists has to be available to everyone in the community. A solution to this is called weeklyOSM. It started in 2010 in German, who alone has 50 different mailing lists. The weeklyOSM team are scanning mailing lists, twitter, blogs and so on. There are a international team translating the German blog into different languages. Little by little the rest of the community gets involved, translating the blog into languages thats not supported. 
 
 There are different groups creating the different versions. The goal is to integrate more languages. There are a lot of work every week, hard to find volunteers. 
+
+%Mer om OSM Foundation Success & Scale in a Data-Producing Organization s 4119, Org&ikt mappen
 
  \subsection{File format, .osm files}
 The .osm file format is specific to OpenStreetMap and it is not easy to open these files using GIS-software like QGIS. The file format is designed to be easily sent and received across the internet in a standard format. Therefore .osm files are easily obtained, but using the files directly to do analysing and map design is not easy. The .osm files are coded in the XML format. It is recommended to convert the data into other formats when using the files \href{http://learnosm.org/en/osm-data/file-formats/}{source}. 

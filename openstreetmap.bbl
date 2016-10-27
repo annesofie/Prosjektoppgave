@@ -26,10 +26,19 @@ Exel~van, M. (2010).
 \newblock {Data Imports In OpenStreetMap – Love ‘Em Or Loathe ‘Em? |
   oegeo}.
 
+\bibitem[Kihle, 2014]{Kihle2014}
+Kihle, K. (2014).
+\newblock {[NUUG kart] Bruk av datasett fra Kartverket i OpenStreetMap}.
+
 \bibitem[Lawhead, 2013]{Lawhead2013}
 Lawhead, J. (2013).
 \newblock {Learning Geospatial Analysis with Python.}
 \newblock {\em Packt Publishing}, (October).
+
+\bibitem[Mehus, 2014]{Mehus2014}
+Mehus, T. (2014).
+\newblock {[Imports] N50 imports from Kartverket (The Norwegian Mapping
+  Authority)}.
 
 \bibitem[Neis and Zipf, 2012]{Neis2012}
 Neis, P. and Zipf, A. (2012).
@@ -59,14 +68,29 @@ Wang, M., Li, Q., Hu, Q., and Zhou, M. (2013).
 \newblock {\em 8th International Symposium on Spatial Data Quality},
   40(June):155--158.
 
-\bibitem[Weber, 2008]{Weber2008}
-Weber, P. (2008).
-\newblock {User-Generated Street Maps}.
-\newblock pages 12--18.
-
 \bibitem[{Wiki OSM}, 2007]{WikiOSMTIGER2007}
 {Wiki OSM}, T. (2007).
 \newblock {TIGER - OpenStreetMap Wiki}.
+
+\bibitem[wikipage {OSM AutiEdit}, ]{OSMAutiEdit}
+wikipage {OSM AutiEdit}.
+\newblock {Automated edits - OpenStreetMap Wiki}.
+
+\bibitem[wikipage {OSM AutomaticEdits}, ]{OSMAutomaticEdits}
+wikipage {OSM AutomaticEdits}.
+\newblock {Automated Edits code of conduct - OpenStreetMap Wiki}.
+
+\bibitem[wikipage {OSM DWG}, ]{OSMDWG}
+wikipage {OSM DWG}.
+\newblock {Data working group - OpenStreetMap Wiki}.
+
+\bibitem[wikipage OSM~import, ]{OSMimport}
+wikipage OSM~import.
+\newblock {Import - OpenStreetMap Wiki}.
+
+\bibitem[wikipage {OSM N50}, 2014]{OSMN502014}
+wikipage {OSM N50} (2014).
+\newblock {Import/Catalogue/N50 import (Norway) - OpenStreetMap Wiki}.
 
 \bibitem[Willis, 2007]{Willis2007}
 Willis, N. (2007).
@@ -77,5 +101,11 @@ Willis, N. (2007).
 Willis, N. (2008).
 \newblock {OpenStreetMap project completes import of United States TIGER data |
   Linux.com | The source for Linux information}.
+
+\bibitem[Zielstra et~al., 2013]{Zielstra2013}
+Zielstra, D., Hochmair, H.~H., and Neis, P. (2013).
+\newblock {Assessing the effect of data imports on the completeness of
+  openstreetmap - A United States case study}.
+\newblock {\em Transactions in GIS}, 17(3):315--334.
 
 \end{thebibliography}

@@ -1,30 +1,55 @@
 \chapter{OSM import methods}
-1. Helautomatisk, scriptet import \\
-2. Helmanuell import basert på tracing av f.eks WMS-data \\
-3. Guidet automatisk import (slik import av n50-data blir gjort i OSM i dag) \\
-4. Import basert på metodikken LA-buildings-prosjektet har gjort, og som beskrives av McAndrews (microtasking)
+%1. Helautomatisk, scriptet import \\
+%2. Helmanuell import basert på tracing av f.eks WMS-data\\
+%3. Guidet automatisk import (slik import av n50-data blir gjort i OSM i dag) \\
+%4. Import basert på metodikken LA-buildings-prosjektet har gjort, og som beskrives av McAndrews (microtasking)
 
-Conflation \href{http://wiki.openstreetmap.org/wiki/Conflation}{Wiki Conflation}
+%Conflation \href{http://wiki.openstreetmap.org/wiki/Conflation}{Wiki Conflation}
+\subsection{Introduction}
+The traditional way to contribute data to the OpenStreetMap project is through active users who use their GPS to track roads and their local knowledge to add information about their geographic regions to the OSM database \cite{Zielstra2013}. Users also digitalize aerial photos. Cheaper GPS receivers and more available satellite imagery with better resolution makes it easier for users to contribute \cite{Chilton}. The number of active users in different regions varies a lot, making some areas on the OSM map full of data while others are almost empty. This led to a second approach for getting data in to the OpenStreetMap database, bulk imports \cite{Zielstra2013}.  Bulk imports is the process of uploading external data and were meant for initial/preliminary object class uploads, so only if the object were none existing in the area  \cite{Zielstra2013}.  Its a good alternative for countries or regions with less active users. Through the years different import methods has been developed. This paper will evaluate the most common methods. 
 
 \subsection{Fully automatic import script}
-A script that automatically imports big datasets into OpenStreetMap is not popular in the OSM community. Bulk imports is the process of uploading external data and were meant for initial/preliminary object class uploads, so only if the object were none existing in the area. Today the situation are changed, there are huge amounts of object types in OSM. Often bulk import overrides existing data which is one of the "dont do" points in the import guidelines list on the osm wiki page. OpenStreetMap do not have layers, so data on top of data makes it very difficult to organize and find the data. 
+Creating a script that automatically imports big datasets into OpenStreetMap, a bulk import, is not encouraged in the OSM community \cite{Zielstra2013}. This becomes clear when reading the wikipages about import. A bulk import is suppose to be a supplement to user generated data. The user generated data and the users ability to work is always the priority \cite{OSMimport}. Automatic edits is changes that has no or very limited human oversight \cite{OSMAutiEdit}. This kind of edits must follow the Automated Edits code of conduct \cite{OSMAutomaticEdits}. A fully automatic import do automated edits to the OpenStreetMap database with little, if any, verification from a human. 
 
-An example of a bulk import was the TIGER import. The Topologically Integrated Geographical Encoding and Reference system (TIGER) data was produced by the US Census Bureau and is a public domain data source. The bulk import was completed in 2007, populating the nearly empty map of the United States. The TIGER data was not perfect and had it's faults, but it was better than no data at all \cite{Willis2008}. 
+An example of a bulk import was the TIGER import. The Topologically Integrated Geographical Encoding and Reference system (TIGER) data was produced by the US Census Bureau and is a public domain data source. The bulk import was completed in early 2008 \cite{Zielstra2013}, populating the nearly empty map of the United States. The TIGER data was not perfect and had it's faults, but it was better than no data at all \cite{Willis2008}. 
 
 On the TIGER OpenStreetMap wikipage, last updated August 2016, they say it is unlikely that the TIGER data ever will be imported again. The main reason is the growing US mapping community, their mapping is often better than the TIGER data. "Do not worry about getting your work overwritten by new TIGER data. Go map!" \cite{WikiOSMTIGER2007}. A new bulk import with updated TIGER data can overwrite existing, more precise data. The TIGER data are of variable quality, poor road alignment is a huge problem and also wrong highway classification. Many hours of volunteer work could be lost and this is something the community want to avoid. The bulk import in 2007 got the United States on the OSM-Map and saved the mapping community a lot of time finding road names etc. "TIGER is a skeleton on which we can build some much better maps" \cite{Willis2007}. On the negative side the project kept the US mappers away, they were told for years that their work was no longer needed after the TIGER upload was complete. But the presence of TIGER data ended up not eliminating the need for volunteer help, they needed help fixing errors like the poor road alignments. 
 
-Bulk imports are overall not recommended today, but have been helpful as well. In the Netherlands bulk imports have meet little resistance, mainly because the imports are done by dedicated OpenStreetMap mappers who knew the OSM import guidelines.  Arguments in favor of bulk imports say that a map that already contains some information is easier to work on and can help lower the entry barriers for new contributors. Another argument is that a almost complete map is more attractive for potential users, that again can encourage more use of OSM data in professional terms \cite{Exelvan2010}. But a huge minus to bulk imports are the data aging, since the data being imported often already is a few years old and updating it takes time, often years. Between the time of first import and update the community have fixed bugs, added important metadata, the community would not want to loose that data/information.   
+Bulk imports are overall not recommended today, but have been helpful as well. In the Netherlands bulk imports have meet little resistance, mainly because the imports are done by dedicated OpenStreetMap mappers who knew the OSM import guidelines.  Arguments in favor of bulk imports say that a map that already contains some information is easier to work on and can help lower the entry barriers for new contributors. Another argument is that a almost complete map is more attractive for potential users, that again can encourage more use of OSM data in professional terms \cite{Exelvan2010}. But a huge minus to bulk imports are the data aging, since the data being imported often already is a few years old and updating it takes time, often years. The TIGER import was data from 2005, but the import finished in 2007 \cite{Zielstra2013}. Between the time of first import and update the community have fixed bugs, added important metadata, the community would not want to loose that data/information. 
+
+Today there are huge amounts of object types in OpenStreetMap. Often bulk import overrides existing data which is one of the "don't do" points on the import guidelines list on the osm wiki page. OpenStreetMap do not have layers, so data on top of data makes it very difficult to organize and find the data.   
 %has common errors like wrong road classifications, adds roads that no longer or never existed, railway and roads 
 %moved so they intersect when they do not. 
 
-\subsection{Fully manually import}
-Very time consuming, and also the mapping quality depends on the image resolution. 
+\subsection{Fully manually import, user generated content}
+This method can be very time consuming. The mapping quality depends on the image resolution in the area beeing mapped, it is also hard to add metadata from a image. For instance, its impossible to see the height of a building from a satellite image. 
+
+Haiti project, and other Humanitarian OSM project, draw from satellite image dry. A huge problem with this is when during a crisis, many users map the same areas. During Haiti project a problem was overlapping data, the same road drawn multiple times. This was before tasking manager. 
+
+This method is also used today. Humanitarian OSM use the method with the tasking manager. Then the problem with overlapping data are not as likely to occur.  This import method do not require any mapping skills
+
+	- User Generated Content providers / crowdsourced data collectors are allowed to collect geodata
+		? Reason: More available satellite imagery, cheaper GPS units, etc
+OSM the leading global example %CROWDSOURCING IS RADICALLY CHANGING THE GEODATA LANDSCAPE: CASE STUDY OF OPENSTREETMAP 
 
 
-\subsection{Guided automatic import}
-Fully automatic import of huge amounts of data is discouraged, so another approach is guided automatic import. The OSM community encourages people to import only small amounts of data at a time and only after validation and correcting errors. This method was used when the OSM-community in Norway got approval from the Norwegian map authority to import N50 data which is the official topographic map of Norway. Their import process is described on the OSM wikipage. It says that they will import one municipality at a time. Each municipality dataset will be divided up in a .15 deg times .15 deg grid changeset and imported grid by grid*. The N50 import was an community import, but only experienced user were encouraged to import the data. 
+
+\subsection{Guided automatic import}\label{guidedautoimp}
+Fully automatic import of huge amounts of data is discouraged in the OSM community, so another approach is guided automatic import. The OSM community encourages people to import only small amounts of data at a time and only after validation and correcting errors \cite{Mehus2014}. This method was used when the OSM-community in Norway got approval from the Norwegian map authority to import N50 data \cite{Kihle2014}. N50 is the official topographic map of Norway. The import process is described on the OSM wikipage. It says that they will import one municipality at a time. Each municipality dataset will be divided up in a .15 deg times .15 deg grid changeset and imported grid by grid* \cite{OSMN502014}. The N50 import was an community import, but only experienced user were encouraged to import the data \cite{Mehus2014}. 
+
+The norwegian OSM group started importing the N50 data before they had consultet with the OSM imports mailing list, which is required. This was pointed out by DWG member Paul Norman \cite{Mehus2014}.  DWG is the data working group and they are authorized by the OSMF to detect and stop imports that are against the import guidelines \cite{OSMDWG}. 
 
 Sosi to osm
 
 
 \subsection{Import based on LA-buildings methodology}
+
+OSM Tasking Manager was created in the aftermath of the Haiti earthquake. This innovation coincided with the growing popularity of microtasking as a solution to manage distributed work %Success & Scale in a Data-Producing Organization og Palen, L., Soden, R., Anderson, T. J., & Barrenechea, M. (2015). Success & Scale in a Data-Producing Organization. Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems - CHI ?15, 4113?4122. http://doi.org/10.1145/2702123.2702294.
+
+The Guided automatic import from \ref{guidedautoimp} we saw that dividing datasets into smaller parts makes the import easier to, among others, distribute the workload between experienced users. OSM Tasking manager takes this approach further so that users can work on the same time with nearby areas. The tasking manager divides the areas into grids and use colors to inform the user if the grid is done, locks it if someone is already working in the grid and also the user easily can see the commit story when they click a grid. 
+
+% LA building cleanup https://lists.openstreetmap.org/pipermail/imports/2016-August/004557.html
+%Building import Oct 2016 https://lists.openstreetmap.org/pipermail/imports/2016-October/thread.html 
+%This is the import OSM mailinglist 
+
+ 

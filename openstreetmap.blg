@@ -10,46 +10,49 @@ Warning--empty journal in Exel2010
 Warning--there's a number but no volume in Lawhead2013
 Warning--empty year in ODbL
 Warning--empty year in OSMF
-Warning--empty journal in Weber2008
-You've used 16 entries,
+Warning--empty year in OSMAutiEdit
+Warning--empty year in OSMAutomaticEdits
+Warning--empty year in OSMDWG
+Warning--empty year in OSMimport
+You've used 23 entries,
             1935 wiz_defined-function locations,
-            548 strings with 5678 characters,
-and the built_in function-call counts, 4926 in all, are:
-= -- 486
-> -- 187
-< -- 14
-+ -- 60
-- -- 60
-* -- 362
-:= -- 914
-add.period$ -- 38
-call.type$ -- 16
-change.case$ -- 110
-chr.to.int$ -- 16
-cite$ -- 24
-duplicate$ -- 197
-empty$ -- 318
-format.name$ -- 78
-if$ -- 928
+            579 strings with 6460 characters,
+and the built_in function-call counts, 6584 in all, are:
+= -- 653
+> -- 247
+< -- 19
++ -- 78
+- -- 78
+* -- 474
+:= -- 1249
+add.period$ -- 52
+call.type$ -- 23
+change.case$ -- 154
+chr.to.int$ -- 23
+cite$ -- 34
+duplicate$ -- 260
+empty$ -- 421
+format.name$ -- 103
+if$ -- 1222
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 7
-newline$ -- 73
-num.names$ -- 48
-pop$ -- 98
+newline$ -- 101
+num.names$ -- 69
+pop$ -- 133
 preamble$ -- 1
-purify$ -- 110
+purify$ -- 154
 quote$ -- 0
-skip$ -- 161
+skip$ -- 206
 stack$ -- 0
-substring$ -- 282
-swap$ -- 16
-text.length$ -- 2
+substring$ -- 367
+swap$ -- 10
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 96
-warning$ -- 8
-while$ -- 42
+type$ -- 138
+warning$ -- 11
+while$ -- 55
 width$ -- 0
-write$ -- 173
-(There were 8 warnings)
+write$ -- 240
+(There were 11 warnings)
