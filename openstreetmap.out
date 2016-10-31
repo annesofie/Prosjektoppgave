@@ -12,9 +12,10 @@
 \BOOKMARK [0][-]{chapter.4}{OSM import methods}{}% 12
 \BOOKMARK [1][-]{subsection.4.0.1}{Introduction}{chapter.4}% 13
 \BOOKMARK [2][-]{subsection.4.0.2}{Fully automatic import script}{subsection.4.0.1}% 14
-\BOOKMARK [2][-]{subsection.4.0.3}{Fully manually import, user generated content}{subsection.4.0.1}% 15
+\BOOKMARK [2][-]{subsection.4.0.3}{Fully manually import based on tracing}{subsection.4.0.1}% 15
 \BOOKMARK [2][-]{subsection.4.0.4}{Guided automatic import}{subsection.4.0.1}% 16
 \BOOKMARK [2][-]{subsection.4.0.5}{Import based on LA-buildings methodology}{subsection.4.0.1}% 17
-\BOOKMARK [0][-]{chapter.5}{OSM comminity}{}% 18
-\BOOKMARK [1][-]{subsection.5.0.1}{Communication}{chapter.5}% 19
-\BOOKMARK [2][-]{subsection.5.0.2}{Motivation}{subsection.5.0.1}% 20
+\BOOKMARK [2][-]{subsection.4.0.6}{Evaluation}{subsection.4.0.1}% 18
+\BOOKMARK [0][-]{chapter.5}{OSM comminity}{}% 19
+\BOOKMARK [1][-]{subsection.5.0.1}{Communication}{chapter.5}% 20
+\BOOKMARK [2][-]{subsection.5.0.2}{Motivation}{subsection.5.0.1}% 21

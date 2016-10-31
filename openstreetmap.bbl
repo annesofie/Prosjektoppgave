@@ -1,5 +1,9 @@
 \begin{thebibliography}{}
 
+\bibitem[Bishop, 2007]{Bishop2007}
+Bishop, D. (2007).
+\newblock {[OSM-talk] TIGER, which states next?}
+
 \bibitem[Chilton et~al., ]{Chilton}
 Chilton, S., Building, F., and Burroughs, T.
 \newblock {CROWDSOURCING IS RADICALLY CHANGING THE GEODATA LANDSCAPE : CASE
@@ -10,6 +14,14 @@ Debruyne, C., Panetto, H., Meersman, R., Dillon, T., Weichhart, G., An, Y., and
   {Ardagna Afostino}, C. (2015).
 \newblock {On the Move to Meaningful Internet Systems: OTM 2015 Conferences}.
 \newblock {\em Springer International Publishing}.
+
+\bibitem[Didriksen, 2014]{Didriksen2014}
+Didriksen, S. (2014).
+\newblock {Re: [NUUG kart] M{\o}svatn}.
+
+\bibitem[edits OpenStreetMap, ]{OSMAutiEdit}
+edits OpenStreetMap, A.
+\newblock {Automated edits - OpenStreetMap Wiki}.
 
 \bibitem[{Estell{\'{e}}s Arolas}, ]{EstellesArolas}
 {Estell{\'{e}}s Arolas}, E.
@@ -26,6 +38,18 @@ Exel~van, M. (2010).
 \newblock {Data Imports In OpenStreetMap – Love ‘Em Or Loathe ‘Em? |
   oegeo}.
 
+\bibitem[Hansen, 2007a]{Hansen2007b}
+Hansen, D. (2007a).
+\newblock {[OSM-talk] TIGER update (need more suggestions)}.
+
+\bibitem[Hansen, 2007b]{Hansen2007a}
+Hansen, D. (2007b).
+\newblock {[OSM-talk] TIGER upload queue (maps of entire US)}.
+
+\bibitem[Hansen, 2007c]{Hansen2007}
+Hansen, D. (2007c).
+\newblock {[OSM-talk] TIGER upload queue (maps of entire US)}.
+
 \bibitem[Kihle, 2014]{Kihle2014}
 Kihle, K. (2014).
 \newblock {[NUUG kart] Bruk av datasett fra Kartverket i OpenStreetMap}.
@@ -40,6 +64,14 @@ Mehus, T. (2014).
 \newblock {[Imports] N50 imports from Kartverket (The Norwegian Mapping
   Authority)}.
 
+\bibitem[Mielczarek, 2007]{Mielczarek2007}
+Mielczarek, T. (2007).
+\newblock {[OSM-talk] [OSM-dev] TIGER, which states next?}
+
+\bibitem[Munro, 2007]{Munro2007}
+Munro, R.~J. (2007).
+\newblock {[OSM-talk] TIGER upload status since 0.5 api}.
+
 \bibitem[Neis and Zipf, 2012]{Neis2012}
 Neis, P. and Zipf, A. (2012).
 \newblock {Analyzing the Contributor Activity of a Volunteered Geographic
@@ -50,9 +82,29 @@ Neis, P. and Zipf, A. (2012).
 ODbL.
 \newblock {Open Database License (ODbL) v1.0 | Open Data Commons}.
 
-\bibitem[{OSM Project}, 2016]{OSMProject2016}
-{OSM Project} (2016).
+\bibitem[OpenStreetMap, a]{OSMAutomaticEdits}
+OpenStreetMap, C.
+\newblock {Automated Edits code of conduct - OpenStreetMap Wiki}.
+
+\bibitem[OpenStreetMap, b]{OSMDWG}
+OpenStreetMap, D.
+\newblock {Data working group - OpenStreetMap Wiki}.
+
+\bibitem[OpenStreetMap, c]{OSMimport}
+OpenStreetMap, I.
+\newblock {Import - OpenStreetMap Wiki}.
+
+\bibitem[OpenStreetMap, 2014]{OSMN502014}
+OpenStreetMap, N. (2014).
+\newblock {Import/Catalogue/N50 import (Norway) - OpenStreetMap Wiki}.
+
+\bibitem[OpenStreetMap, 2016]{OSMProject2016}
+OpenStreetMap, S. (2016).
 \newblock {Stats - OpenStreetMap Wiki}.
+
+\bibitem[OpenStreetMap, 2007]{WikiOSMTIGER2007}
+OpenStreetMap, T. (2007).
+\newblock {TIGER - OpenStreetMap Wiki}.
 
 \bibitem[OSMF, ]{OSMF}
 OSMF.
@@ -67,30 +119,6 @@ Wang, M., Li, Q., Hu, Q., and Zhou, M. (2013).
 \newblock {Quality analysis of open street map data}.
 \newblock {\em 8th International Symposium on Spatial Data Quality},
   40(June):155--158.
-
-\bibitem[{Wiki OSM}, 2007]{WikiOSMTIGER2007}
-{Wiki OSM}, T. (2007).
-\newblock {TIGER - OpenStreetMap Wiki}.
-
-\bibitem[wikipage {OSM AutiEdit}, ]{OSMAutiEdit}
-wikipage {OSM AutiEdit}.
-\newblock {Automated edits - OpenStreetMap Wiki}.
-
-\bibitem[wikipage {OSM AutomaticEdits}, ]{OSMAutomaticEdits}
-wikipage {OSM AutomaticEdits}.
-\newblock {Automated Edits code of conduct - OpenStreetMap Wiki}.
-
-\bibitem[wikipage {OSM DWG}, ]{OSMDWG}
-wikipage {OSM DWG}.
-\newblock {Data working group - OpenStreetMap Wiki}.
-
-\bibitem[wikipage OSM~import, ]{OSMimport}
-wikipage OSM~import.
-\newblock {Import - OpenStreetMap Wiki}.
-
-\bibitem[wikipage {OSM N50}, 2014]{OSMN502014}
-wikipage {OSM N50} (2014).
-\newblock {Import/Catalogue/N50 import (Norway) - OpenStreetMap Wiki}.
 
 \bibitem[Willis, 2007]{Willis2007}
 Willis, N. (2007).

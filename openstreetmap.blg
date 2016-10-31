@@ -5,54 +5,54 @@ The style file: apalike.bst
 Database file #1: prosjektoppg.bib.bib
 Warning--empty year in Chilton
 Warning--empty journal in Chilton
+Warning--empty year in OSMAutiEdit
 Warning--empty year in EstellesArolas
 Warning--empty journal in Exel2010
 Warning--there's a number but no volume in Lawhead2013
 Warning--empty year in ODbL
-Warning--empty year in OSMF
-Warning--empty year in OSMAutiEdit
 Warning--empty year in OSMAutomaticEdits
 Warning--empty year in OSMDWG
 Warning--empty year in OSMimport
-You've used 23 entries,
+Warning--empty year in OSMF
+You've used 30 entries,
             1935 wiz_defined-function locations,
-            579 strings with 6460 characters,
-and the built_in function-call counts, 6584 in all, are:
-= -- 653
-> -- 247
-< -- 19
-+ -- 78
-- -- 78
-* -- 474
-:= -- 1249
-add.period$ -- 52
-call.type$ -- 23
-change.case$ -- 154
-chr.to.int$ -- 23
-cite$ -- 34
-duplicate$ -- 260
-empty$ -- 421
-format.name$ -- 103
-if$ -- 1222
-int.to.chr$ -- 1
+            604 strings with 6960 characters,
+and the built_in function-call counts, 8236 in all, are:
+= -- 821
+> -- 296
+< -- 26
++ -- 96
+- -- 92
+* -- 579
+:= -- 1576
+add.period$ -- 66
+call.type$ -- 30
+change.case$ -- 196
+chr.to.int$ -- 26
+cite$ -- 41
+duplicate$ -- 330
+empty$ -- 526
+format.name$ -- 124
+if$ -- 1523
+int.to.chr$ -- 5
 int.to.str$ -- 0
 missing$ -- 7
-newline$ -- 101
-num.names$ -- 69
-pop$ -- 133
+newline$ -- 129
+num.names$ -- 90
+pop$ -- 161
 preamble$ -- 1
-purify$ -- 154
+purify$ -- 196
 quote$ -- 0
-skip$ -- 206
+skip$ -- 267
 stack$ -- 0
-substring$ -- 367
+substring$ -- 451
 swap$ -- 10
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 138
+type$ -- 180
 warning$ -- 11
-while$ -- 55
+while$ -- 69
 width$ -- 0
-write$ -- 240
+write$ -- 310
 (There were 11 warnings)
