@@ -1,5 +1,14 @@
 \begin{thebibliography}{}
 
+\bibitem[Barth, 2014a]{Barth2014a}
+Barth, A. (2014a).
+\newblock {[Imports-us] Restarting NYC building and address imports}.
+
+\bibitem[Barth, 2014b]{Barth2014}
+Barth, A. (2014b).
+\newblock {OpenStreetMap | lxbarth sin dagbok | Importing 1 million New York
+  City buildings and addresses}.
+
 \bibitem[Bishop, 2007]{Bishop2007}
 Bishop, D. (2007).
 \newblock {[OSM-talk] TIGER, which states next?}
@@ -59,6 +68,10 @@ Lawhead, J. (2013).
 \newblock {Learning Geospatial Analysis with Python.}
 \newblock {\em Packt Publishing}, (October).
 
+\bibitem[McConchie, 2014]{McConchie2014}
+McConchie, A. (2014).
+\newblock {How to divide up the tasks? {\#}4 Github issues, LA buildings}.
+
 \bibitem[Mehus, 2014]{Mehus2014}
 Mehus, T. (2014).
 \newblock {[Imports] N50 imports from Kartverket (The Norwegian Mapping
@@ -106,6 +119,10 @@ OpenStreetMap, S. (2016).
 OpenStreetMap, T. (2007).
 \newblock {TIGER - OpenStreetMap Wiki}.
 
+\bibitem[{OSM Tasking Manager}, ]{OSMTaskingManager}
+{OSM Tasking Manager}, L.~B.
+\newblock {OSM Tasking Manager - LA buildings import}.
+
 \bibitem[OSMF, ]{OSMF}
 OSMF.
 \newblock {About | OpenStreetMap Blog}.
@@ -113,6 +130,17 @@ OSMF.
 \bibitem[OSMF, 2015]{OSMF2015}
 OSMF (2015).
 \newblock {Membership/Statistics - OpenStreetMap Foundation Wiki}.
+
+\bibitem[Palen et~al., 2015]{Palen2015}
+Palen, L., Soden, R., Anderson, T.~J., and Barrenechea, M. (2015).
+\newblock {Success {\&} Scale in a Data-Producing Organization}.
+\newblock {\em Proceedings of the 33rd Annual ACM Conference on Human Factors
+  in Computing Systems - CHI '15}, pages 4113--4122.
+
+\bibitem[Schleuss et~al., 2016]{Schleuss2016}
+Schleuss, J., Ureta, O., McConchie, A., and Sambale, M. (2016).
+\newblock {Let's get LA on the map!: The Los Angeles Building Import Case Study
+  | Seattle, Washington | State of the Map US 2016}.
 
 \bibitem[Wang et~al., 2013]{Wang2013}
 Wang, M., Li, Q., Hu, Q., and Zhou, M. (2013).

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.9.27)  31 OCT 2016 12:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.9.27)  2 NOV 2016 15:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -422,12 +422,6 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 (hyperref)                than one, level fixed on input line 8.
 
 
-Overfull \hbox (5.25761pt too wide) in paragraph at lines 9--10
-\OT1/cmr/m/n/12 in-for-ma-tion about their ge-o-graphic re-gions to the OSM dat
-abase [[]].
- []
-
-
 Overfull \hbox (6.82556pt too wide) in paragraph at lines 9--10
 \OT1/cmr/m/n/12 for get-ting data in to the Open-StreetMap database, bulk im-po
 rts [[]].
@@ -453,27 +447,33 @@ Overfull \hbox (5.41873pt too wide) in paragraph at lines 40--41
 ged in the OSM com-mu-nity,
  []
 
+[11]
+Overfull \hbox (43.28154pt too wide) in paragraph at lines 51--51
+[]\OT1/cmr/bx/n/14.4 Import based on mi-cro-task-ing (LA-buildings method-olo) 
 
-Overfull \hbox (22.24855pt too wide) in paragraph at lines 40--41
-\OT1/cmr/m/n/12 [[]]. The N50 im-port was an com-mu-nity im-port, but only ex-p
-e-ri-enced
  []
 
-[11] [12]) (./OSMcommunity.tex [13]
+[12] [13]
+Overfull \hbox (6.19301pt too wide) in paragraph at lines 66--67
+\OT1/cmr/m/n/12 is-sue on labuild-ings github page ask-ing \OT1/cmr/m/it/12 How
+ to di-vide up the tasks? \OT1/cmr/m/n/12 [[]].
+ []
+
+[14]) (./OSMcommunity.tex [15]
 Chapter 5.
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 3.
 
-) (./openstreetmap.bbl [14
+) (./openstreetmap.bbl [16
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 23--25
+Underfull \hbox (badness 10000) in paragraph at lines 32--34
 []\OT1/cmr/m/n/12 edits Open-StreetMap, A.  Au-to-mated ed-its -
  []
 
 
-Underfull \hbox (badness 1533) in paragraph at lines 27--30
+Underfull \hbox (badness 1533) in paragraph at lines 36--39
 []\OT1/cmr/m/n/12 Estell^^Ses Aro-las, E.  Mi-cro-task-ing: a way of be-gin us-
 ing
  []
@@ -487,38 +487,38 @@ Missing character: There is no ˜ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ˜ in font cmr12!
-[15
+[17
 
 ]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ” in font cmr12!
 
-Underfull \hbox (badness 1642) in paragraph at lines 76--80
+Underfull \hbox (badness 1642) in paragraph at lines 89--93
 \OT1/cmr/m/n/12 Ac-tiv-ity of a Vol-un-teered Ge-o-graphic In-for-ma-tion Proje
 ct  The Case of
  []
 
-[16])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 66.
- [17]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 66.
+[18])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 68.
+ [19]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 68.
  (./openstreetmap.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 66.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 66.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 68.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 68.
 Package rerunfilecheck Info: File `openstreetmap.out' has not changed.
-(rerunfilecheck)             Checksum: 9CBCB26909FE3434EBBC40C5E30618EE;1416.
+(rerunfilecheck)             Checksum: AA7BBEB6F3BB59801A9A54D85A4E2F8E;1431.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 66.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 68.
  ) 
 Here is how much of TeX's memory you used:
- 6109 strings out of 493014
- 89886 string characters out of 6133351
- 179904 words of memory out of 5000000
- 9496 multiletter control sequences out of 15000+600000
+ 6123 strings out of 493014
+ 90082 string characters out of 6133351
+ 181205 words of memory out of 5000000
+ 9502 multiletter control sequences out of 15000+600000
  12750 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  29i,6n,28p,1743b,395s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -526,10 +526,10 @@ Here is how much of TeX's memory you used:
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
 /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></u
 sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on openstreetmap.pdf (21 pages, 104749 bytes).
+Output written on openstreetmap.pdf (23 pages, 113987 bytes).
 PDF statistics:
- 325 PDF objects out of 1000 (max. 8388607)
- 295 compressed objects within 3 object streams
- 73 named destinations out of 1000 (max. 500000)
+ 352 PDF objects out of 1000 (max. 8388607)
+ 319 compressed objects within 4 object streams
+ 81 named destinations out of 1000 (max. 500000)
  169 words of extra memory for PDF output out of 10000 (max. 10000000)
 

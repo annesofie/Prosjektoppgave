@@ -13,46 +13,47 @@ Warning--empty year in ODbL
 Warning--empty year in OSMAutomaticEdits
 Warning--empty year in OSMDWG
 Warning--empty year in OSMimport
+Warning--empty year in OSMTaskingManager
 Warning--empty year in OSMF
-You've used 30 entries,
+You've used 36 entries,
             1935 wiz_defined-function locations,
-            604 strings with 6960 characters,
-and the built_in function-call counts, 8236 in all, are:
-= -- 821
-> -- 296
-< -- 26
-+ -- 96
-- -- 92
-* -- 579
-:= -- 1576
-add.period$ -- 66
-call.type$ -- 30
-change.case$ -- 196
-chr.to.int$ -- 26
-cite$ -- 41
-duplicate$ -- 330
-empty$ -- 526
-format.name$ -- 124
-if$ -- 1523
-int.to.chr$ -- 5
+            629 strings with 7845 characters,
+and the built_in function-call counts, 10100 in all, are:
+= -- 1010
+> -- 370
+< -- 31
++ -- 121
+- -- 116
+* -- 710
+:= -- 1917
+add.period$ -- 79
+call.type$ -- 36
+change.case$ -- 238
+chr.to.int$ -- 31
+cite$ -- 48
+duplicate$ -- 405
+empty$ -- 639
+format.name$ -- 154
+if$ -- 1880
+int.to.chr$ -- 6
 int.to.str$ -- 0
-missing$ -- 7
-newline$ -- 129
-num.names$ -- 90
-pop$ -- 161
+missing$ -- 8
+newline$ -- 154
+num.names$ -- 108
+pop$ -- 196
 preamble$ -- 1
-purify$ -- 196
+purify$ -- 238
 quote$ -- 0
-skip$ -- 267
+skip$ -- 333
 stack$ -- 0
-substring$ -- 451
-swap$ -- 10
-text.length$ -- 1
+substring$ -- 563
+swap$ -- 22
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 180
-warning$ -- 11
-while$ -- 69
+type$ -- 216
+warning$ -- 12
+while$ -- 84
 width$ -- 0
-write$ -- 310
-(There were 11 warnings)
+write$ -- 372
+(There were 12 warnings)
