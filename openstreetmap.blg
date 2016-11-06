@@ -3,11 +3,14 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: openstreetmap.aux
 The style file: apalike.bst
 Database file #1: prosjektoppg.bib.bib
+Warning--I didn't find a database entry for "Sambale2016s"
+Warning--I didn't find a database entry for "HOT"
 Warning--empty year in Chilton
 Warning--empty journal in Chilton
 Warning--empty year in OSMAutiEdit
 Warning--empty year in EstellesArolas
 Warning--empty journal in Exel2010
+Warning--empty year in HOTa
 Warning--there's a number but no volume in Lawhead2013
 Warning--empty year in ODbL
 Warning--empty year in OSMAutomaticEdits
@@ -17,20 +20,20 @@ Warning--empty year in OSMTaskingManager
 Warning--empty year in OSMF
 You've used 36 entries,
             1935 wiz_defined-function locations,
-            629 strings with 7845 characters,
-and the built_in function-call counts, 10100 in all, are:
+            632 strings with 7833 characters,
+and the built_in function-call counts, 10098 in all, are:
 = -- 1010
 > -- 370
 < -- 31
 + -- 121
 - -- 116
-* -- 710
-:= -- 1917
+* -- 708
+:= -- 1916
 add.period$ -- 79
 call.type$ -- 36
 change.case$ -- 238
 chr.to.int$ -- 31
-cite$ -- 48
+cite$ -- 49
 duplicate$ -- 405
 empty$ -- 639
 format.name$ -- 154
@@ -40,11 +43,11 @@ int.to.str$ -- 0
 missing$ -- 8
 newline$ -- 154
 num.names$ -- 108
-pop$ -- 196
+pop$ -- 198
 preamble$ -- 1
 purify$ -- 238
 quote$ -- 0
-skip$ -- 333
+skip$ -- 331
 stack$ -- 0
 substring$ -- 563
 swap$ -- 22
@@ -52,8 +55,8 @@ text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 216
-warning$ -- 12
+warning$ -- 13
 while$ -- 84
 width$ -- 0
-write$ -- 372
-(There were 12 warnings)
+write$ -- 371
+(There were 15 warnings)

@@ -24,10 +24,6 @@ Debruyne, C., Panetto, H., Meersman, R., Dillon, T., Weichhart, G., An, Y., and
 \newblock {On the Move to Meaningful Internet Systems: OTM 2015 Conferences}.
 \newblock {\em Springer International Publishing}.
 
-\bibitem[Didriksen, 2014]{Didriksen2014}
-Didriksen, S. (2014).
-\newblock {Re: [NUUG kart] M{\o}svatn}.
-
 \bibitem[edits OpenStreetMap, ]{OSMAutiEdit}
 edits OpenStreetMap, A.
 \newblock {Automated edits - OpenStreetMap Wiki}.
@@ -47,6 +43,10 @@ Exel~van, M. (2010).
 \newblock {Data Imports In OpenStreetMap – Love ‘Em Or Loathe ‘Em? |
   oegeo}.
 
+\bibitem[Hagen, 2014]{Didriksen2014}
+Hagen, S.~O. (2014).
+\newblock {Re: [NUUG kart] M{\o}svatn}.
+
 \bibitem[Hansen, 2007a]{Hansen2007b}
 Hansen, D. (2007a).
 \newblock {[OSM-talk] TIGER update (need more suggestions)}.
@@ -58,6 +58,10 @@ Hansen, D. (2007b).
 \bibitem[Hansen, 2007c]{Hansen2007}
 Hansen, D. (2007c).
 \newblock {[OSM-talk] TIGER upload queue (maps of entire US)}.
+
+\bibitem[HOT, ]{HOTa}
+HOT.
+\newblock {HOT Tasking Manager - About}.
 
 \bibitem[Kihle, 2014]{Kihle2014}
 Kihle, K. (2014).
@@ -80,10 +84,6 @@ Mehus, T. (2014).
 \bibitem[Mielczarek, 2007]{Mielczarek2007}
 Mielczarek, T. (2007).
 \newblock {[OSM-talk] [OSM-dev] TIGER, which states next?}
-
-\bibitem[Munro, 2007]{Munro2007}
-Munro, R.~J. (2007).
-\newblock {[OSM-talk] TIGER upload status since 0.5 api}.
 
 \bibitem[Neis and Zipf, 2012]{Neis2012}
 Neis, P. and Zipf, A. (2012).

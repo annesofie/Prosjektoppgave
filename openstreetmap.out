@@ -10,12 +10,12 @@
 \BOOKMARK [0][-]{chapter.3}{Technical}{}% 10
 \BOOKMARK [1][-]{subsection.3.0.1}{Existing libraries}{chapter.3}% 11
 \BOOKMARK [0][-]{chapter.4}{OSM import methods}{}% 12
-\BOOKMARK [1][-]{subsection.4.0.1}{Introduction}{chapter.4}% 13
-\BOOKMARK [2][-]{subsection.4.0.2}{Fully automatic import script}{subsection.4.0.1}% 14
-\BOOKMARK [2][-]{subsection.4.0.3}{Fully manually import based on tracing}{subsection.4.0.1}% 15
-\BOOKMARK [2][-]{subsection.4.0.4}{Guided automatic import}{subsection.4.0.1}% 16
-\BOOKMARK [2][-]{subsection.4.0.5}{Import based on microtasking \(LA-buildings methodolo\)}{subsection.4.0.1}% 17
-\BOOKMARK [2][-]{subsection.4.0.6}{Evaluation}{subsection.4.0.1}% 18
+\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 13
+\BOOKMARK [1][-]{section.4.2}{Fully automatic import script}{chapter.4}% 14
+\BOOKMARK [1][-]{section.4.3}{Fully manually import based on tracing}{chapter.4}% 15
+\BOOKMARK [1][-]{section.4.4}{Guided automatic import}{chapter.4}% 16
+\BOOKMARK [1][-]{section.4.5}{Import based on microtasking \(LA-buildings methodolo\)}{chapter.4}% 17
+\BOOKMARK [1][-]{section.4.6}{Evaluation}{chapter.4}% 18
 \BOOKMARK [0][-]{chapter.5}{OSM comminity}{}% 19
 \BOOKMARK [1][-]{subsection.5.0.1}{Communication}{chapter.5}% 20
 \BOOKMARK [2][-]{subsection.5.0.2}{Motivation}{subsection.5.0.1}% 21
