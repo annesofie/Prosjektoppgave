@@ -1,23 +1,23 @@
 \chapter{Characteristics of Open Street Map}
 	
-\subsection{Introduction}
+\section{Introduction}
 The OpenStreetMap is one of the most impressive projects of Volunteered Geographic Information on the Internet\cite{Neis2012}. Until recent the mapping of the Earth was preserved highly skilled, well-equipped and organized individuals and groups. One important happening was in 2000 when Bill Clinton removed the selective availability of the GPS signal \ref{sec:weber}. This change improved the accuracy of simpler, cheaper GPS receivers so that also ordinary people could start mapping their movements. OpenStreetMap was founded in 2004 at University College London by Steve Coast. The goal was to create a free database with geoxgraphic information of the world \cite{Neis2012}. Back in 2004 the geographic data was expencieve and hard to get access to. 
 
 The OSM project stands out from other data sources mainly because its free to use and its released under a license that allows for pretty much whatever the user wants to as long as the user mention the original creator and the licence\cite{Chilton}.  The most common contribution approach is to record data using a GPS receiver and edit the data using one of the free and available OSM editors \cite{Neis2012}.  
 
 Today the world has a need for instant information, particularly in crisis situations \cite{Chilton}. Here OpenStreetMap is the leading global example of the effictiveness of crowdsourcing of geodata. The project are changing the way individuals and organisations are thinking about the collection process, purchase and use of geodata \cite{Chilton}.  Crowd sourced geographic data has characteristics or advantages of large data volume, high currency, large quantity of information and low cost \cite{Wang2013}.  
 
-\subsection{Culture}
+\section{Culture}
 OSMhas no notability rule, an arbitrary amount of detail is possible, but somebody has to maintain it! %https://www.youtube.com/watch?v=KNTSZGnQVRw
 
-\subsection{Structure}
+\section{Structure}
 OpenStreetMap uses a topological data structure. This sturcture includes three basic components nodes, ways and relations. Nodes are points with a geographic position stored as coordinates (Lat, long) according to WGS84. Ways are lists of 2 or more nodes, representing a poly-line or polygon, used to represent streets, rivers, among others \cite{Debruyne2015}. A relation is a multi-purpose data structure that documents a relation between two or more components\href{https://wiki.openstreetmap.org/wiki/Elements}. To add metadata to geographic objects OpenStreetMap uses Tags. Tags consist of two items, a key and a value of the form key=value. The key is used to describe the topic, category or type of feature, while the value describes the details of the specific form of the key specified. A example of a key-value pair can be building=church, here the key is building and the value is church, this is a building that was built as a church. 
 
 The norm in OSM is to try to map new data with existing tags. Good practice is to search for tags, or Map Features, on different OSM wiki-sites. On the \href{http://wiki.openstreetmap.org/wiki/Any_tags_you_like}{tags you like wikipage} they recommend different sites, but points out \href{http://taginfo.openstreetmap.org/}{taginfo} as the most useful site. Taginfo is a website created for finding and aggregating information about OSM tags, it covers the whole planet and is updated daily. The web page list tags used in the database and also inform on how often they have been used. Also, Taginfo lists other tags which have been used in combination with the tags you searched for. Some countries also have their own taginfo web pages, like Ireland, Great-Britain and France, Norway do not have their own taginfo web page. 
 
 Verifiability: From a given scenario, a tag/value combination is verifiable if and only if independent users when observing the same feature would make the same observation every time.\href{http://wiki.openstreetmap.org/wiki/Verifiability}. 
 
-\subsection{Organizational}
+\section{Organizational}
 %Redgjøre for hva OSM er og hvordan det fungerer teknisk og organisatorisk
 Organization and communication 
 
@@ -35,10 +35,10 @@ There are different groups creating the different versions. The goal is to integ
 
 %Mer om OSM Foundation Success & Scale in a Data-Producing Organization s 4119, Org&ikt mappen
 
- \subsection{File format, .osm files}
+ \section{File format, .osm files}
 The .osm file format is specific to OpenStreetMap and it is not easy to open these files using GIS-software like QGIS. The file format is designed to be easily sent and received across the internet in a standard format. Therefore .osm files are easily obtained, but using the files directly to do analysing and map design is not easy. The .osm files are coded in the XML format. It is recommended to convert the data into other formats when using the files \href{http://learnosm.org/en/osm-data/file-formats/}{source}. 
 
-The file is very difficult
+The file is very difficult 
 
 
 

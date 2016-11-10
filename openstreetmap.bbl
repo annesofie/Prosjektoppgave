@@ -28,16 +28,6 @@ Debruyne, C., Panetto, H., Meersman, R., Dillon, T., Weichhart, G., An, Y., and
 edits OpenStreetMap, A.
 \newblock {Automated edits - OpenStreetMap Wiki}.
 
-\bibitem[{Estell{\'{e}}s Arolas}, ]{EstellesArolas}
-{Estell{\'{e}}s Arolas}, E.
-\newblock {Microtasking: a way of begin using crowdsourcing | My crowdsourcing
-  blog}.
-
-\bibitem[Exel et~al., 2010]{Exel2010}
-Exel, M.~V., Dias, E., and Fruijtier, S. (2010).
-\newblock {The impact of crowdsourcing on spatial data quality indicators}.
-\newblock pages 1--4.
-
 \bibitem[Exel~van, 2010]{Exelvan2010}
 Exel~van, M. (2010).
 \newblock {Data Imports In OpenStreetMap – Love ‘Em Or Loathe ‘Em? |
@@ -63,14 +53,34 @@ Hansen, D. (2007c).
 HOT.
 \newblock {HOT Tasking Manager - About}.
 
+\bibitem[Kartverket, 2011]{Kartverket2011}
+Kartverket (2011).
+\newblock {SOSI Del 3 Produktspesifikasjon for FKB – Generell del Side 2 av
+  55}.
+
+\bibitem[Kartverket, 2013a]{Kartverket2013}
+Kartverket (2013a).
+\newblock {Samletabell over objekttyper i FKB}.
+
+\bibitem[Kartverket, 2013b]{Kartverket2013a}
+Kartverket (2013b).
+\newblock {SOSI Del 3 Produktspesifikasjon for FKB – Bygning}.
+
+\bibitem[Kartverket, 2016a]{Kartverket2016a}
+Kartverket (2016a).
+\newblock {Innf{\o}ring i kommunene | Kartverket}.
+
+\bibitem[Kartverket, 2016b]{Kartverket2016}
+Kartverket (2016b).
+\newblock {SOSI-standard del 2 Generell objektkatalog}.
+
+\bibitem[Kartverket, ]{Kartverket}
+Kartverket, S.-s.
+\newblock {TreDNiv{\aa} - Geonorge objektregister}.
+
 \bibitem[Kihle, 2014]{Kihle2014}
 Kihle, K. (2014).
 \newblock {[NUUG kart] Bruk av datasett fra Kartverket i OpenStreetMap}.
-
-\bibitem[Lawhead, 2013]{Lawhead2013}
-Lawhead, J. (2013).
-\newblock {Learning Geospatial Analysis with Python.}
-\newblock {\em Packt Publishing}, (October).
 
 \bibitem[McConchie, 2014]{McConchie2014}
 McConchie, A. (2014).
@@ -107,6 +117,10 @@ OpenStreetMap, D.
 OpenStreetMap, I.
 \newblock {Import - OpenStreetMap Wiki}.
 
+\bibitem[OpenStreetMap, d]{OpenStreetMap}
+OpenStreetMap, M.
+\newblock {MapRoulette - OpenStreetMap Wiki}.
+
 \bibitem[OpenStreetMap, 2014]{OSMN502014}
 OpenStreetMap, N. (2014).
 \newblock {Import/Catalogue/N50 import (Norway) - OpenStreetMap Wiki}.
@@ -137,10 +151,19 @@ Palen, L., Soden, R., Anderson, T.~J., and Barrenechea, M. (2015).
 \newblock {\em Proceedings of the 33rd Annual ACM Conference on Human Factors
   in Computing Systems - CHI '15}, pages 4113--4122.
 
+\bibitem[Sambale, 2016]{Sambale2016a}
+Sambale, M. (2016).
+\newblock {OpenStreetMap | manings sin dagbok | Fixing split buildings in LA}.
+
 \bibitem[Schleuss et~al., 2016]{Schleuss2016}
 Schleuss, J., Ureta, O., McConchie, A., and Sambale, M. (2016).
 \newblock {Let's get LA on the map!: The Los Angeles Building Import Case Study
   | Seattle, Washington | State of the Map US 2016}.
+
+\bibitem[Skogseth and Norberg, 2014]{Skogseth2014}
+Skogseth, T. and Norberg, D. (2014).
+\newblock {\em {Grunnleggende landm{\aa}ling}}.
+\newblock 1 edition.
 
 \bibitem[Wang et~al., 2013]{Wang2013}
 Wang, M., Li, Q., Hu, Q., and Zhou, M. (2013).

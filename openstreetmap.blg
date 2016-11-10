@@ -8,55 +8,58 @@ Warning--I didn't find a database entry for "HOT"
 Warning--empty year in Chilton
 Warning--empty journal in Chilton
 Warning--empty year in OSMAutiEdit
-Warning--empty year in EstellesArolas
-Warning--empty journal in Exel2010
 Warning--empty year in HOTa
-Warning--there's a number but no volume in Lawhead2013
+Warning--empty journal in Kartverket2011
+Warning--empty journal in Kartverket2013
+Warning--empty journal in Kartverket2013a
+Warning--empty year in Kartverket
 Warning--empty year in ODbL
 Warning--empty year in OSMAutomaticEdits
 Warning--empty year in OSMDWG
 Warning--empty year in OSMimport
+Warning--empty year in OpenStreetMap
 Warning--empty year in OSMTaskingManager
 Warning--empty year in OSMF
-You've used 36 entries,
+Warning--empty publisher in Skogseth2014
+You've used 42 entries,
             1935 wiz_defined-function locations,
-            632 strings with 7833 characters,
-and the built_in function-call counts, 10098 in all, are:
-= -- 1010
-> -- 370
-< -- 31
-+ -- 121
-- -- 116
-* -- 708
-:= -- 1916
-add.period$ -- 79
-call.type$ -- 36
-change.case$ -- 238
-chr.to.int$ -- 31
-cite$ -- 49
-duplicate$ -- 405
-empty$ -- 639
-format.name$ -- 154
-if$ -- 1880
-int.to.chr$ -- 6
+            650 strings with 8235 characters,
+and the built_in function-call counts, 11433 in all, are:
+= -- 1137
+> -- 407
+< -- 37
++ -- 134
+- -- 126
+* -- 791
+:= -- 2183
+add.period$ -- 90
+call.type$ -- 42
+change.case$ -- 273
+chr.to.int$ -- 34
+cite$ -- 58
+duplicate$ -- 466
+empty$ -- 732
+format.name$ -- 172
+if$ -- 2119
+int.to.chr$ -- 9
 int.to.str$ -- 0
-missing$ -- 8
-newline$ -- 154
-num.names$ -- 108
-pop$ -- 198
+missing$ -- 11
+newline$ -- 177
+num.names$ -- 126
+pop$ -- 232
 preamble$ -- 1
-purify$ -- 238
+purify$ -- 273
 quote$ -- 0
-skip$ -- 331
+skip$ -- 380
 stack$ -- 0
-substring$ -- 563
-swap$ -- 22
-text.length$ -- 2
+substring$ -- 619
+swap$ -- 17
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 216
-warning$ -- 13
-while$ -- 84
+type$ -- 250
+warning$ -- 16
+while$ -- 93
 width$ -- 0
-write$ -- 371
-(There were 15 warnings)
+write$ -- 427
+(There were 18 warnings)

@@ -24,16 +24,9 @@ Today there are huge amounts of object types in OpenStreetMap. Bulk imports with
 %has common errors like wrong road classifications, adds roads that no longer or never existed, railway and roads 
 %moved so they intersect when they do not. 
 
-\section{Fully manually import based on tracing}
-This method can be very time consuming. The mapping quality depends on the image resolution in the area beeing mapped, it is also hard to add metadata from a image. For instance, its impossible to see the height of a building from a satellite image. 
+%\section{Fully manually import based on tracing}
+%This method can be very time consuming. The mapping quality depends on the image resolution in the area beeing mapped, it is also hard to add metadata from a image. For instance, its impossible to see the height of a building from a satellite image. 
 
-Haiti project, and other Humanitarian OSM project, draw from satellite image dry. A huge problem with this is when during a crisis, many users map the same areas. During Haiti project a problem was overlapping data, the same road drawn multiple times. This was before tasking manager. 
-
-This method is also used today. Humanitarian OSM use the method with the tasking manager. Then the problem with overlapping data are not as likely to occur.  This import method do not require any mapping skills
-
-	- User Generated Content providers / crowdsourced data collectors are allowed to collect geodata
-		? Reason: More available satellite imagery, cheaper GPS units, etc
-OSM the leading global example %CROWDSOURCING IS RADICALLY CHANGING THE GEODATA LANDSCAPE: CASE STUDY OF OPENSTREETMAP 
 
 
 
@@ -63,7 +56,7 @@ The LA building import started in 2014. Two OSM enthusiasts started on the proje
 
 A big difference between the NY building import and LA building import was that the NY team ended up only allowing some OSM users to import. The NY-import was planned as a community import, but underestimating the import complexity and time spent training and supporting new mappers they restarted a few months in,  they loosely formed a group around the project \cite{Barth2014}. The LA building team allowed everyone to join the import. To keep an track of mappers the LA team created a list where the volunteers had to write their import username \cite{Sambale2016s}. Doing the import job during mapathons is a good idea, it makes it easier to have an overall control over the import process. 
 
-In NY building import, when a error was discovered that required updates to already imported data they had to do an automated edit. Updating existing data manually was very time consuming. Updating OpenStreetMap data programatically, with a script, is according to Alex Barth in Mapbox, crucial for a successful import.  The LA community have pointed out errors that need to be fixed, for instance is Garage incorrectly labelled as houses and condos have been tagged as house not apartments. Reading through the different issues reported on LA building github page are some errors found in already imported data fixed manually and others through scripts. They created a maproulette challenge on 
+In NY building import, when a error was discovered that required updates to already imported data they had to do an automated edit. Updating existing data manually was very time consuming. Updating OpenStreetMap data programatically, with a script, is according to Alex Barth in Mapbox, crucial for a successful import.  The LA community have pointed out errors that need to be fixed, for instance is Garage incorrectly labelled as houses and condos have been tagged as house not apartments. Reading through the different issues reported on LA building github page are some errors found in already imported data fixed manually and others through scripts. They created a Maproulette challenge on at least one issue, fixing split buildings. The LA team created a script to detect all split buildings and then each detected building were available as a task in Maproulette \cite{Sambale2016a}. Each task was imported into JOSM where they used the plugin \textit{Auto-tools} to merged the split buildings. Maproulette is a gamified approach for fixing OSM errors breaking the error into micro tasks \cite{OpenStreetMap}.  
 
 When using the OSM tasking manager the dataset has to be divided into smaller parts, so that each part has a manageable size for manual uploads. Each part represents one task, and it is important that each task are small enough so that it can be completed in a reasonable time \cite{HOT} **. The NY team created a python script (chunk.py) to divide the data into smaller parts. The script divided the data into the New York City voting districts, there are in total 5258 voting districts, creating 5258 tasks in OSM tasking manager. This was an arbitrary choice, determined by the import team \cite{Barth2014}. The LA building mapper Alan McConchie opened a issue on labuildings github page asking \textit{How to divide up the tasks?} \cite{McConchie2014}. He suggested using census block groups in each county, the grouping gave suitable sized areas for the tasks. Census blocks alone would be too granular tasks, and next level there are tracks, which would result in too big tasks. They used the same script as NY building import (chunk.py). 
 
@@ -83,3 +76,4 @@ Do the OSM Tasking Manager tool make the import of data into OSM easier for the 
 During the LA import the LA county released new data. This new data was used for rest of the import, but they did not update the already imported regions.  %https://github.com/osmlab/labuildings/issues/111
 How old was the NY building data?
 %Husk   nevne noe med at flere TIGER fixup tools er utviklet. MapRoulette (maproulette.org) is a micro-tasking/gamification system with several challenges related to TIGER fixup. http://wiki.openstreetmap.org/wiki/TIGER_fixup
+
