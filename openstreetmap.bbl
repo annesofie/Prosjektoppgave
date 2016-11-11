@@ -53,6 +53,10 @@ Hansen, D. (2007c).
 HOT.
 \newblock {HOT Tasking Manager - About}.
 
+\bibitem[Kartverket, a]{Kartverketa}
+Kartverket.
+\newblock {SOSI | Kartverket}.
+
 \bibitem[Kartverket, 2011]{Kartverket2011}
 Kartverket (2011).
 \newblock {SOSI Del 3 Produktspesifikasjon for FKB – Generell del Side 2 av
@@ -74,9 +78,13 @@ Kartverket (2016a).
 Kartverket (2016b).
 \newblock {SOSI-standard del 2 Generell objektkatalog}.
 
-\bibitem[Kartverket, ]{Kartverket}
+\bibitem[Kartverket, b]{Kartverket}
 Kartverket, S.-s.
 \newblock {TreDNiv{\aa} - Geonorge objektregister}.
+
+\bibitem[Kartverket, c]{Kartverketb}
+Kartverket, S.-s.
+\newblock {Veranda - Geonorge objektregister}.
 
 \bibitem[Kihle, 2014]{Kihle2014}
 Kihle, K. (2014).

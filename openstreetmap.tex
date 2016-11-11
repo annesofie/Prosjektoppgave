@@ -17,6 +17,13 @@
 \hypersetup{hidelinks, urlcolor=cyan}									
 \usepackage{amssymb}
 
+%Nice looking chapters
+\usepackage[T1]{fontenc}
+\usepackage{titlesec, blindtext, color}
+\definecolor{gray75}{gray}{0.75}
+\newcommand{\hsp}{\hspace{20pt}}
+\titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\Huge\bfseries}
+
 \title{Micro tasking, an efficient method for data acquisition for digital maps?}
 \author{Anne Sofie Strand Erichsen}
 %\date{}							% Activate to display a given date or no date
@@ -49,11 +56,16 @@ The Norwegian government has indicated that the most detailed map data for Norwa
 
 %In theory micotasking seems to solve a lot of OSM problems like overlapping data, deletion of good metadata (read: tags) when running import-scripts and makes it easier to control, both the workflow and quality of the data. Microtasking splits a task into multiple subtasks and distributing these subtasks to humans over the internet.  The OSM mindset  of schema-less datasets and tags differs from many organizations. With the success of OSM it is time to start taking this mindset serious. OSM also has its weaknesses , but many people believe microtasking solves the majority of them. By using FKB building dataset I will try too look further into mapping governmental data over to the OSM format, also trying to experience if microtasking is the solution of the weaknesses of OSM, like the ones I mentioned above. 
 
-\input{generalOSM.tex}
 %\input{TechnicalOSM.tex}
 %\input{ExistingScriptOSM.tex}
-\input{ImportMethods.tex}
+
+
+\input{generalOSM.tex}
+%Microtasking chapter
 \input{fkbchapter.tex}
+\input{ImportMethods.tex}
+%Suggested method for importing FKB to OSM 
+
 %\input{OSMcommunity.tex}
 
 %Chapter: Microtaskin, see paper: Success & Scale in a Data-Producing Organization s 4118, Org&ikt mappen.
@@ -74,8 +86,20 @@ The Norwegian government has indicated that the most detailed map data for Norwa
 % Licence, not FKB public yet 
 % Motivation: Tasking manager has statistics with, among others, a top-list of the most active contributors.  
 
+%Suggested method for importing FKB to OSM 
+	% Går tilbake til metodene, hva kan vi lære i Norge hvor vi ikke har Mapbox. Norske FKB er bedre enn de man har importert i andre land
+	% Se på scriptene 
+	% Her ta mappingen over til OSM , lua filen
+	% Hvordan dele opp i tasking områder, telle antall hus. 50-30-20 hus innenfor hver task?
+	% Dette er en utfordring, men er utenfor scopet til oppgaven. Komme med noen tanker rundt hvordan det kan løses. 
+	
+	
 %\input{summaryofpapers.tex}
 
+%Kommersielle bidragsytere, de har selv nytte av det
+
+%Konklusjon - hvorfor gjør du dette
+	% 
 
 \bibliography{prosjektoppg.bib}
 \bibliographystyle{apalike}
