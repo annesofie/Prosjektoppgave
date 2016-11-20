@@ -6,13 +6,14 @@
 \contentsline {section}{\numberline {2.3}Structure}{4}{section.2.3}
 \contentsline {section}{\numberline {2.4}Organizational}{5}{section.2.4}
 \contentsline {section}{\numberline {2.5}File format, .osm files}{6}{section.2.5}
-\contentsline {chapter}{\numberline {3}FKB building, norwegian governmental data}{7}{chapter.3}
-\contentsline {section}{\numberline {3.1}SOSI}{7}{section.3.1}
-\contentsline {section}{\numberline {3.2}FKB and data quality}{8}{section.3.2}
-\contentsline {section}{\numberline {3.3}Features - FKB building}{9}{section.3.3}
-\contentsline {section}{\numberline {3.4}Fordeler med SOSI mot OSM}{13}{section.3.4}
-\contentsline {chapter}{\numberline {4}OSM import methods}{14}{chapter.4}
-\contentsline {section}{\numberline {4.1}Fully automatic import script}{14}{section.4.1}
-\contentsline {section}{\numberline {4.2}Guided automatic import}{16}{section.4.2}
-\contentsline {section}{\numberline {4.3}Import based on microtasking (LA-buildings methodolo)}{18}{section.4.3}
-\contentsline {section}{\numberline {4.4}Evaluation}{21}{section.4.4}
+\contentsline {chapter}{\numberline {3}SOSI and FKB building}{8}{chapter.3}
+\contentsline {section}{\numberline {3.1}SOSI}{8}{section.3.1}
+\contentsline {section}{\numberline {3.2}FKB and data quality}{9}{section.3.2}
+\contentsline {section}{\numberline {3.3}Features - FKB building}{10}{section.3.3}
+\contentsline {section}{\numberline {3.4}Fordeler med SOSI mot OSM}{15}{section.3.4}
+\contentsline {section}{\numberline {3.5}Mapping buildings in OSM}{15}{section.3.5}
+\contentsline {chapter}{\numberline {4}OSM import methods}{16}{chapter.4}
+\contentsline {section}{\numberline {4.1}Fully automatic import script}{16}{section.4.1}
+\contentsline {section}{\numberline {4.2}Guided automatic import}{18}{section.4.2}
+\contentsline {section}{\numberline {4.3}Import based on microtasking (LA-buildings methodolo)}{20}{section.4.3}
+\contentsline {section}{\numberline {4.4}Evaluation}{23}{section.4.4}

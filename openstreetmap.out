@@ -6,13 +6,14 @@
 \BOOKMARK [1][-]{section.2.3}{Structure}{chapter.2}% 6
 \BOOKMARK [1][-]{section.2.4}{Organizational}{chapter.2}% 7
 \BOOKMARK [1][-]{section.2.5}{File format, .osm files}{chapter.2}% 8
-\BOOKMARK [0][-]{chapter.3}{FKB building, norwegian governmental data}{}% 9
+\BOOKMARK [0][-]{chapter.3}{SOSI and FKB building}{}% 9
 \BOOKMARK [1][-]{section.3.1}{SOSI}{chapter.3}% 10
 \BOOKMARK [1][-]{section.3.2}{FKB and data quality}{chapter.3}% 11
 \BOOKMARK [1][-]{section.3.3}{Features - FKB building}{chapter.3}% 12
 \BOOKMARK [1][-]{section.3.4}{Fordeler med SOSI mot OSM}{chapter.3}% 13
-\BOOKMARK [0][-]{chapter.4}{OSM import methods}{}% 14
-\BOOKMARK [1][-]{section.4.1}{Fully automatic import script}{chapter.4}% 15
-\BOOKMARK [1][-]{section.4.2}{Guided automatic import}{chapter.4}% 16
-\BOOKMARK [1][-]{section.4.3}{Import based on microtasking \(LA-buildings methodolo\)}{chapter.4}% 17
-\BOOKMARK [1][-]{section.4.4}{Evaluation}{chapter.4}% 18
+\BOOKMARK [1][-]{section.3.5}{Mapping buildings in OSM}{chapter.3}% 14
+\BOOKMARK [0][-]{chapter.4}{OSM import methods}{}% 15
+\BOOKMARK [1][-]{section.4.1}{Fully automatic import script}{chapter.4}% 16
+\BOOKMARK [1][-]{section.4.2}{Guided automatic import}{chapter.4}% 17
+\BOOKMARK [1][-]{section.4.3}{Import based on microtasking \(LA-buildings methodolo\)}{chapter.4}% 18
+\BOOKMARK [1][-]{section.4.4}{Evaluation}{chapter.4}% 19

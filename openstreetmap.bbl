@@ -3,18 +3,23 @@
 \bibitem[Barth, 2014a]{Barth2014a}
 Barth, A. (2014a).
 \newblock {[Imports-us] Restarting NYC building and address imports}.
+\newblock
+  https://lists.openstreetmap.org/pipermail/imports-us/2014-February/000521.html.
 
 \bibitem[Barth, 2014b]{Barth2014}
 Barth, A. (2014b).
 \newblock {OpenStreetMap | lxbarth sin dagbok | Importing 1 million New York
   City buildings and addresses}.
+\newblock http://www.openstreetmap.org/user/lxbarth/diary/23588.
 
 \bibitem[Bishop, 2007]{Bishop2007}
 Bishop, D. (2007).
 \newblock {[OSM-talk] TIGER, which states next?}
+\newblock
+  https://lists.openstreetmap.org/pipermail/talk/2007-October/019228.html.
 
-\bibitem[Chilton et~al., ]{Chilton}
-Chilton, S., Building, F., and Burroughs, T.
+\bibitem[Chilton et~al., 2009]{Chilton}
+Chilton, S., Building, F., and Burroughs, T. (2009).
 \newblock {CROWDSOURCING IS RADICALLY CHANGING THE GEODATA LANDSCAPE : CASE
   STUDY OF OPENSTREETMAP}.
 
@@ -27,35 +32,52 @@ Debruyne, C., Panetto, H., Meersman, R., Dillon, T., Weichhart, G., An, Y., and
 \bibitem[edits OpenStreetMap, ]{OSMAutiEdit}
 edits OpenStreetMap, A.
 \newblock {Automated edits - OpenStreetMap Wiki}.
+\newblock http://wiki.openstreetmap.org/wiki/Automated{\_}edits.
 
 \bibitem[Exel~van, 2010]{Exelvan2010}
 Exel~van, M. (2010).
 \newblock {Data Imports In OpenStreetMap – Love ‘Em Or Loathe ‘Em? |
   oegeo}.
+\newblock https://oegeo.wordpress.com/2010/10/22/data-imports-openstreetmap/.
 
 \bibitem[Hagen, 2014]{Didriksen2014}
 Hagen, S.~O. (2014).
 \newblock {Re: [NUUG kart] M{\o}svatn}.
+\newblock https://www.mail-archive.com/kart@nuug.no/msg01508.html.
 
 \bibitem[Hansen, 2007a]{Hansen2007b}
 Hansen, D. (2007a).
 \newblock {[OSM-talk] TIGER update (need more suggestions)}.
+\newblock
+  https://lists.openstreetmap.org/pipermail/talk/2007-November/019880.html.
 
 \bibitem[Hansen, 2007b]{Hansen2007a}
 Hansen, D. (2007b).
 \newblock {[OSM-talk] TIGER upload queue (maps of entire US)}.
+\newblock
+  https://lists.openstreetmap.org/pipermail/talk/2007-September/017621.html.
 
 \bibitem[Hansen, 2007c]{Hansen2007}
 Hansen, D. (2007c).
 \newblock {[OSM-talk] TIGER upload queue (maps of entire US)}.
+\newblock
+  https://lists.openstreetmap.org/pipermail/talk/2007-September/017744.html.
 
 \bibitem[HOT, ]{HOTa}
 HOT.
 \newblock {HOT Tasking Manager - About}.
+\newblock http://tasks.hotosm.org/about.
 
-\bibitem[Kartverket, a]{Kartverketa}
+\bibitem[Kartverket, a]{Kartverketc}
+Kartverket.
+\newblock {Om Geovekst-samarbeidet | Kartverket}.
+\newblock
+  http://www.kartverket.no/geodataarbeid/geovekst/Om-Geovekst-samarbeidet/.
+
+\bibitem[Kartverket, b]{Kartverketa}
 Kartverket.
 \newblock {SOSI | Kartverket}.
+\newblock http://www.kartverket.no/geodataarbeid/standarder/sosi/.
 
 \bibitem[Kartverket, 2011]{Kartverket2011}
 Kartverket (2011).
@@ -73,35 +95,55 @@ Kartverket (2013b).
 \bibitem[Kartverket, 2016a]{Kartverket2016a}
 Kartverket (2016a).
 \newblock {Innf{\o}ring i kommunene | Kartverket}.
+\newblock
+  http://www.kartverket.no/Prosjekter/Sentral-felles-kartdatabase/sentral-lagring-av-fkb-data--innforing-i-kommunene/.
 
 \bibitem[Kartverket, 2016b]{Kartverket2016}
 Kartverket (2016b).
 \newblock {SOSI-standard del 2 Generell objektkatalog}.
+\newblock
+  http://www.kartverket.no/geodataarbeid/standarder/sosi/sosi-standarden-del-2/.
 
-\bibitem[Kartverket, b]{Kartverket}
+\bibitem[Kartverket, c]{Kartverketd}
+Kartverket, S.-s.
+\newblock {Bygningstype - Geonorge objektregister}.
+\newblock
+  https://objektkatalog.geonorge.no/Objekttype/Index/EAID{\_}7C268089{\_}ED2E{\_}494b{\_}9982{\_}FD19A55B8F07{\#}/uml.
+
+\bibitem[Kartverket, d]{Kartverket}
 Kartverket, S.-s.
 \newblock {TreDNiv{\aa} - Geonorge objektregister}.
+\newblock
+  https://objektkatalog.geonorge.no/Objekttype/Index/EAID{\_}1DA8CD10{\_}FAF4{\_}4d0f{\_}A46B{\_}BB5D8ACF13E9.
 
-\bibitem[Kartverket, c]{Kartverketb}
+\bibitem[Kartverket, e]{Kartverketb}
 Kartverket, S.-s.
 \newblock {Veranda - Geonorge objektregister}.
+\newblock
+  https://objektkatalog.geonorge.no/Objekttype/Index/EAID{\_}3C31BCFA{\_}6CE5{\_}4af1{\_}BB76{\_}F7D2CAFD8FA8.
 
 \bibitem[Kihle, 2014]{Kihle2014}
 Kihle, K. (2014).
 \newblock {[NUUG kart] Bruk av datasett fra Kartverket i OpenStreetMap}.
+\newblock https://lists.nuug.no/pipermail/kart/2014-August/004831.html.
 
 \bibitem[McConchie, 2014]{McConchie2014}
 McConchie, A. (2014).
 \newblock {How to divide up the tasks? {\#}4 Github issues, LA buildings}.
+\newblock https://github.com/osmlab/labuildings/issues/4.
 
 \bibitem[Mehus, 2014]{Mehus2014}
 Mehus, T. (2014).
 \newblock {[Imports] N50 imports from Kartverket (The Norwegian Mapping
   Authority)}.
+\newblock
+  https://lists.openstreetmap.org/pipermail/imports/2014-June/003252.html.
 
 \bibitem[Mielczarek, 2007]{Mielczarek2007}
 Mielczarek, T. (2007).
 \newblock {[OSM-talk] [OSM-dev] TIGER, which states next?}
+\newblock
+  https://lists.openstreetmap.org/pipermail/talk/2007-October/019231.html.
 
 \bibitem[Neis and Zipf, 2012]{Neis2012}
 Neis, P. and Zipf, A. (2012).
@@ -112,46 +154,69 @@ Neis, P. and Zipf, A. (2012).
 \bibitem[ODbL, ]{ODbL}
 ODbL.
 \newblock {Open Database License (ODbL) v1.0 | Open Data Commons}.
+\newblock http://opendatacommons.org/licenses/odbl/1.0/.
 
 \bibitem[OpenStreetMap, a]{OSMAutomaticEdits}
 OpenStreetMap, C.
 \newblock {Automated Edits code of conduct - OpenStreetMap Wiki}.
+\newblock
+  http://wiki.openstreetmap.org/wiki/Automated{\_}Edits{\_}code{\_}of{\_}conduct.
 
 \bibitem[OpenStreetMap, b]{OSMDWG}
 OpenStreetMap, D.
 \newblock {Data working group - OpenStreetMap Wiki}.
+\newblock http://wiki.openstreetmap.org/wiki/Data{\_}working{\_}group.
 
 \bibitem[OpenStreetMap, c]{OSMimport}
 OpenStreetMap, I.
 \newblock {Import - OpenStreetMap Wiki}.
+\newblock http://wiki.openstreetmap.org/wiki/Import.
 
 \bibitem[OpenStreetMap, d]{OpenStreetMap}
 OpenStreetMap, M.
 \newblock {MapRoulette - OpenStreetMap Wiki}.
+\newblock http://wiki.openstreetmap.org/wiki/MapRoulette.
+
+\bibitem[OpenStreetMap, e]{OpenStreetMapc}
+OpenStreetMap, N.
+\newblock {Node - OpenStreetMap Wiki}.
+\newblock http://wiki.openstreetmap.org/wiki/Node.
 
 \bibitem[OpenStreetMap, 2014]{OSMN502014}
 OpenStreetMap, N. (2014).
 \newblock {Import/Catalogue/N50 import (Norway) - OpenStreetMap Wiki}.
+\newblock
+  http://wiki.openstreetmap.org/wiki/Import/Catalogue/N50{\_}import{\_}(Norway).
 
 \bibitem[OpenStreetMap, 2016]{OSMProject2016}
 OpenStreetMap, S. (2016).
 \newblock {Stats - OpenStreetMap Wiki}.
+\newblock http://wiki.openstreetmap.org/wiki/Stats.
 
 \bibitem[OpenStreetMap, 2007]{WikiOSMTIGER2007}
 OpenStreetMap, T. (2007).
 \newblock {TIGER - OpenStreetMap Wiki}.
+\newblock http://wiki.openstreetmap.org/wiki/TIGER.
+
+\bibitem[OpenStreetMap, f]{OpenStreetMapd}
+OpenStreetMap, W.
+\newblock {Way - OpenStreetMap Wiki}.
+\newblock http://wiki.openstreetmap.org/wiki/Way.
 
 \bibitem[{OSM Tasking Manager}, ]{OSMTaskingManager}
 {OSM Tasking Manager}, L.~B.
 \newblock {OSM Tasking Manager - LA buildings import}.
+\newblock http://labuildingsimport.com/.
 
 \bibitem[OSMF, ]{OSMF}
 OSMF.
 \newblock {About | OpenStreetMap Blog}.
+\newblock https://blog.openstreetmap.org/about/.
 
 \bibitem[OSMF, 2015]{OSMF2015}
 OSMF (2015).
 \newblock {Membership/Statistics - OpenStreetMap Foundation Wiki}.
+\newblock https://wiki.osmfoundation.org/wiki/Membership/Statistics.
 
 \bibitem[Palen et~al., 2015]{Palen2015}
 Palen, L., Soden, R., Anderson, T.~J., and Barrenechea, M. (2015).
@@ -183,11 +248,15 @@ Wang, M., Li, Q., Hu, Q., and Zhou, M. (2013).
 Willis, N. (2007).
 \newblock {OpenStreetMap project imports US government maps | Linux.com | The
   source for Linux information}.
+\newblock
+  https://www.linux.com/news/openstreetmap-project-imports-us-government-maps.
 
 \bibitem[Willis, 2008]{Willis2008}
 Willis, N. (2008).
 \newblock {OpenStreetMap project completes import of United States TIGER data |
   Linux.com | The source for Linux information}.
+\newblock
+  https://www.linux.com/news/openstreetmap-project-completes-import-united-states-tiger-data.
 
 \bibitem[Zielstra et~al., 2013]{Zielstra2013}
 Zielstra, D., Hochmair, H.~H., and Neis, P. (2013).

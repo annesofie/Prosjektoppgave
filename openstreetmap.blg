@@ -5,14 +5,15 @@ The style file: apalike.bst
 Database file #1: prosjektoppg.bib.bib
 Warning--I didn't find a database entry for "Sambale2016s"
 Warning--I didn't find a database entry for "HOT"
-Warning--empty year in Chilton
 Warning--empty journal in Chilton
 Warning--empty year in OSMAutiEdit
 Warning--empty year in HOTa
+Warning--empty year in Kartverketc
 Warning--empty year in Kartverketa
 Warning--empty journal in Kartverket2011
 Warning--empty journal in Kartverket2013
 Warning--empty journal in Kartverket2013a
+Warning--empty year in Kartverketd
 Warning--empty year in Kartverket
 Warning--empty year in Kartverketb
 Warning--empty year in ODbL
@@ -20,48 +21,50 @@ Warning--empty year in OSMAutomaticEdits
 Warning--empty year in OSMDWG
 Warning--empty year in OSMimport
 Warning--empty year in OpenStreetMap
+Warning--empty year in OpenStreetMapc
+Warning--empty year in OpenStreetMapd
 Warning--empty year in OSMTaskingManager
 Warning--empty year in OSMF
 Warning--empty publisher in Skogseth2014
-You've used 44 entries,
+You've used 48 entries,
             1935 wiz_defined-function locations,
-            656 strings with 8333 characters,
-and the built_in function-call counts, 11901 in all, are:
-= -- 1185
-> -- 421
-< -- 39
-+ -- 140
-- -- 130
-* -- 817
-:= -- 2274
-add.period$ -- 94
-call.type$ -- 44
-change.case$ -- 285
+            708 strings with 10967 characters,
+and the built_in function-call counts, 13163 in all, are:
+= -- 1353
+> -- 449
+< -- 43
++ -- 152
+- -- 138
+* -- 871
+:= -- 2527
+add.period$ -- 138
+call.type$ -- 48
+change.case$ -- 309
 chr.to.int$ -- 34
-cite$ -- 62
-duplicate$ -- 486
-empty$ -- 762
-format.name$ -- 178
-if$ -- 2205
-int.to.chr$ -- 11
+cite$ -- 69
+duplicate$ -- 526
+empty$ -- 822
+format.name$ -- 190
+if$ -- 2449
+int.to.chr$ -- 15
 int.to.str$ -- 0
 missing$ -- 11
-newline$ -- 185
-num.names$ -- 132
-pop$ -- 244
+newline$ -- 237
+num.names$ -- 144
+pop$ -- 230
 preamble$ -- 1
-purify$ -- 285
+purify$ -- 309
 quote$ -- 0
-skip$ -- 393
+skip$ -- 423
 stack$ -- 0
-substring$ -- 643
+substring$ -- 691
 swap$ -- 17
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 262
-warning$ -- 18
-while$ -- 97
+type$ -- 286
+warning$ -- 21
+while$ -- 105
 width$ -- 0
-write$ -- 445
-(There were 20 warnings)
+write$ -- 554
+(There were 23 warnings)

@@ -38,12 +38,26 @@ There are different groups creating the different versions. The goal is to integ
  \section{File format, .osm files}
 The .osm file format is specific to OpenStreetMap and it is not easy to open these files using GIS-software like QGIS. The file format is designed to be easily sent and received across the internet in a standard format. Therefore .osm files are easily obtained, but using the files directly to do analysing and map design is not easy. The .osm files are coded in the XML format. It is recommended to convert the data into other formats when using the files \href{http://learnosm.org/en/osm-data/file-formats/}{source}. 
 
-The file is very difficult 
+Points are represented as nodes, lines as ways and areas as relation in .osm files. Each represented by a tag: <node>, <way> and <relation>. Node is one of the core elements in the OSM data model. A node-tag consists of a single point defined by node-id, latitude and longitude. When nodes are used on their own they represents point features, normally includes at least one tag to define the points purpose \cite{OpenStreetMapc}. In figure \ref{fig:nodetag} the node tag represents a bag shop named Citybag, a point of interest, where k is key and v is value. User is the name of who last modified the node and uid is the persons numeric user id.  
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.6]{figures/FixedByMe/node_tag.png}
+    \caption{Example of a node tag}
+    \label{fig:nodetag}
+\end{figure} 
 
+A way consists of two or more nodes and can either be open or closed. An open way describes a line feature not sharing first and last node. Features can be roads, cycleway, streams etc.* %Kan man skrive etc paa engelsk?
+When a way is closed the first and last nodes are the same and can be interpreted as a closed polyline or an area, or both \cite{OpenStreetMapd}. A closed way with highway=* tag can represent roundabouts, and if it has amenity=school tag the closed way can represent the outline of a school. In figure \ref{fig:waytag} the way represents a building since k=building and v=yes. The buildings address is also added and its name. The <nd> tag represents a node, where all the <nd> tags creates the building footprint. Note that the first and last <nd> tag refers to the same node. 
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.7]{figures/FixedByMe/way_tag.png}
+    \caption{Example of a way tag}
+    \label{fig:waytag}
+\end{figure} 
 
-
+A relation is an ordered list of one or more nodes, ways and/or relations. 
 
 
 
