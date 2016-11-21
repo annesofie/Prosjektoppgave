@@ -1,19 +1,23 @@
 \BOOKMARK [1][-]{chapter*.2}{List of Figures}{}% 1
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 2
 \BOOKMARK [0][-]{chapter.2}{Characteristics of Open Street Map}{}% 3
-\BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}% 4
-\BOOKMARK [1][-]{section.2.2}{Culture}{chapter.2}% 5
-\BOOKMARK [1][-]{section.2.3}{Structure}{chapter.2}% 6
-\BOOKMARK [1][-]{section.2.4}{Organizational}{chapter.2}% 7
-\BOOKMARK [1][-]{section.2.5}{File format, .osm files}{chapter.2}% 8
+\BOOKMARK [1][-]{section.2.1}{General}{chapter.2}% 4
+\BOOKMARK [1][-]{section.2.2}{Data structure}{chapter.2}% 5
+\BOOKMARK [1][-]{section.2.3}{Organization}{chapter.2}% 6
+\BOOKMARK [1][-]{section.2.4}{File format, .osm files}{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.5}{Mapping buildings in OSM}{chapter.2}% 8
 \BOOKMARK [0][-]{chapter.3}{SOSI and FKB building}{}% 9
 \BOOKMARK [1][-]{section.3.1}{SOSI}{chapter.3}% 10
 \BOOKMARK [1][-]{section.3.2}{FKB and data quality}{chapter.3}% 11
-\BOOKMARK [1][-]{section.3.3}{Features - FKB building}{chapter.3}% 12
-\BOOKMARK [1][-]{section.3.4}{Fordeler med SOSI mot OSM}{chapter.3}% 13
-\BOOKMARK [1][-]{section.3.5}{Mapping buildings in OSM}{chapter.3}% 14
-\BOOKMARK [0][-]{chapter.4}{OSM import methods}{}% 15
-\BOOKMARK [1][-]{section.4.1}{Fully automatic import script}{chapter.4}% 16
-\BOOKMARK [1][-]{section.4.2}{Guided automatic import}{chapter.4}% 17
-\BOOKMARK [1][-]{section.4.3}{Import based on microtasking \(LA-buildings methodolo\)}{chapter.4}% 18
-\BOOKMARK [1][-]{section.4.4}{Evaluation}{chapter.4}% 19
+\BOOKMARK [1][-]{section.3.3}{Features in FKB building}{chapter.3}% 12
+\BOOKMARK [1][-]{section.3.4}{Benefits using SOSI in contex of OSM}{chapter.3}% 13
+\BOOKMARK [0][-]{chapter.4}{OSM import methods}{}% 14
+\BOOKMARK [1][-]{section.4.1}{Fully automatic import script}{chapter.4}% 15
+\BOOKMARK [1][-]{section.4.2}{Guided automatic import}{chapter.4}% 16
+\BOOKMARK [1][-]{section.4.3}{Import based on microtasking \(LA-buildings methodolo\)}{chapter.4}% 17
+\BOOKMARK [1][-]{section.4.4}{Evaluation}{chapter.4}% 18
+\BOOKMARK [0][-]{chapter.5}{Suggested method for importing FKB into OpenStreetMap}{}% 19
+\BOOKMARK [1][-]{section.5.1}{Method - Microtasking?}{chapter.5}% 20
+\BOOKMARK [1][-]{section.5.2}{FKB to OSM tagging}{chapter.5}% 21
+\BOOKMARK [1][-]{section.5.3}{Conversion using existing script}{chapter.5}% 22
+\BOOKMARK [1][-]{section.5.4}{Evaluation}{chapter.5}% 23

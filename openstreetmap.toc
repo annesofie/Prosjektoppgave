@@ -1,19 +1,23 @@
 \contentsline {section}{\hbox to\@tempdima {\hfil }List of Figures}{i}{chapter*.2}
 \contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}
 \contentsline {chapter}{\numberline {2}Characteristics of Open Street Map}{3}{chapter.2}
-\contentsline {section}{\numberline {2.1}Introduction}{3}{section.2.1}
-\contentsline {section}{\numberline {2.2}Culture}{4}{section.2.2}
-\contentsline {section}{\numberline {2.3}Structure}{4}{section.2.3}
-\contentsline {section}{\numberline {2.4}Organizational}{5}{section.2.4}
-\contentsline {section}{\numberline {2.5}File format, .osm files}{6}{section.2.5}
-\contentsline {chapter}{\numberline {3}SOSI and FKB building}{8}{chapter.3}
-\contentsline {section}{\numberline {3.1}SOSI}{8}{section.3.1}
-\contentsline {section}{\numberline {3.2}FKB and data quality}{9}{section.3.2}
-\contentsline {section}{\numberline {3.3}Features - FKB building}{10}{section.3.3}
-\contentsline {section}{\numberline {3.4}Fordeler med SOSI mot OSM}{15}{section.3.4}
-\contentsline {section}{\numberline {3.5}Mapping buildings in OSM}{15}{section.3.5}
-\contentsline {chapter}{\numberline {4}OSM import methods}{16}{chapter.4}
-\contentsline {section}{\numberline {4.1}Fully automatic import script}{16}{section.4.1}
-\contentsline {section}{\numberline {4.2}Guided automatic import}{18}{section.4.2}
-\contentsline {section}{\numberline {4.3}Import based on microtasking (LA-buildings methodolo)}{20}{section.4.3}
-\contentsline {section}{\numberline {4.4}Evaluation}{23}{section.4.4}
+\contentsline {section}{\numberline {2.1}General}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}Data structure}{4}{section.2.2}
+\contentsline {section}{\numberline {2.3}Organization}{5}{section.2.3}
+\contentsline {section}{\numberline {2.4}File format, .osm files}{6}{section.2.4}
+\contentsline {section}{\numberline {2.5}Mapping buildings in OSM}{8}{section.2.5}
+\contentsline {chapter}{\numberline {3}SOSI and FKB building}{10}{chapter.3}
+\contentsline {section}{\numberline {3.1}SOSI}{10}{section.3.1}
+\contentsline {section}{\numberline {3.2}FKB and data quality}{11}{section.3.2}
+\contentsline {section}{\numberline {3.3}Features in FKB building}{12}{section.3.3}
+\contentsline {section}{\numberline {3.4}Benefits using SOSI in contex of OSM}{17}{section.3.4}
+\contentsline {chapter}{\numberline {4}OSM import methods}{18}{chapter.4}
+\contentsline {section}{\numberline {4.1}Fully automatic import script}{18}{section.4.1}
+\contentsline {section}{\numberline {4.2}Guided automatic import}{20}{section.4.2}
+\contentsline {section}{\numberline {4.3}Import based on microtasking (LA-buildings methodolo)}{22}{section.4.3}
+\contentsline {section}{\numberline {4.4}Evaluation}{25}{section.4.4}
+\contentsline {chapter}{\numberline {5}Suggested method for importing FKB into OpenStreetMap}{26}{chapter.5}
+\contentsline {section}{\numberline {5.1}Method - Microtasking?}{26}{section.5.1}
+\contentsline {section}{\numberline {5.2}FKB to OSM tagging}{26}{section.5.2}
+\contentsline {section}{\numberline {5.3}Conversion using existing script}{26}{section.5.3}
+\contentsline {section}{\numberline {5.4}Evaluation}{26}{section.5.4}

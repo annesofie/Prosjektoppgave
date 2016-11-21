@@ -6,7 +6,9 @@ Database file #1: prosjektoppg.bib.bib
 Warning--I didn't find a database entry for "Sambale2016s"
 Warning--I didn't find a database entry for "HOT"
 Warning--empty journal in Chilton
+Warning--empty year in OpenStreetMapg
 Warning--empty year in OSMAutiEdit
+Warning--empty journal in Gutwin2004
 Warning--empty year in HOTa
 Warning--empty year in Kartverketc
 Warning--empty year in Kartverketa
@@ -18,53 +20,57 @@ Warning--empty year in Kartverket
 Warning--empty year in Kartverketb
 Warning--empty year in ODbL
 Warning--empty year in OSMAutomaticEdits
+Warning--empty year in OpenStreetMapi
+Warning--empty year in OpenStreetMapj
 Warning--empty year in OSMDWG
 Warning--empty year in OSMimport
 Warning--empty year in OpenStreetMap
 Warning--empty year in OpenStreetMapc
+Warning--empty year in OpenStreetMape
 Warning--empty year in OpenStreetMapd
 Warning--empty year in OSMTaskingManager
 Warning--empty year in OSMF
 Warning--empty publisher in Skogseth2014
-You've used 48 entries,
+Warning--empty year in OpenStreetMapf
+You've used 56 entries,
             1935 wiz_defined-function locations,
-            708 strings with 10967 characters,
-and the built_in function-call counts, 13163 in all, are:
-= -- 1353
-> -- 449
-< -- 43
-+ -- 152
-- -- 138
-* -- 871
-:= -- 2527
-add.period$ -- 138
-call.type$ -- 48
-change.case$ -- 309
-chr.to.int$ -- 34
-cite$ -- 69
-duplicate$ -- 526
-empty$ -- 822
-format.name$ -- 190
-if$ -- 2449
-int.to.chr$ -- 15
+            748 strings with 12126 characters,
+and the built_in function-call counts, 15390 in all, are:
+= -- 1588
+> -- 522
+< -- 51
++ -- 177
+- -- 160
+* -- 1008
+:= -- 2944
+add.period$ -- 162
+call.type$ -- 56
+change.case$ -- 360
+chr.to.int$ -- 39
+cite$ -- 83
+duplicate$ -- 617
+empty$ -- 959
+format.name$ -- 222
+if$ -- 2872
+int.to.chr$ -- 18
 int.to.str$ -- 0
-missing$ -- 11
-newline$ -- 237
-num.names$ -- 144
-pop$ -- 230
+missing$ -- 12
+newline$ -- 277
+num.names$ -- 168
+pop$ -- 272
 preamble$ -- 1
-purify$ -- 309
+purify$ -- 360
 quote$ -- 0
-skip$ -- 423
+skip$ -- 495
 stack$ -- 0
-substring$ -- 691
-swap$ -- 17
-text.length$ -- 1
+substring$ -- 811
+swap$ -- 24
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 286
-warning$ -- 21
-while$ -- 105
+type$ -- 334
+warning$ -- 27
+while$ -- 124
 width$ -- 0
-write$ -- 554
-(There were 23 warnings)
+write$ -- 645
+(There were 29 warnings)

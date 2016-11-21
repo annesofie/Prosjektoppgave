@@ -23,6 +23,11 @@ Chilton, S., Building, F., and Burroughs, T. (2009).
 \newblock {CROWDSOURCING IS RADICALLY CHANGING THE GEODATA LANDSCAPE : CASE
   STUDY OF OPENSTREETMAP}.
 
+\bibitem[community OpenStreetMap, ]{OpenStreetMapg}
+community OpenStreetMap.
+\newblock {Elements - OpenStreetMap Wiki}.
+\newblock https://wiki.openstreetmap.org/wiki/Elements.
+
 \bibitem[Debruyne et~al., 2015]{Debruyne2015}
 Debruyne, C., Panetto, H., Meersman, R., Dillon, T., Weichhart, G., An, Y., and
   {Ardagna Afostino}, C. (2015).
@@ -39,6 +44,18 @@ Exel~van, M. (2010).
 \newblock {Data Imports In OpenStreetMap – Love ‘Em Or Loathe ‘Em? |
   oegeo}.
 \newblock https://oegeo.wordpress.com/2010/10/22/data-imports-openstreetmap/.
+
+\bibitem[Freyfogle, 2016]{Freyfogle2016}
+Freyfogle, E. (2016).
+\newblock {OpenCage Data Blog — Open Geo interview - the makers of
+  WeeklyOSM}.
+\newblock
+  http://blog.opencagedata.com/post/145261049883/open-geo-interview-the-makers-of-weeklyosm.
+
+\bibitem[Gutwin et~al., 2004]{Gutwin2004}
+Gutwin, C., Penner, R., and Schneider, K. (2004).
+\newblock {Group Awareness in Distributed Software Development}.
+\newblock pages 72--81.
 
 \bibitem[Hagen, 2014]{Didriksen2014}
 Hagen, S.~O. (2014).
@@ -162,22 +179,32 @@ OpenStreetMap, C.
 \newblock
   http://wiki.openstreetmap.org/wiki/Automated{\_}Edits{\_}code{\_}of{\_}conduct.
 
-\bibitem[OpenStreetMap, b]{OSMDWG}
+\bibitem[OpenStreetMap, b]{OpenStreetMapi}
+OpenStreetMap, C.
+\newblock {Changeset - OpenStreetMap Wiki}.
+\newblock https://wiki.openstreetmap.org/wiki/Changeset.
+
+\bibitem[OpenStreetMap, c]{OpenStreetMapj}
+OpenStreetMap, C.
+\newblock {State Of The Map - OpenStreetMap Wiki}.
+\newblock http://wiki.openstreetmap.org/wiki/State{\_}Of{\_}The{\_}Map.
+
+\bibitem[OpenStreetMap, d]{OSMDWG}
 OpenStreetMap, D.
 \newblock {Data working group - OpenStreetMap Wiki}.
 \newblock http://wiki.openstreetmap.org/wiki/Data{\_}working{\_}group.
 
-\bibitem[OpenStreetMap, c]{OSMimport}
+\bibitem[OpenStreetMap, e]{OSMimport}
 OpenStreetMap, I.
 \newblock {Import - OpenStreetMap Wiki}.
 \newblock http://wiki.openstreetmap.org/wiki/Import.
 
-\bibitem[OpenStreetMap, d]{OpenStreetMap}
+\bibitem[OpenStreetMap, f]{OpenStreetMap}
 OpenStreetMap, M.
 \newblock {MapRoulette - OpenStreetMap Wiki}.
 \newblock http://wiki.openstreetmap.org/wiki/MapRoulette.
 
-\bibitem[OpenStreetMap, e]{OpenStreetMapc}
+\bibitem[OpenStreetMap, g]{OpenStreetMapc}
 OpenStreetMap, N.
 \newblock {Node - OpenStreetMap Wiki}.
 \newblock http://wiki.openstreetmap.org/wiki/Node.
@@ -187,6 +214,11 @@ OpenStreetMap, N. (2014).
 \newblock {Import/Catalogue/N50 import (Norway) - OpenStreetMap Wiki}.
 \newblock
   http://wiki.openstreetmap.org/wiki/Import/Catalogue/N50{\_}import{\_}(Norway).
+
+\bibitem[OpenStreetMap, h]{OpenStreetMape}
+OpenStreetMap, R.
+\newblock {Relation - OpenStreetMap Wiki}.
+\newblock http://wiki.openstreetmap.org/wiki/Relation.
 
 \bibitem[OpenStreetMap, 2016]{OSMProject2016}
 OpenStreetMap, S. (2016).
@@ -198,7 +230,7 @@ OpenStreetMap, T. (2007).
 \newblock {TIGER - OpenStreetMap Wiki}.
 \newblock http://wiki.openstreetmap.org/wiki/TIGER.
 
-\bibitem[OpenStreetMap, f]{OpenStreetMapd}
+\bibitem[OpenStreetMap, i]{OpenStreetMapd}
 OpenStreetMap, W.
 \newblock {Way - OpenStreetMap Wiki}.
 \newblock http://wiki.openstreetmap.org/wiki/Way.
@@ -224,6 +256,12 @@ Palen, L., Soden, R., Anderson, T.~J., and Barrenechea, M. (2015).
 \newblock {\em Proceedings of the 33rd Annual ACM Conference on Human Factors
   in Computing Systems - CHI '15}, pages 4113--4122.
 
+\bibitem[Reiter and Barroso, 2016]{Reiter2016}
+Reiter, M. and Barroso, L. (2016).
+\newblock {WeeklyOSM: Why, how, what, where and where we go}.
+\newblock
+  http://2016.stateofthemap.org/2016/weeklyosm-why-how-what-where-and-where-we-go/.
+
 \bibitem[Sambale, 2016]{Sambale2016a}
 Sambale, M. (2016).
 \newblock {OpenStreetMap | manings sin dagbok | Fixing split buildings in LA}.
@@ -237,6 +275,11 @@ Schleuss, J., Ureta, O., McConchie, A., and Sambale, M. (2016).
 Skogseth, T. and Norberg, D. (2014).
 \newblock {\em {Grunnleggende landm{\aa}ling}}.
 \newblock 1 edition.
+
+\bibitem[tagInfo OpenStreetMap, ]{OpenStreetMapf}
+tagInfo OpenStreetMap.
+\newblock {building | Keys | OpenStreetMap Taginfo}.
+\newblock http://taginfo.osm.org/keys/building{\#}values.
 
 \bibitem[Wang et~al., 2013]{Wang2013}
 Wang, M., Li, Q., Hu, Q., and Zhou, M. (2013).
