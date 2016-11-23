@@ -11,13 +11,19 @@
 \contentsline {section}{\numberline {3.2}FKB and data quality}{11}{section.3.2}
 \contentsline {section}{\numberline {3.3}Features in FKB building}{12}{section.3.3}
 \contentsline {section}{\numberline {3.4}Benefits using SOSI in contex of OSM}{17}{section.3.4}
-\contentsline {chapter}{\numberline {4}OSM import methods}{18}{chapter.4}
-\contentsline {section}{\numberline {4.1}Fully automatic import script}{18}{section.4.1}
-\contentsline {section}{\numberline {4.2}Guided automatic import}{20}{section.4.2}
-\contentsline {section}{\numberline {4.3}Import based on microtasking (LA-buildings methodolo)}{22}{section.4.3}
-\contentsline {section}{\numberline {4.4}Evaluation}{25}{section.4.4}
-\contentsline {chapter}{\numberline {5}Suggested method for importing FKB into OpenStreetMap}{26}{chapter.5}
-\contentsline {section}{\numberline {5.1}Method - Microtasking?}{26}{section.5.1}
-\contentsline {section}{\numberline {5.2}FKB to OSM tagging}{26}{section.5.2}
-\contentsline {section}{\numberline {5.3}Conversion using existing script}{26}{section.5.3}
-\contentsline {section}{\numberline {5.4}Evaluation}{26}{section.5.4}
+\contentsline {chapter}{\numberline {4}Micro tasking}{18}{chapter.4}
+\contentsline {section}{\numberline {4.1}Background}{18}{section.4.1}
+\contentsline {section}{\numberline {4.2}Micro-tasking method}{19}{section.4.2}
+\contentsline {section}{\numberline {4.3}OSM Tasking Manager}{19}{section.4.3}
+\contentsline {section}{\numberline {4.4}Tools}{21}{section.4.4}
+\contentsline {section}{\numberline {4.5}Micro-tasking in OpenStreetMap}{21}{section.4.5}
+\contentsline {chapter}{\numberline {5}OSM import methods}{22}{chapter.5}
+\contentsline {section}{\numberline {5.1}Fully automatic import script}{22}{section.5.1}
+\contentsline {section}{\numberline {5.2}Guided automatic import}{24}{section.5.2}
+\contentsline {section}{\numberline {5.3}Import based on microtasking}{26}{section.5.3}
+\contentsline {section}{\numberline {5.4}Evaluation}{29}{section.5.4}
+\contentsline {chapter}{\numberline {6}Suggested method for importing FKB into OpenStreetMap}{30}{chapter.6}
+\contentsline {section}{\numberline {6.1}Method - Microtasking?}{30}{section.6.1}
+\contentsline {section}{\numberline {6.2}FKB to OSM tagging}{30}{section.6.2}
+\contentsline {section}{\numberline {6.3}Conversion using existing script}{30}{section.6.3}
+\contentsline {section}{\numberline {6.4}Evaluation}{30}{section.6.4}

@@ -12,6 +12,17 @@ Barth, A. (2014b).
   City buildings and addresses}.
 \newblock http://www.openstreetmap.org/user/lxbarth/diary/23588.
 
+\bibitem[Bernstein et~al., 2013]{Bernstein}
+Bernstein, M., Bright, M., Cutrell, E., Dow, S., Gerber, E., Jain, A., and
+  Kulkarni, A. (2013).
+\newblock {Micro-volunteering: Helping the Helpers in Development}.
+
+\bibitem[Bernstein et~al., 2015]{Bernstein2015}
+Bernstein, M.~S., Little, G., Miller, R.~C., Hartmann, B., Ackerman, M.~S.,
+  Karger, D.~R., Crowell, D., and Panovich, K. (2015).
+\newblock {Soylent: A Word Processor with a Crowd Inside}.
+\newblock {\em COMMUNICATIONS OF THE ACM}, 58(85).
+
 \bibitem[Bishop, 2007]{Bishop2007}
 Bishop, D. (2007).
 \newblock {[OSM-talk] TIGER, which states next?}
@@ -85,6 +96,12 @@ HOT.
 \newblock {HOT Tasking Manager - About}.
 \newblock http://tasks.hotosm.org/about.
 
+\bibitem[{HOT Tasking Manager}, 2016]{HOTTaskingManager2016}
+{HOT Tasking Manager} (2016).
+\newblock {HOT Tasking Manager - {\#}2261 - Tanzania Development Trust:
+  Serengeti district mapping project part 2}.
+\newblock http://tasks.hotosm.org/project/2261.
+
 \bibitem[Kartverket, a]{Kartverketc}
 Kartverket.
 \newblock {Om Geovekst-samarbeidet | Kartverket}.
@@ -143,6 +160,17 @@ Kartverket, S.-s.
 Kihle, K. (2014).
 \newblock {[NUUG kart] Bruk av datasett fra Kartverket i OpenStreetMap}.
 \newblock https://lists.nuug.no/pipermail/kart/2014-August/004831.html.
+
+\bibitem[Madalena and Clara, 2015]{Madalena}
+Madalena, M. and Clara, B. (2015).
+\newblock {The Strengths and Weaknesses of Micro-volunteering: The Case Study
+  of Help From Home}.
+
+\bibitem[McAndrew, 2015]{McAndrew2015}
+McAndrew, J. (2015).
+\newblock {New York City | State of the Map US 2015}.
+\newblock
+  http://stateofthemap.us/2015/less-bots-more-humans-using-maproulette-to-import-data/.
 
 \bibitem[McConchie, 2014]{McConchie2014}
 McConchie, A. (2014).
@@ -275,6 +303,11 @@ Schleuss, J., Ureta, O., McConchie, A., and Sambale, M. (2016).
 Skogseth, T. and Norberg, D. (2014).
 \newblock {\em {Grunnleggende landm{\aa}ling}}.
 \newblock 1 edition.
+
+\bibitem[Soden and Palen, 2014]{Soden}
+Soden, R. and Palen, L. (2014).
+\newblock {From Crowdsourced Mapping to Community Mapping: The Post-earthquake
+  Work of OpenStreetMap Haiti}.
 
 \bibitem[tagInfo OpenStreetMap, ]{OpenStreetMapf}
 tagInfo OpenStreetMap.

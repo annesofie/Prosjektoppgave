@@ -5,6 +5,7 @@ The style file: apalike.bst
 Database file #1: prosjektoppg.bib.bib
 Warning--I didn't find a database entry for "Sambale2016s"
 Warning--I didn't find a database entry for "HOT"
+Warning--empty journal in Bernstein
 Warning--empty journal in Chilton
 Warning--empty year in OpenStreetMapg
 Warning--empty year in OSMAutiEdit
@@ -18,6 +19,7 @@ Warning--empty journal in Kartverket2013a
 Warning--empty year in Kartverketd
 Warning--empty year in Kartverket
 Warning--empty year in Kartverketb
+Warning--empty journal in Madalena
 Warning--empty year in ODbL
 Warning--empty year in OSMAutomaticEdits
 Warning--empty year in OpenStreetMapi
@@ -31,46 +33,47 @@ Warning--empty year in OpenStreetMapd
 Warning--empty year in OSMTaskingManager
 Warning--empty year in OSMF
 Warning--empty publisher in Skogseth2014
+Warning--empty journal in Soden
 Warning--empty year in OpenStreetMapf
-You've used 56 entries,
+You've used 62 entries,
             1935 wiz_defined-function locations,
-            748 strings with 12126 characters,
-and the built_in function-call counts, 15390 in all, are:
-= -- 1588
-> -- 522
-< -- 51
-+ -- 177
-- -- 160
-* -- 1008
-:= -- 2944
-add.period$ -- 162
-call.type$ -- 56
-change.case$ -- 360
-chr.to.int$ -- 39
-cite$ -- 83
-duplicate$ -- 617
-empty$ -- 959
-format.name$ -- 222
-if$ -- 2872
+            777 strings with 13222 characters,
+and the built_in function-call counts, 17444 in all, are:
+= -- 1775
+> -- 643
+< -- 55
++ -- 219
+- -- 202
+* -- 1181
+:= -- 3335
+add.period$ -- 177
+call.type$ -- 62
+change.case$ -- 411
+chr.to.int$ -- 45
+cite$ -- 92
+duplicate$ -- 689
+empty$ -- 1070
+format.name$ -- 274
+if$ -- 3245
 int.to.chr$ -- 18
 int.to.str$ -- 0
-missing$ -- 12
-newline$ -- 277
-num.names$ -- 168
-pop$ -- 272
+missing$ -- 16
+newline$ -- 304
+num.names$ -- 186
+pop$ -- 319
 preamble$ -- 1
-purify$ -- 360
+purify$ -- 411
 quote$ -- 0
-skip$ -- 495
+skip$ -- 556
 stack$ -- 0
-substring$ -- 811
-swap$ -- 24
+substring$ -- 883
+swap$ -- 25
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 334
-warning$ -- 27
-while$ -- 124
+type$ -- 370
+warning$ -- 30
+while$ -- 136
 width$ -- 0
-write$ -- 645
-(There were 29 warnings)
+write$ -- 712
+(There were 32 warnings)

@@ -1,4 +1,4 @@
- \chapter{OSM import methods}
+ \chapter{OSM import methods}\label{ch:importmethods}
 %1. Helautomatisk, scriptet import \\
 %2. Helmanuell import basert p  tracing av f.eks WMS-data\\
 %3. Guidet automatisk import (slik import av n50-data blir gjort i OSM i dag) \\
@@ -41,7 +41,7 @@ The N50 import was initially stopped in May 2014 by Paul Norman. The norwegian O
 The N50 import has been time consuming. It started in 2015 and is still not finished, even though most of the municipalities are imported. The import process was  carried out according to the import guidelines. Without the DWG group the import would probably end up as a automated edit with no proper validation process. This is one example of importing existing data into OpenStreetMap is a time consuming job. There are guidelines to follow, a lot of validations to be done. 
 
 
-\section{Import based on microtasking (LA-buildings methodolo)}
+\section{Import based on microtasking}\label{sec:importmicro}
 The N50 import was a good start towards microtasking an import of huge amounts of data. They divided every municipality into .15 degree .15 degree grid changesets and imported one changset at a time. Both the New York bulding import, finished in 2014, and Los Angeles building import, not finished, took this mindset to the next level, creating a Tasking manager interface specific to this import, among other initiatives. The LA-building team created a custom tasking manager to coordinate the LA County building import \cite{OSMTaskingManager}, while the NY-team used the original OSM Tasking Manager. 
 
 The OSM Tasking Manager was created in the aftermath of the Haiti earthquake. This innovation coincided with the growing popularity of microtasking as a solution to manage distributed work \cite{Palen2015}. The Tasking Manager tool was initially created by the newly formed HOT (Humanitarian OpenStreetMap) to help mappers more efficiently coordinate simultanrous work \cite{Palen2015}. The purpose of the tool is to split the mapping into smaller parts, the parts are mapped independently and should be completed in a short timeperiod \cite{HOTa}. The tool is open source and its code is available on Github, making it easier for other projects to create their versions of it. %?The Palen paper from 2015 pointed out improvements that have to be done to the Tasking Manager. One big improvement done is asynchronous communication through comments between mappers working on the same task, this was not present during the NY-import?. 

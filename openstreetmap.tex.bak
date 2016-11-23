@@ -63,6 +63,7 @@ The Norwegian government has indicated that the most detailed map data for Norwa
 \input{generalOSM.tex}
 %Microtasking chapter
 \input{fkbchapter.tex}
+\input{microtasking.tex}
 \input{ImportMethods.tex}
 %Suggested method for importing FKB to OSM 
 \input{suggestedmethod.tex}
