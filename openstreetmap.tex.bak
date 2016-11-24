@@ -17,6 +17,9 @@
 \hypersetup{hidelinks, urlcolor=cyan}									
 \usepackage{amssymb}
 
+%Nice looking kode
+\usepackage{listings}
+
 %Nice looking chapters
 \usepackage[T1]{fontenc}
 \usepackage{titlesec, blindtext, color}
@@ -58,8 +61,6 @@ The Norwegian government has indicated that the most detailed map data for Norwa
 
 %\input{TechnicalOSM.tex}
 %\input{ExistingScriptOSM.tex}
-
-
 \input{generalOSM.tex}
 %Microtasking chapter
 \input{fkbchapter.tex}

@@ -56,6 +56,12 @@ Exel~van, M. (2010).
   oegeo}.
 \newblock https://oegeo.wordpress.com/2010/10/22/data-imports-openstreetmap/.
 
+\bibitem[Exel~van, 2013]{Exelvan2013}
+Exel~van, M. (2013).
+\newblock {State of the Map US: San Francisco 2013 - MapRoulette, one year
+  later}.
+\newblock https://vimeo.com/68098505.
+
 \bibitem[Freyfogle, 2016]{Freyfogle2016}
 Freyfogle, E. (2016).
 \newblock {OpenCage Data Blog — Open Geo interview - the makers of
@@ -160,6 +166,12 @@ Kartverket, S.-s.
 Kihle, K. (2014).
 \newblock {[NUUG kart] Bruk av datasett fra Kartverket i OpenStreetMap}.
 \newblock https://lists.nuug.no/pipermail/kart/2014-August/004831.html.
+
+\bibitem[Lidman, 2014]{Lidman2014}
+Lidman, A. (2014).
+\newblock {ICCM and micro-tasking tools in OpenStreetMap | Mapbox}.
+\newblock
+  https://www.mapbox.com/blog/international-conference-of-crisis-mappers-2014/.
 
 \bibitem[Madalena and Clara, 2015]{Madalena}
 Madalena, M. and Clara, B. (2015).
@@ -313,6 +325,11 @@ Soden, R. and Palen, L. (2014).
 tagInfo OpenStreetMap.
 \newblock {building | Keys | OpenStreetMap Taginfo}.
 \newblock http://taginfo.osm.org/keys/building{\#}values.
+
+\bibitem[unknown OpenStreetMap, ]{OpenStreetMapk}
+unknown OpenStreetMap.
+\newblock {MapRoulette - OpenStreetMap Wiki}.
+\newblock http://wiki.openstreetmap.org/wiki/MapRoulette.
 
 \bibitem[Wang et~al., 2013]{Wang2013}
 Wang, M., Li, Q., Hu, Q., and Zhou, M. (2013).

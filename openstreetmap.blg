@@ -35,45 +35,46 @@ Warning--empty year in OSMF
 Warning--empty publisher in Skogseth2014
 Warning--empty journal in Soden
 Warning--empty year in OpenStreetMapf
-You've used 62 entries,
+Warning--empty year in OpenStreetMapk
+You've used 65 entries,
             1935 wiz_defined-function locations,
-            777 strings with 13222 characters,
-and the built_in function-call counts, 17444 in all, are:
-= -- 1775
-> -- 643
-< -- 55
-+ -- 219
-- -- 202
-* -- 1181
-:= -- 3335
-add.period$ -- 177
-call.type$ -- 62
-change.case$ -- 411
-chr.to.int$ -- 45
-cite$ -- 92
-duplicate$ -- 689
-empty$ -- 1070
-format.name$ -- 274
-if$ -- 3245
+            789 strings with 13555 characters,
+and the built_in function-call counts, 18177 in all, are:
+= -- 1853
+> -- 664
+< -- 58
++ -- 225
+- -- 208
+* -- 1224
+:= -- 3481
+add.period$ -- 186
+call.type$ -- 65
+change.case$ -- 429
+chr.to.int$ -- 48
+cite$ -- 96
+duplicate$ -- 719
+empty$ -- 1115
+format.name$ -- 283
+if$ -- 3380
 int.to.chr$ -- 18
 int.to.str$ -- 0
 missing$ -- 16
-newline$ -- 304
-num.names$ -- 186
-pop$ -- 319
+newline$ -- 319
+num.names$ -- 195
+pop$ -- 330
 preamble$ -- 1
-purify$ -- 411
+purify$ -- 429
 quote$ -- 0
-skip$ -- 556
+skip$ -- 581
 stack$ -- 0
-substring$ -- 883
+substring$ -- 919
 swap$ -- 25
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 370
-warning$ -- 30
-while$ -- 136
+type$ -- 388
+warning$ -- 31
+while$ -- 142
 width$ -- 0
-write$ -- 712
-(There were 32 warnings)
+write$ -- 747
+(There were 33 warnings)
