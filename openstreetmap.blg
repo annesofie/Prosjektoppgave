@@ -13,6 +13,7 @@ Warning--empty journal in Gutwin2004
 Warning--empty year in HOTa
 Warning--empty year in Kartverketc
 Warning--empty year in Kartverketa
+Warning--empty journal in Kartverket2006
 Warning--empty journal in Kartverket2011
 Warning--empty journal in Kartverket2013
 Warning--empty journal in Kartverket2013a
@@ -34,47 +35,49 @@ Warning--empty year in OSMTaskingManager
 Warning--empty year in OSMF
 Warning--empty publisher in Skogseth2014
 Warning--empty journal in Soden
+Warning--empty year in SOSI-sekretariatet
 Warning--empty year in OpenStreetMapf
+Warning--empty year in Unkn
 Warning--empty year in OpenStreetMapk
-You've used 65 entries,
+You've used 72 entries,
             1935 wiz_defined-function locations,
-            789 strings with 13555 characters,
-and the built_in function-call counts, 18177 in all, are:
-= -- 1853
-> -- 664
-< -- 58
-+ -- 225
-- -- 208
-* -- 1224
-:= -- 3481
-add.period$ -- 186
-call.type$ -- 65
-change.case$ -- 429
-chr.to.int$ -- 48
-cite$ -- 96
-duplicate$ -- 719
-empty$ -- 1115
-format.name$ -- 283
-if$ -- 3380
+            821 strings with 14418 characters,
+and the built_in function-call counts, 19898 in all, are:
+= -- 2031
+> -- 713
+< -- 65
++ -- 239
+- -- 222
+* -- 1328
+:= -- 3821
+add.period$ -- 205
+call.type$ -- 72
+change.case$ -- 471
+chr.to.int$ -- 55
+cite$ -- 106
+duplicate$ -- 792
+empty$ -- 1225
+format.name$ -- 304
+if$ -- 3697
 int.to.chr$ -- 18
 int.to.str$ -- 0
-missing$ -- 16
-newline$ -- 319
-num.names$ -- 195
-pop$ -- 330
+missing$ -- 17
+newline$ -- 352
+num.names$ -- 216
+pop$ -- 360
 preamble$ -- 1
-purify$ -- 429
+purify$ -- 471
 quote$ -- 0
-skip$ -- 581
+skip$ -- 642
 stack$ -- 0
-substring$ -- 919
+substring$ -- 1003
 swap$ -- 25
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 388
-warning$ -- 31
-while$ -- 142
+type$ -- 430
+warning$ -- 34
+while$ -- 156
 width$ -- 0
-write$ -- 747
-(There were 33 warnings)
+write$ -- 825
+(There were 36 warnings)

@@ -1,4 +1,6 @@
 \documentclass[12pt, a4paper]{report}   	% use "amsart" instead of "article" for AMSLaTeX format
+\usepackage[utf8]{inputenc} %æøå
+
 
 \usepackage{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
 \geometry{letterpaper}                   		% ... or a4paper or a5paper or ... 
@@ -19,6 +21,14 @@
 
 %Nice looking kode
 \usepackage{listings}
+\lstset{literate=%
+{æ}{{\ae}}1
+{å}{{\aa}}1
+{ø}{{\o}}1
+{Æ}{{\AE}}1
+{Å}{{\AA}}1
+{Ø}{{\O}}1
+}
 
 %Nice looking chapters
 \usepackage[T1]{fontenc}
@@ -59,6 +69,31 @@ The Norwegian government has indicated that the most detailed map data for Norwa
 
 %In theory micotasking seems to solve a lot of OSM problems like overlapping data, deletion of good metadata (read: tags) when running import-scripts and makes it easier to control, both the workflow and quality of the data. Microtasking splits a task into multiple subtasks and distributing these subtasks to humans over the internet.  The OSM mindset  of schema-less datasets and tags differs from many organizations. With the success of OSM it is time to start taking this mindset serious. OSM also has its weaknesses , but many people believe microtasking solves the majority of them. By using FKB building dataset I will try too look further into mapping governmental data over to the OSM format, also trying to experience if microtasking is the solution of the weaknesses of OSM, like the ones I mentioned above. 
 
+
+\chapter{Motivation}
+There are two types of people in the free and open source software for Geoinformatics community: First type are they who has an geomatics background and learned ICT afterwards and second type are they who has an ICT background and learned geomatics on their own afterwards. The last type has a much higher percentage in the community. 
+
+%Importing FKB data into OpenStreetMap would increase the coverage in Norway tremendously.... 
+An import of FKB data could result in a 3D modell of the entire country, free and available for everyone. FKB contain very detailed building data and gives a good foundation for 3D modelling of buildings. Trondheim will be a test municipality in this paper. Here buildings are added manually by users drawing manually over aerial photos. Height and roof shape are not added, making 3D modelling of buildings very difficult. An example of 3D modeling of buildings in Trondheim added manually from aerial photo is shown in figure \ref{fig:3Dekstrd}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.4]{figures/FixedByMe/3DmodellTRD.png}
+    \caption{3D modeling of buildings in Trondheim, source: osmbuildings.org}
+    \label{fig:3Dekstrd}
+\end{figure}  
+
+The same buildings 3D modeled with building data from FKB is shown in figure \ref{fig:3DekstrdFKB}. This model is created by Norkart. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.4]{figures/FixedByMe/3DmodelTRD-FKB.png}
+    \caption{3D modeling of buildings in Trondheim, source: 3d.kommunekart.com}
+    \label{fig:3DekstrdFKB}
+\end{figure}  
+
+Importing data into OSM is not easy. Finding the most optimal approach is not easy. An import should follow the OSM import guidelines. Finding a balance between manual verification and automatic import is not easy. The import should require more work than a manual import. Here is the micro-tasking method maybe a solution. Two big building imports has used this method and this paper will look at how they did it, and how it worked and what didn't work. 
+
 %\input{TechnicalOSM.tex}
 %\input{ExistingScriptOSM.tex}
 \input{generalOSM.tex}
@@ -96,7 +131,6 @@ The Norwegian government has indicated that the most detailed map data for Norwa
 	% Hvordan dele opp i tasking områder, telle antall hus. 50-30-20 hus innenfor hver task?
 	% Dette er en utfordring, men er utenfor scopet til oppgaven. Komme med noen tanker rundt hvordan det kan løses. 
 	
-	
 %\input{summaryofpapers.tex}
 
 %Kommersielle bidragsytere, de har selv nytte av det
@@ -106,4 +140,27 @@ The Norwegian government has indicated that the most detailed map data for Norwa
 
 \bibliography{prosjektoppg.bib}
 \bibliographystyle{apalike}
+
+\chapter{Source - OSM mailing lists}
+The mailing lists and threads used as information source in this paper.\\ 
+\begin{enumerate}
+ \item NUUG kart, mailing threads: \label{mail:nuugkart} 
+ 	\begin{itemize}
+ 		 \item sosi2osm \cite{Gnonthgol2013}
+ 		 \item Bruk av datasett fra Kartverket i OpenStreetMap \cite{Kihle2014}
+ 		 \item Moesvatn \cite{Didriksen2014}
+ 	\end{itemize}
+ \item OSM-talk, mailing threads: \label{mail:osmtalk}
+ 	 \begin{itemize}
+ 		\item TIGER upload status since 0.5 api \cite{Munro2007}
+ 		\item TIGER, which states next? \cite{Mielczarek2007}
+ 		\item TIGER update (need more suggestions) \cite{Hansen2007b}
+ 		\item TIGER upload queue (maps of entire US) \cite{Hansen2007}
+ 	\end{itemize}
+ \item Imports, mailing threads: \label{mail:imports}
+ 	 \begin{itemize}
+ 		 \item N50 imports from Kartverket \cite{Mehus2014}
+ 	\end{itemize}
+ \end{enumerate} 
+
 \end{document}  

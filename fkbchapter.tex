@@ -12,8 +12,7 @@ A SOSI dataset contains information on three levels. First are the \textit{Head}
 
 \section{FKB and data quality}
 
-FKB, \textit{Felles KartdataBase}* %TERJE: Er det Kart Base eller KartataBase?
- in Norwegian, is a collection of structured datasets that contains the most detailed vector data of Norway. FKB data is collected through a collaboration called Geovekst. This is a collaboration between the Norwegian mapping authority, the Norwegian road authority, Telenor, Energy Norway, the Norwegian Association of Local and Regional Authorities, the ministry of Agriculture and the Norwegian Water Resources and Energy Directorate. \cite{Kartverketc}. FKB data comes as vector data in SOSI format \cite{Kartverket2011}. 
+FKB, \textit{Felles Kartdatabase} in Norwegian, is a collection of structured datasets that contains the most detailed vector data of Norway. FKB data is collected through a collaboration called Geovekst. This is a collaboration between the Norwegian mapping authority, the Norwegian road authority, Telenor, Energy Norway, the Norwegian Association of Local and Regional Authorities, the ministry of Agriculture and the Norwegian Water Resources and Energy Directorate. \cite{Kartverketc}. FKB data comes as vector data in SOSI format \cite{Kartverket2011}. 
 
 The FKB standard describes which features that is included in the mapping and the accuracy of the objects. There are specified four FKB standards, FKB-A, FKB-B, FKB-C and FKB-D \cite{Kartverket2011}. FKB-A is the most detailed, containing good three-dimensional data description and has high standards on accuracy (5-20 cm) and content. Most commonly used in city centers. FKB-B is also detailed with an accuracy of 20 - 30 cm. Most commonly used in urban areas. FKB-C is used for overview planning and management (\textit{forvaltning}) with an accuracy of 0.50 - 2.00 m. FKB-D are areas not covered by the three other standards, like mountain areas, and has a broad accuracy of 5 - 100 m. %The feature types in the FKB standard are divided into four classes, specifying the localization accuracy (the standard deviation).
 Today, maps should always be produced after the FKB standards \cite{Skogseth2014}.
@@ -38,8 +37,7 @@ Therefore this dataset is a good representative of the average municipality in N
 
 There are 24 different feature types in the FKB building dataset. Where two features are point data,  three features are area  (\textit{flate}) data and the rest is line (\textit{kurve}) data.  The features are grouped into four categories, building and building refinement (\textit{bygningsavgrensning}), descriptive building lines, building appendage (\textit{bygningsvedheng}) and lastly roof covering (\textit{takoverbygg}). 
 
-When considering an import to OpenStreetMap there will be features that are not as relevant. Adding all buildings as point data does not seem relevant. The two feature types within point data are building and assistandpoint3D (\textit{hjelpepunkt3D}). The building feature comes as both point and area, containing exactly the same attributes. Therefore, adding building feature through point data do not seem relevant, it will not add additional information to OSM. *%Skrive om
- Searching for the hjelpepunkt3D feature in the Trondheim FKB dataset returns only 18 rows with 1499 rows in total, therefore this feature will not be helpful for 3D modeling buildings, and also not relevant when excluding building point feature. Conclusion is that no point data will be relevant for import.* %Rewrite 
+When considering an import to OpenStreetMap there will be features that are not as relevant. Adding all buildings as point data does not seem relevant. The two feature types within point data are building and assistantpoint3D (\textit{hjelpepunkt3D}). The building feature comes as both point and area, containing exactly the same attributes. If the building footprint is available, points should not be imported, as mentioned in section \ref{buildOSM}.  Therefore, the building feature as point data should not be imported into OSM, it will not add additional information. The assistantpoint3D will not be imported when excluding the building point feature. Conclusion is that no point data will be relevant for import.* %Rewrite?
 
 %Starting with line data, which in the FKB dataset covering Trondheim consist of 618 710 rows. 
 In Trondheim there are 158 917 roof edge (\textit{takkant}) features and is the most common line feature in this municipality. This feature is the building's exterior roof surface refinement (\textit{avgrensning}). See figure \ref{fig:kurve_tak_fkb} and \ref{fig:kurve_4tak_fkb} for examples on where this feature is mapped on buildings. The second most common line feature is ridge line (\textit{Monelinje}). There are 103 488 objects with this feature in Trondheim. Ridgeline is the line describing the horizontal bending line / break line (\textit{knekklinje}) on top of the roof and is also the highest peak of the roof. See figure \ref{fig:kurve_tak_fkb} and \ref{fig:kurve_4tak_fkb} for example of where it is mapped on buildings. A minimum goal for the FKB mapping team is to map ridge lines on every building \cite{Kartverket2013a} and can explain the hight frequency of this feature \cite{Kartverket2013a}. 
@@ -86,15 +84,126 @@ Most important area feature is building, the two other features are otherBuildin
 It is impossible, at least in FKB, to create a specification of registration of buildings that are completely accurate. The buildings will always be subject to some generalization. This can be seen in the figures used in this section. 
 
 \section{Benefits using SOSI in context of OSM}
-Ikke har et poligon direkte, flate er bare referanse til linjene 
+%Ikke har et poligon direkte, flate er bare referanse til linjene Point, line, area (flate)
 
-Point, line, area (flate)
+Listing \ref{eq:arebuild} is SOSI code for area representation of a building. FLATE means area and contains the feature id. OBJTYPE is feature type and in listing \ref{eq:arebuild} equals building, representing what the key would be in OSM. KOMM field contains a municipality code, representing the buildings municipality. BYGGNR is the buildings unique number found in the cadastre. BYGGTYP NBR is the description of what the building actually is used as or approved as. For instance in listing \ref{eq:arebuild} BYGGTYP NBR equals 182, meaning this building is a garage attached to a holiday home (\textit{fritidsbolig}) \cite{SOSI-sekretariatet}. This attribute will give the value to the building key in the mapping to OSM. BYGGSTAT is the building status where value TB means that the building is being used. 
+
+Area representations in SOSI can refer to other geometry types. This is similar to how way and relation representations can refer to other objects in OSM. The REF field refers to the other geometry features using the feature id for the object being referred to. In listing \ref{eq:arebuild} REF equals -166775, which refers to the line feature in listing \ref{eq:linebulpart}. The minus sign in REF's value means that it refers to the line in listing \ref{eq:linebulpart} but with opposite direction. 
+
+\lstset{
+	language=XML,
+	morekeywords={encoding,way, tag, nd},
+	label=eq:arebuild,
+	caption=Example of a area representation of a building in SOSI
+}
+\begin{lstlisting}
+  .FLATE 715280:
+..OBJTYPE Bygning
+..KOMM 1601
+..BYGGNR 196122907
+..BYGGTYP_NBR 182
+..BYGGSTAT TB
+..KOPIDATA
+...OMRÅDEID 1601
+...ORIGINALDATAVERT "Trondheim kommune"
+...KOPIDATO 20160502
+..REF :-166775
+..NØ
+703226400 55444400
+\end{lstlisting}
+
+Listing \ref{eq:linebulpart} is a line representation of a building part. Here the feature type is roof edge, examples of a roof edge is shown in figure \ref{fig:kurve_tak_fkb} and \ref{fig:kurve_4tak_fkb}. OSM XML code of the same roof edge is shown in listing \ref{eq:roofedge}. Both listings refer to 6 different point representations. In listing \ref{eq:linebulpart} the pont coordinates are written directly in the representation. NØH is north, east and height value for each point. KP1 means that this point is a connection point, but this is not implemented in the OSM XML code. In listing \ref{eq:roofedgexml} the xml codes refers to 6 different nodes (first and last node are the same). This is not possible in line representation through SOSI format. Only area representation can refer to other geometry features \cite{Kartverket2006}. This is one major difference between SOSI format and OSM XML format. 
+
+\lstset{
+	language=XML,
+	morekeywords={encoding,way, tag, nd},
+	label=eq:linebulpart,
+	caption=Example of a line representation of a building part in SOSI
+}
+\begin{lstlisting}
+.KURVE 166775:
+..OBJTYPE Takkant
+..DATAFANGSTDATO 20100610
+..VERIFISERINGSDATO 20150627
+..REGISTRERINGSVERSJON "FKB" "4.01"
+..KVALITET 24 19 0 24 23
+..TRE_D_NIVÅ 2
+..KOPIDATA
+...OMRÅDEID 1601
+...ORIGINALDATAVERT "Trondheim kommune"
+...KOPIDATO 20160502
+..NØH
+703226612 55444485 1344 ...KP 1
+..NØH
+703226525 55444618 1280
+703226160 55444380 1280
+703226247 55444247 1344 ...KP 1
+..NØH
+703226328 55444123 1283
+703226693 55444361 1280
+703226612 55444485 1344 ...KP 1
+\end{lstlisting}
+ 
+
+\lstset{
+	language=XML,
+	morekeywords={encoding,way, tag, nd, node},
+	label=eq:roofedgexml,
+	caption=Example of a line representation of a building part in OSM XML
+}
+\begin{lstlisting}
+<way id="-166775" version="1" visible="true">
+	<tag k="KOPIDATO" v="20160502"/>
+	<tag k="OMRÅDEID" v="1601"/>
+	<tag k="KVALITET" v="24; 19; 0; 24; 23"/>
+	<tag k="TRE_D_NIVÅ" v="2"/>
+	<tag k="ORIGINALDATAVERT" v="Trondheim kommune"/>
+	<tag k="REGISTRERINGSVERSJON" v="FKB; 4.01"/>
+	<tag k="OBJTYPE" v="Takkant"/>
+	<tag k="VERIFISERINGSDATO" v="20150627"/>
+	<tag k="DATAFANGSTDATO" v="20100610"/>
+	<tag k="KURVE" v="166775"/>
+	<nd ref="-161600" />
+	<nd ref="-387568" />
+	<nd ref="-387569" />
+	<nd ref="-387570" />
+	<nd ref="-387571" />
+	<nd ref="-387572" />
+	<nd ref="-161600" />
+</way>
+\end{lstlisting}
+
+Listing \ref{eq:xmlnode} is the point features the way XML code listing \ref{eq:roofedgexml} refers to. 
+
+\lstset{
+	language=XML,
+	morekeywords={encoding,way, tag, nd, node},
+	label=eq:xmlnode,
+	caption=Example of a line representation of a building part in OSM XML
+}
+\begin{lstlisting}
+	<node id="-161600" lat="63.4147679" lon="10.0904069" 
+		version="1" visible="true"/>
+	<node id="-387568" lat="63.4147599" lon="10.0904333" 
+		version="1" visible="true"/>
+	<node id="-387569" lat="63.4147275" lon="10.0903844" 
+		version="1" visible="true"/>
+	<node id="-387570" lat="63.4147355" lon="10.0903580" 
+		version="1" visible="true"/>
+	<node id="-387571" lat="63.4147430" lon="10.0903335" 
+		version="1" visible="true"/>
+	<node id="-387572" lat="63.4147754" lon="10.0903824" 
+		version="1" visible="true"/>
+\end{lstlisting}
+
+The roof edge represented by listing \ref{eq:roofedgexml} is shown in figure \ref{fig:roofedgeeks} where the numbers represent the drawing order. The point marked with 1 is \textit{<nd ref="-161600"/>} and the point marked with 6 is \textit{<nd ref="-387572" />}. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.9]{figures/FixedByMe/sosiArea.png}
+    \caption{Roof edge representation}
+    \label{fig:roofedgeeks}
+\end{figure} 
 
 
-
-
-
-
-
-
-
+There are multiple similarities between the SOSI format and OSM XML format as shown in this section. Neither SOSI or OSM has a polygon representation directly and both have open and closed line representations. Feature types in SOSI is easily mapped over to key-value relations in OSM. FKB's way of representing buildings is also benefitial when modeling building parts in OSM, especially in 3D modeling. FKB contains line representation of every building part. This is why a SOSI to OSM converter is beneficial instead of a shape to OSM converter for instance.* %Bør jeg forklare mer eller kanskje ta noen av poengene med ned til siste kapittel?

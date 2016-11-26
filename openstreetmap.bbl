@@ -69,6 +69,11 @@ Freyfogle, E. (2016).
 \newblock
   http://blog.opencagedata.com/post/145261049883/open-geo-interview-the-makers-of-weeklyosm.
 
+\bibitem[Gnonthgol, 2013]{Gnonthgol2013}
+Gnonthgol (2013).
+\newblock {[NUUG kart] sosi2osm}.
+\newblock https://lists.nuug.no/pipermail/kart/2013-October/004314.html.
+
 \bibitem[Gutwin et~al., 2004]{Gutwin2004}
 Gutwin, C., Penner, R., and Schneider, K. (2004).
 \newblock {Group Awareness in Distributed Software Development}.
@@ -108,6 +113,11 @@ HOT.
   Serengeti district mapping project part 2}.
 \newblock http://tasks.hotosm.org/project/2261.
 
+\bibitem[J{\o}rgenrud, 2013]{Jorgenrud2013}
+J{\o}rgenrud, M. (2013).
+\newblock {Kartskatt til alle - Digi.no}.
+\newblock http://www.digi.no/artikler/kartskatt-til-alle/286539.
+
 \bibitem[Kartverket, a]{Kartverketc}
 Kartverket.
 \newblock {Om Geovekst-samarbeidet | Kartverket}.
@@ -118,6 +128,11 @@ Kartverket.
 Kartverket.
 \newblock {SOSI | Kartverket}.
 \newblock http://www.kartverket.no/geodataarbeid/standarder/sosi/.
+
+\bibitem[Kartverket, 2006]{Kartverket2006}
+Kartverket (2006).
+\newblock {SOSI standard -versjon 4.0 1 Del 1: Realisering i SOSI-format og GML
+  SOSI Del 1: Realisering i SOSI-format og GML}.
 
 \bibitem[Kartverket, 2011]{Kartverket2011}
 Kartverket (2011).
@@ -201,6 +216,12 @@ Mielczarek, T. (2007).
 \newblock {[OSM-talk] [OSM-dev] TIGER, which states next?}
 \newblock
   https://lists.openstreetmap.org/pipermail/talk/2007-October/019231.html.
+
+\bibitem[Munro, 2007]{Munro2007}
+Munro, R.~J. (2007).
+\newblock {[OSM-talk] TIGER upload status since 0.5 api}.
+\newblock
+  https://lists.openstreetmap.org/pipermail/talk/2007-October/018834.html.
 
 \bibitem[Neis and Zipf, 2012]{Neis2012}
 Neis, P. and Zipf, A. (2012).
@@ -321,10 +342,24 @@ Soden, R. and Palen, L. (2014).
 \newblock {From Crowdsourced Mapping to Community Mapping: The Post-earthquake
   Work of OpenStreetMap Haiti}.
 
+\bibitem[Solhagen, 2015]{Solhagen2015}
+Solhagen (2015).
+\newblock {User:Solhagen - OpenStreetMap Wiki}.
+\newblock http://wiki.openstreetmap.org/wiki/User:Solhagen.
+
+\bibitem[SOSI-sekretariatet, ]{SOSI-sekretariatet}
+SOSI-sekretariatet.
+\newblock {BygningstypeKode - Geonorge objektregister}.
+
 \bibitem[tagInfo OpenStreetMap, ]{OpenStreetMapf}
 tagInfo OpenStreetMap.
 \newblock {building | Keys | OpenStreetMap Taginfo}.
 \newblock http://taginfo.osm.org/keys/building{\#}values.
+
+\bibitem[Unknown, ]{Unkn}
+Unknown.
+\newblock {building | Keys | Combinations | OpenStreetMap Taginfo}.
+\newblock http://taginfo.osm.org/keys/building{\#}combinations.
 
 \bibitem[unknown OpenStreetMap, ]{OpenStreetMapk}
 unknown OpenStreetMap.
