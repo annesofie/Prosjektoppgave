@@ -10,7 +10,6 @@ Warning--empty journal in Chilton
 Warning--empty year in OpenStreetMapg
 Warning--empty year in OSMAutiEdit
 Warning--empty journal in Gutwin2004
-Warning--empty year in HOTa
 Warning--empty year in Kartverketc
 Warning--empty year in Kartverketa
 Warning--empty journal in Kartverket2006
@@ -20,64 +19,65 @@ Warning--empty journal in Kartverket2013a
 Warning--empty year in Kartverketd
 Warning--empty year in Kartverket
 Warning--empty year in Kartverketb
+Warning--empty year in Learnosm
 Warning--empty journal in Madalena
 Warning--empty year in ODbL
+Warning--empty year in OpenStreetMapl
 Warning--empty year in OSMAutomaticEdits
+Warning--empty year in OpenStreetMapf
 Warning--empty year in OpenStreetMapi
-Warning--empty year in OpenStreetMapj
-Warning--empty year in OSMDWG
-Warning--empty year in OSMimport
-Warning--empty year in OpenStreetMap
+Warning--empty year in OpenStreetMapk
 Warning--empty year in OpenStreetMapc
 Warning--empty year in OpenStreetMape
+Warning--empty year in OpenStreetMapj
 Warning--empty year in OpenStreetMapd
+Warning--empty year in OSMDWG
+Warning--empty year in OSMimport
 Warning--empty year in OSMTaskingManager
 Warning--empty year in OSMF
 Warning--empty publisher in Skogseth2014
 Warning--empty journal in Soden
 Warning--empty year in SOSI-sekretariatet
-Warning--empty year in OpenStreetMapf
 Warning--empty year in Unkn
-Warning--empty year in OpenStreetMapk
-You've used 72 entries,
+You've used 74 entries,
             1935 wiz_defined-function locations,
-            821 strings with 14418 characters,
-and the built_in function-call counts, 19898 in all, are:
-= -- 2031
-> -- 713
-< -- 65
-+ -- 239
-- -- 222
-* -- 1328
-:= -- 3821
-add.period$ -- 205
-call.type$ -- 72
-change.case$ -- 471
+            820 strings with 14451 characters,
+and the built_in function-call counts, 20352 in all, are:
+= -- 2075
+> -- 727
+< -- 67
++ -- 245
+- -- 226
+* -- 1358
+:= -- 3909
+add.period$ -- 207
+call.type$ -- 74
+change.case$ -- 483
 chr.to.int$ -- 55
-cite$ -- 106
-duplicate$ -- 792
-empty$ -- 1225
-format.name$ -- 304
-if$ -- 3697
-int.to.chr$ -- 18
+cite$ -- 108
+duplicate$ -- 812
+empty$ -- 1255
+format.name$ -- 310
+if$ -- 3779
+int.to.chr$ -- 20
 int.to.str$ -- 0
 missing$ -- 17
-newline$ -- 352
-num.names$ -- 216
-pop$ -- 360
+newline$ -- 358
+num.names$ -- 222
+pop$ -- 370
 preamble$ -- 1
-purify$ -- 471
+purify$ -- 483
 quote$ -- 0
-skip$ -- 642
+skip$ -- 660
 stack$ -- 0
-substring$ -- 1003
+substring$ -- 1027
 swap$ -- 25
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 430
+type$ -- 442
 warning$ -- 34
-while$ -- 156
+while$ -- 160
 width$ -- 0
-write$ -- 825
+write$ -- 841
 (There were 36 warnings)

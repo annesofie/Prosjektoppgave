@@ -83,7 +83,7 @@ Most important area feature is building, the two other features are otherBuildin
 
 It is impossible, at least in FKB, to create a specification of registration of buildings that are completely accurate. The buildings will always be subject to some generalization. This can be seen in the figures used in this section. 
 
-\section{Benefits using SOSI in context of OSM}
+\section{Benefits using SOSI in context of OSM}\label{sec:sosiosm}
 %Ikke har et poligon direkte, flate er bare referanse til linjene Point, line, area (flate)
 
 Listing \ref{eq:arebuild} is SOSI code for area representation of a building. FLATE means area and contains the feature id. OBJTYPE is feature type and in listing \ref{eq:arebuild} equals building, representing what the key would be in OSM. KOMM field contains a municipality code, representing the buildings municipality. BYGGNR is the buildings unique number found in the cadastre. BYGGTYP NBR is the description of what the building actually is used as or approved as. For instance in listing \ref{eq:arebuild} BYGGTYP NBR equals 182, meaning this building is a garage attached to a holiday home (\textit{fritidsbolig}) \cite{SOSI-sekretariatet}. This attribute will give the value to the building key in the mapping to OSM. BYGGSTAT is the building status where value TB means that the building is being used. 
@@ -112,7 +112,7 @@ Area representations in SOSI can refer to other geometry types. This is similar 
 703226400 55444400
 \end{lstlisting}
 
-Listing \ref{eq:linebulpart} is a line representation of a building part. Here the feature type is roof edge, examples of a roof edge is shown in figure \ref{fig:kurve_tak_fkb} and \ref{fig:kurve_4tak_fkb}. OSM XML code of the same roof edge is shown in listing \ref{eq:roofedge}. Both listings refer to 6 different point representations. In listing \ref{eq:linebulpart} the pont coordinates are written directly in the representation. NØH is north, east and height value for each point. KP1 means that this point is a connection point, but this is not implemented in the OSM XML code. In listing \ref{eq:roofedgexml} the xml codes refers to 6 different nodes (first and last node are the same). This is not possible in line representation through SOSI format. Only area representation can refer to other geometry features \cite{Kartverket2006}. This is one major difference between SOSI format and OSM XML format. 
+Listing \ref{eq:linebulpart} is a line representation of a building part. Here the feature type is roof edge, examples of a roof edge is shown in figure \ref{fig:kurve_tak_fkb} and \ref{fig:kurve_4tak_fkb}. OSM XML code of the same roof edge is shown in listing \ref{eq:roofedge}. Both listings refer to 6 different point representations. In listing \ref{eq:linebulpart} the point coordinates are written directly in the representation. NØH is north, east and height value for each point. KP1 means that this point is a connection point, but this is not implemented in the OSM XML code. In listing \ref{eq:roofedgexml} the XML codes refers to 6 different nodes (first and last node are the same). This is not possible in line representation through SOSI format. Only area representation can refer to other geometry features \cite{Kartverket2006}. This is one major difference between SOSI format and OSM XML format. 
 
 \lstset{
 	language=XML,
@@ -206,4 +206,4 @@ The roof edge represented by listing \ref{eq:roofedgexml} is shown in figure \re
 \end{figure} 
 
 
-There are multiple similarities between the SOSI format and OSM XML format as shown in this section. Neither SOSI or OSM has a polygon representation directly and both have open and closed line representations. Feature types in SOSI is easily mapped over to key-value relations in OSM. FKB's way of representing buildings is also benefitial when modeling building parts in OSM, especially in 3D modeling. FKB contains line representation of every building part. This is why a SOSI to OSM converter is beneficial instead of a shape to OSM converter for instance.* %Bør jeg forklare mer eller kanskje ta noen av poengene med ned til siste kapittel?
+There are multiple similarities between the SOSI format and OSM XML format as shown in this section. Neither SOSI or OSM has a polygon representation directly and both have open and closed line representations. Feature types in SOSI are easily mapped over to key-value relations in OSM. FKB's way of representing buildings is also benefitial when modeling building parts in OSM, especially in 3D modeling. FKB contains line representation of every building part. This is why a SOSI to OSM converter is beneficial instead of a shape to OSM converter for instance.* %Bør jeg forklare mer eller kanskje ta noen av poengene med ned til siste kapittel?

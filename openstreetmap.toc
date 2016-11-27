@@ -20,11 +20,12 @@
 \contentsline {chapter}{\numberline {6}OSM import methods}{30}{chapter.6}
 \contentsline {section}{\numberline {6.1}Fully automatic import script}{30}{section.6.1}
 \contentsline {section}{\numberline {6.2}Guided automatic import}{32}{section.6.2}
-\contentsline {section}{\numberline {6.3}Import based on microtasking}{34}{section.6.3}
-\contentsline {section}{\numberline {6.4}Evaluation}{37}{section.6.4}
+\contentsline {section}{\numberline {6.3}Import based on micro-tasking}{34}{section.6.3}
+\contentsline {section}{\numberline {6.4}Evaluation}{36}{section.6.4}
 \contentsline {chapter}{\numberline {7}Suggested method for importing FKB into OpenStreetMap}{38}{chapter.7}
 \contentsline {section}{\numberline {7.1}Method - Microtasking?}{38}{section.7.1}
 \contentsline {section}{\numberline {7.2}FKB to OSM tagging}{38}{section.7.2}
-\contentsline {section}{\numberline {7.3}Conversion using existing script}{38}{section.7.3}
-\contentsline {section}{\numberline {7.4}Evaluation}{38}{section.7.4}
-\contentsline {chapter}{\numberline {8}Source - OSM mailing lists}{45}{chapter.8}
+\contentsline {section}{\numberline {7.3}Conversion using existing script}{40}{section.7.3}
+\contentsline {section}{\numberline {7.4}How to map 3D buildings}{40}{section.7.4}
+\contentsline {section}{\numberline {7.5}Evaluation}{41}{section.7.5}
+\contentsline {chapter}{\numberline {8}Source - OSM mailing lists}{48}{chapter.8}
