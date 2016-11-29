@@ -138,8 +138,9 @@ Importing data into OSM is not easy. Finding the most optimal approach is not ea
 %Konklusjon - hvorfor gjør du dette
 	% 
 
-\bibliography{prosjektoppg.bib}
 \bibliographystyle{apalike}
+\bibliography{prosjektoppg.bib}
+
 
 \chapter{Source - OSM mailing lists}
 The mailing lists and threads used as information source in this paper.\\ 
@@ -162,5 +163,7 @@ The mailing lists and threads used as information source in this paper.\\
  		 \item N50 imports from Kartverket \cite{Mehus2014}
  	\end{itemize}
  \end{enumerate} 
+ 
+ \input{Appendix.tex}
 
 \end{document}  

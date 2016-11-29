@@ -3,9 +3,9 @@
 \contentsline {figure}{\numberline {2.1}{\ignorespaces 3D modeling of buildings in Trondheim, source: osmbuildings.org}}{3}{figure.2.1}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces 3D modeling of buildings in Trondheim, source: 3d.kommunekart.com}}{4}{figure.2.2}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces 2D representation of \textit {Vaar frues kirke}, source: openstreetmap.org}}{10}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces 3D representation of \textit {Vaar frues kirke}, source: osmbuildings.org}}{11}{figure.3.2}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces \textit {Sydkapell} with gabled shaped roof, source: osmbuildings.org}}{13}{figure.3.3}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces 2D representation of \textit {Vaar frues kirke}, result of listing \ref {eq:waytag1}. Source: openstreetmap.org}}{10}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces 3D representation of \textit {Vaar frues kirke}, result of listing \ref {eq:reltag}. Source: osmbuildings.org}}{11}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces \textit {Sydkapell} with gabled shaped roof, result of listing \ref {eq:waytag}. \textit {Source: osmbuildings.org}}}{13}{figure.3.3}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Roof edge (red), roof overhang (blue), ridge line (green) and building line (brown) \cite {Kartverket2013a}}}{18}{figure.4.1}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Roof edge (red), roof overhang (blue), ridge line (green) and building line (brown) \cite {Kartverket2013a}}}{18}{figure.4.2}
@@ -16,5 +16,7 @@
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Project 2261- Tanzania Development, source: tasks.hotosm.org}}{27}{figure.5.1}
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Project 2 0- Southeast - LABuildings Import, source: labuildingsimport.com}}{28}{figure.5.2}
 \addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces 3D representation of a FKB building, result of listing \ref {eq:3D_fkbbuilding}}}{40}{figure.7.1}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

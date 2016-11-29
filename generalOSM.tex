@@ -52,7 +52,7 @@ A way-tag consists of two or more nodes and can either be open or closed. An ope
     language=XML,
     morekeywords={encoding, relation, way, tag, node, member},
     label=eq:waytag1,
-    caption=Example of a way tag - creating the building footprint
+    caption=Example of a way tag - creating the building footprint of a church
 }
 \begin{lstlisting}
  <way id="89340594" visible="true" version="6" changeset="42571811" 
@@ -99,7 +99,7 @@ A way-tag consists of two or more nodes and can either be open or closed. An ope
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.5]{figures/FixedByMe/fruekirke2D.png}
-    \caption{2D representation of \textit{Vaar frues kirke}, source: openstreetmap.org}
+    \caption{2D representation of \textit{Vaar frues kirke}, result of listing \ref{eq:waytag1}. Source: openstreetmap.org}
     \label{fig:fruekirke2D}
 \end{figure}
 
@@ -109,7 +109,7 @@ A relation is an ordered list of one or more nodes, ways, and/or relations and i
     language=XML,
     morekeywords={encoding, relation, way, tag, node, member},
     label=eq:reltag,
-    caption=Example of a relation tag
+    caption=Example of a relation tag - creating 3D representation of a church
 }
 \begin{lstlisting}
  <relation id="6269954" visible="true" version="2" changeset="39708156" 
@@ -130,21 +130,21 @@ A relation is an ordered list of one or more nodes, ways, and/or relations and i
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.5]{figures/FixedByMe/fruekirke.png}
-    \caption{3D representation of \textit{Vaar frues kirke}, source: osmbuildings.org}
+    \caption{3D representation of \textit{Vaar frues kirke}, result of listing \ref{eq:reltag}. Source: osmbuildings.org}
     \label{fig:fruekirke}
 \end{figure}
 
 
  \section{Mapping buildings in OSM}\label{buildOSM}
-When importing buildings into OSM, the XML-code representing the building must be tagged with Building=*. This buildings key is used to mark areas as buildings, the * value varies. Frequent occurring values are house, residential and garage, describing the buildings particular usage. The most common occurring value to the building key is yes and used when it's not possible to determine a more accurate value \cite{OpenStreetMapf}. A list of possible values that can be added to the building key is listed on the OSM building wiki page. It is possible to introduce new values, but it is not recommended. Additional attributes often used together with the building key is entrance, height of the building, building levels and address \cite{Unkn} . The building key is most common used in way representations. For an example of how to use building key in a way-tag see listing \ref{eq:waytag1}.
+A building can be represented by nodes, ways or relations in OpenStreetMap. When importing buildings into OSM, the XML-code representing the building must be tagged with Building=*. Frequent occurring values are house, residential and garage, describing the buildings particular usage.  Using the building tag in node representations is tolerated but not recommended. A building is much better expressed by their footprint (close way or multi-polygon), and if the footprint is available, one should not add the building key in nodes. The building key should be used to mark the buildings footprint. The most common occurring value for the building key is yes and used when it's not possible to determine a more accurate value \cite{OpenStreetMapf}. A list of possible values that can be added to the building key is listed on the OSM building wiki page. It is possible to introduce new values, but it is not recommended. The building key is most common used in way representations \cite{TagInfo2016}. An example of how to use building key in a way-tag see listing \ref{eq:waytag1}.
 
-A building can be represented by nodes, ways or relations. Using the building tag on nodes is tolerated but not recommended. A building is much better expressed by their footprint (close way or multi-polygon), and if the footprint is available, one should not add building tag in nodes. It is most common to represent buildings through ways \cite{OpenStreetMapf}. A building can also be described with a relation. Relations are used if the building consists of multiple parts which physical differ from each other, often when a 3D representation of the building is created. A building relation mainly consists of two or more ways. A way then represents a part of the building and should be tagged with a building:part key and usually the value yes. Then the way-tags representing the different building parts are ordered together inside the relation. An example of a building:part=yes implementation can be seen in listing \ref{eq:waytag}. Note that the first and last <nd> tag refers to the same node, so this is a closed way. The key roof:shape with value gable gives the appearance of the roof. The result from the code in listing \ref{eq:waytag} is shown in figure \ref{fig:erkeinng} marked with a red line. A relation containing building:parts are shown in listing \ref{eq:reltag}. Notice that this relation is tagged with the key type and the value building. If a relation is tagged with type=building, it groups both building footprint and all building parts together. See figure \ref{fig:fruekirke} for a 3D building representation created with building parts. 
+A building can also be represented by a relation. Relations are used if the building consists of multiple parts which physical differ from each other, often when a 3D representation of the building is created. A building relation mainly consists of two or more ways. A way then represents a part of the building and should be tagged with a building:part key and usually the value yes. Then the way-tags representing the different building parts are ordered together inside the relation. An example of a building:part=yes implementation can be seen in listing \ref{eq:waytag}. Note that the first and last <nd> tag refers to the same node, so this is a closed way. The key roof:shape with value gable gives the appearance of the roof. The result from the code in listing \ref{eq:waytag} is shown in figure \ref{fig:erkeinng} marked with a red line. A relation containing building:parts are shown in listing \ref{eq:reltag}. Notice that this relation is tagged with the key type and the value building. If a relation is tagged with type=building, it groups both building footprint and all building parts together. See figure \ref{fig:fruekirke} for a 3D building representation created with building parts. 
 
 \lstset{
     language=XML,
     morekeywords={encoding,way, tag, nd},
     label=eq:waytag,
-    caption=Example of a way tag
+    caption=Example of a way tag - creating 3D representation of a building part
 }
 \begin{lstlisting}
   <way id="17533469" visible="true" version="22" changeset="39301425" 
@@ -173,6 +173,6 @@ A building can be represented by nodes, ways or relations. Using the building ta
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.5]{figures/FixedByMe/nidaros3D.png}
-    \caption{\textit{Sydkapell} with gabled shaped roof, source: osmbuildings.org}
+    \caption{\textit{Sydkapell} with gabled shaped roof, result of listing \ref{eq:waytag}. \textit{Source: osmbuildings.org}}
     \label{fig:erkeinng}
 \end{figure} 

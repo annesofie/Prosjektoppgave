@@ -177,10 +177,6 @@ Kihle, K. (2014).
 \newblock {[NUUG kart] Bruk av datasett fra Kartverket i OpenStreetMap}.
 \newblock https://lists.nuug.no/pipermail/kart/2014-August/004831.html.
 
-\bibitem[Learnosm, ]{Learnosm}
-Learnosm.
-\newblock {LearnOSM}.
-
 \bibitem[Lidman, 2014]{Lidman2014}
 Lidman, A. (2014).
 \newblock {ICCM and micro-tasking tools in OpenStreetMap | Mapbox}.
@@ -233,26 +229,26 @@ ODbL.
 \newblock {Open Database License (ODbL) v1.0 | Open Data Commons}.
 \newblock http://opendatacommons.org/licenses/odbl/1.0/.
 
-\bibitem[OpenStreetMap, a]{OpenStreetMapl}
-OpenStreetMap.
-\newblock {Simple 3D buildings - OpenStreetMap Wiki}.
-\newblock http://wiki.openstreetmap.org/wiki/Simple{\_}3D{\_}buildings.
-
-\bibitem[OpenStreetMap, b]{OSMAutomaticEdits}
+\bibitem[OpenStreetMap, a]{OSMAutomaticEdits}
 OpenStreetMap, C.
 \newblock {Automated Edits code of conduct - OpenStreetMap Wiki}.
 \newblock
   http://wiki.openstreetmap.org/wiki/Automated{\_}Edits{\_}code{\_}of{\_}conduct.
 
-\bibitem[OpenStreetMap, c]{OpenStreetMapf}
+\bibitem[OpenStreetMap, b]{OpenStreetMapf}
 OpenStreetMap, C.
 \newblock {building | Keys | OpenStreetMap Taginfo}.
 \newblock http://taginfo.osm.org/keys/building{\#}values.
 
-\bibitem[OpenStreetMap, d]{OpenStreetMapi}
+\bibitem[OpenStreetMap, c]{OpenStreetMapi}
 OpenStreetMap, C.
 \newblock {Changeset - OpenStreetMap Wiki}.
 \newblock https://wiki.openstreetmap.org/wiki/Changeset.
+
+\bibitem[OpenStreetMap, d]{Learnosm}
+OpenStreetMap, C.
+\newblock {LearnOSM}.
+\newblock http://learnosm.org/en/osm-data/file-formats/.
 
 \bibitem[OpenStreetMap, e]{OpenStreetMapk}
 OpenStreetMap, C.
@@ -288,16 +284,13 @@ OpenStreetMap, C. (2007).
 OpenStreetMap, C. (2013).
 \newblock {Simple 3D buildings - One year experiences / OpenStreetMap 3D /
   OpenStreetMap Forum}.
+\newblock https://forum.openstreetmap.org/viewtopic.php?id=19729.
 
 \bibitem[OpenStreetMap, 2014]{OSMN502014}
 OpenStreetMap, C. (2014).
 \newblock {Import/Catalogue/N50 import (Norway) - OpenStreetMap Wiki}.
 \newblock
   http://wiki.openstreetmap.org/wiki/Import/Catalogue/N50{\_}import{\_}(Norway).
-
-\bibitem[OpenStreetMap, 2016]{OSMwikipage2016}
-OpenStreetMap, C. (2016).
-\newblock {Simple 3D buildings - OpenStreetMap Wiki}.
 
 \bibitem[OpenStreetMap, j]{OSMDWG}
 OpenStreetMap, D.
@@ -327,6 +320,7 @@ OSMF (2015).
 \bibitem[OSMstats, 2016]{OSMstats2016}
 OSMstats (2016).
 \newblock {OSMstats - Statistics of the free wiki world map}.
+\newblock http://osmstats.neis-one.org/.
 
 \bibitem[Palen et~al., 2015]{Palen2015}
 Palen, L., Soden, R., Anderson, T.~J., and Barrenechea, M. (2015).
@@ -343,6 +337,7 @@ Reiter, M. and Barroso, L. (2016).
 \bibitem[Sambale, 2016]{Sambale2016a}
 Sambale, M. (2016).
 \newblock {OpenStreetMap | manings sin dagbok | Fixing split buildings in LA}.
+\newblock http://www.openstreetmap.org/user/manings/diary/39230.
 
 \bibitem[Schleuss et~al., 2016]{Schleuss2016}
 Schleuss, J., Ureta, O., McConchie, A., and Sambale, M. (2016).
@@ -367,11 +362,13 @@ Solhagen (2015).
 \bibitem[SOSI-sekretariatet, ]{SOSI-sekretariatet}
 SOSI-sekretariatet.
 \newblock {BygningstypeKode - Geonorge objektregister}.
+\newblock
+  https://objektkatalog.geonorge.no/Objekttype/Index/EAID{\_}A408BF17{\_}3017{\_}41c7{\_}BC37{\_}D6AADDD6634B.
 
-\bibitem[Unknown, ]{Unkn}
-Unknown.
-\newblock {building | Keys | Combinations | OpenStreetMap Taginfo}.
-\newblock http://taginfo.osm.org/keys/building{\#}combinations.
+\bibitem[TagInfo, 2016]{TagInfo2016}
+TagInfo (2016).
+\newblock {building | Keys | OpenStreetMap Taginfo}.
+\newblock http://taginfo.openstreetmap.org/keys/building.
 
 \bibitem[Wang et~al., 2013]{Wang2013}
 Wang, M., Li, Q., Hu, Q., and Zhou, M. (2013).
