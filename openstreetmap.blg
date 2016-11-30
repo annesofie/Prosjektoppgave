@@ -37,45 +37,45 @@ Warning--empty year in OSMF
 Warning--empty publisher in Skogseth2014
 Warning--empty journal in Soden
 Warning--empty year in SOSI-sekretariatet
-You've used 72 entries,
+You've used 73 entries,
             1935 wiz_defined-function locations,
-            817 strings with 14518 characters,
-and the built_in function-call counts, 19920 in all, are:
-= -- 2035
-> -- 713
-< -- 65
-+ -- 241
-- -- 222
-* -- 1332
-:= -- 3825
-add.period$ -- 207
-call.type$ -- 72
-change.case$ -- 471
-chr.to.int$ -- 53
-cite$ -- 104
-duplicate$ -- 792
-empty$ -- 1225
-format.name$ -- 304
-if$ -- 3701
+            821 strings with 14680 characters,
+and the built_in function-call counts, 20165 in all, are:
+= -- 2061
+> -- 720
+< -- 66
++ -- 243
+- -- 224
+* -- 1347
+:= -- 3874
+add.period$ -- 210
+call.type$ -- 73
+change.case$ -- 477
+chr.to.int$ -- 54
+cite$ -- 105
+duplicate$ -- 802
+empty$ -- 1240
+format.name$ -- 307
+if$ -- 3746
 int.to.chr$ -- 20
 int.to.str$ -- 0
 missing$ -- 17
-newline$ -- 354
-num.names$ -- 216
-pop$ -- 354
+newline$ -- 359
+num.names$ -- 219
+pop$ -- 357
 preamble$ -- 1
-purify$ -- 471
+purify$ -- 477
 quote$ -- 0
-skip$ -- 646
+skip$ -- 655
 stack$ -- 0
-substring$ -- 1003
+substring$ -- 1015
 swap$ -- 25
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 430
+type$ -- 436
 warning$ -- 32
-while$ -- 156
+while$ -- 158
 width$ -- 0
-write$ -- 831
+write$ -- 843
 (There were 34 warnings)
