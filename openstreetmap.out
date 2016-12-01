@@ -30,3 +30,6 @@
 \BOOKMARK [1][-]{section.7.5}{Evaluation}{chapter.7}% 30
 \BOOKMARK [0][-]{chapter.8}{Source - OSM mailing lists}{}% 31
 \BOOKMARK [0][-]{chapter.9}{Appendix}{}% 32
+\BOOKMARK [1][-]{section.9.1}{FKB building type to OSM building value}{chapter.9}% 33
+\BOOKMARK [1][-]{section.9.2}{Code snip from .lua file, setting building=* value}{chapter.9}% 34
+\BOOKMARK [1][-]{section.9.3}{XML code: 3D representation of a house from FKB data}{chapter.9}% 35

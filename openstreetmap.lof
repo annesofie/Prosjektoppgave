@@ -17,6 +17,7 @@
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Project 2 0- Southeast - LABuildings Import, source: labuildingsimport.com}}{28}{figure.5.2}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces 3D representation of a FKB building, result of listing \ref {eq:3D_fkbbuilding}}}{41}{figure.7.1}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces 20 most common building types in Trondheim, source: postgis query in the cadastre}}{39}{figure.7.1}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces 3D representation of a FKB building, result of listing \ref {eq:3D_fkbbuilding}}}{41}{figure.7.2}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

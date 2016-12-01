@@ -260,17 +260,22 @@ OpenStreetMap, C.
 \newblock {Node - OpenStreetMap Wiki}.
 \newblock http://wiki.openstreetmap.org/wiki/Node.
 
-\bibitem[OpenStreetMap, g]{OpenStreetMape}
+\bibitem[OpenStreetMap, g]{OpenStreetMap2015}
+OpenStreetMap, C.
+\newblock {Node - OpenStreetMap Wiki}.
+\newblock http://wiki.openstreetmap.org/wiki/Node.
+
+\bibitem[OpenStreetMap, h]{OpenStreetMape}
 OpenStreetMap, C.
 \newblock {Relation - OpenStreetMap Wiki}.
 \newblock http://wiki.openstreetmap.org/wiki/Relation.
 
-\bibitem[OpenStreetMap, h]{OpenStreetMapj}
+\bibitem[OpenStreetMap, i]{OpenStreetMapj}
 OpenStreetMap, C.
 \newblock {State Of The Map - OpenStreetMap Wiki}.
 \newblock http://wiki.openstreetmap.org/wiki/State{\_}Of{\_}The{\_}Map.
 
-\bibitem[OpenStreetMap, i]{OpenStreetMapd}
+\bibitem[OpenStreetMap, j]{OpenStreetMapd}
 OpenStreetMap, C.
 \newblock {Way - OpenStreetMap Wiki}.
 \newblock http://wiki.openstreetmap.org/wiki/Way.
@@ -298,12 +303,12 @@ OpenStreetMap, C. (2016).
 \newblock
   http://wiki.openstreetmap.org/w/index.php?title=Simple{\_}3D{\_}buildings{\&}oldid=1389188.
 
-\bibitem[OpenStreetMap, j]{OSMDWG}
+\bibitem[OpenStreetMap, k]{OSMDWG}
 OpenStreetMap, D.
 \newblock {Data working group - OpenStreetMap Wiki}.
 \newblock http://wiki.openstreetmap.org/wiki/Data{\_}working{\_}group.
 
-\bibitem[OpenStreetMap, k]{OSMimport}
+\bibitem[OpenStreetMap, l]{OSMimport}
 OpenStreetMap, I.
 \newblock {Import - OpenStreetMap Wiki}.
 \newblock http://wiki.openstreetmap.org/wiki/Import.

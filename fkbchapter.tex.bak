@@ -1,5 +1,4 @@
 \chapter{SOSI and FKB building}
-
 This chapter will give an introduction to SOSI, both standard, and format. The standard was developed by the Norwegian mapping authority and is the largest national standard for geographic information, where the standard is implemented in the SOSI format. SOSI is a widely used file format for Norwegian mapping \cite{Kartverketa}. FKB is a collection of datasets containing detailed vector data of Norway, created in the SOSI format. Since this paper looks at FKB building dataset this chapter will also describe FKB and the most common and valuable features for OpenStreetMap within the building dataset. Some features will not be relevant for import into OpenStreetMap. The chapter ends with an evaluation of SOSI, looking at its advantages against OpenStreetMap XML format. 
 
 \section{SOSI}

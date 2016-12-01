@@ -12,7 +12,7 @@ Proof of concept
 %Hvilke tagger skal brukes for hva
 %Skal vi bruke relations med 3D støtte? 
 
-An example of a area representation of a building feature type is shown in listing \ref{eq:buildingfootpr}. This can be used as the building footprint when converting FKB to OSM. This will create the 2D modeling. Building type (BYGGTYP NBR) is equal to 111. The value 111 represents a house, so this building will be given a building=house tag. 
+An example of a area representation of a building feature type is shown in listing \ref{eq:buildingfootpr}. This can be used as the building footprint when converting FKB to OSM. This will create the 2D modeling. 
 
 \lstset{
     language=XML,
@@ -36,58 +36,35 @@ An example of a area representation of a building feature type is shown in listi
 703610900 55898600
 \end{lstlisting}
 
-\lstset{
-    language=XML,
-    morekeywords={encoding,node, tag},
-    label=eq:buildingfootprline,
-    caption=Example of a area representation of a building feature type in SOSI. 
-}
-\begin{lstlisting}
-.KURVE 166806:
-..OBJTYPE Takkant
-..DATAFANGSTDATO 20100610
-..VERIFISERINGSDATO 20150627
-..REGISTRERINGSVERSJON "FKB" "4.01"
-..KVALITET 24 19 0 24 23
-..TRE_D_NIVÅ 2
-..KOPIDATA
-...OMRÅDEID 1601
-...ORIGINALDATAVERT "Trondheim kommune"
-...KOPIDATO 20160502
-..NØH
-703611202 55898706 1828 ...KP 1  
-..NØH
-703611328 55898445 1671
-703610319 55897959 1671
-703610193 55898220 1828 ...KP 1
-..NØH
-703610060 55898497 1671
-703610540 55898728 1671 ...KP 1
-..NØH
-703610407 55899005 1671
-703610668 55899130 1828 ...KP 1
-..NØH
-703610935 55899259 1671
-703611065 55898990 1661 ...KP 1
-..NØH
-703611202 55898706 1828 ...KP 1
-\end{lstlisting}
+Using figure \ref{fig:buildtypTrd} of the twenty most common building types in Trondheim, there are in total about 140 different types \cite{SOSI-sekretariatet}. Not all building types used in FKB can directly translate to OSM. In the taginfo web page users can search for values commonly used on the building key. The taginfo page was helpful when transferring the FKB building types over to building values in OSM. For instance, type 181 is garage, 111 is detached house (\textit{enebolig}) and 121 is house and are the three most common building types in Trondheim. A list of the 40 most common building types transferred into building values in OSM is in the appendix, table \ref{tab:fkbtoosmdel1} and \ref{tab:fkbtoosmdel1}. 
 
-Using figure xx of the most common building types... Not all types used in FKB can directly translate to OSM. The tag-info page support searching for building values used in OSM. The most common FKB building types in OSM supported building values are shown in figure xx.
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.5]{figures/FixedByMe/buildtypestrd.png}
+    \caption{20 most common building types in Trondheim, source: postgis query in the cadastre} 
+    \label{fig:buildtypTrd}
+\end{figure}
+
+These values will represent the value for the building key given to the building feature type. The building feature in listing \ref{eq:buildingfootpr} will be given the value detached (building=detached).  
 
 
 \section{Conversion using existing script}
 % fkbbuilding.lua
 %Lage utkast til en luafil, vise hvordan xml oppsettet blir 
 
-The SOSI2OSM script was developed in 2013 and do not have any documentation. It is also difficult to install. It do not support SOSI files encoded in UTF-8, therefore the first step was to encode the FKB SOSI file into ISO8859-10 which is supported. %Er alle SOSI filer i UTF 8 idag?
+The sosi2osm script was developed in 2013 by the github user Gnonthgol. It was created during the N50 imports initial stages.*%Finn kilden   
+ The script is open source and the repository is available at Gnonthgol's GitHub account. The Sosi2osm repository do not have any documentation, the only available help is a wiki page who shortly explain how to install and run the code. It is very difficult to install, especially if you don't have a linux operating system. The script depends on fyba. A open source code distributed by the National Mapping Authority of Norway (Kartverket) to read and write SOSI files. Sosi2osm do not support SOSI files encoded in UTF-8. This is a challenge since FKB sosi files can be UTF-8 encoded.*%Er FKB alltid UTF8 eller bare i noen kommuner?
+ This is a major drawback with this script. To test the script, after managing to install it correctly, the first step is to encode the FKB SOSI file into ISO8859-10. %Er alle SOSI filer i UTF 8 idag?
 
-It is not possible to get a 3D representation of the buildings with this script. Input is 
+When running the script, input is a sosi file and a lua script. A new lua script is created for each dataset. In the N50 import they created one lua file for land cover (\textit{arealdekke}), there is also a lua file for address import. For testing the sosi2osm script I programmed a fkbbuilding.lua file. Adding values to the building key, which depend on the buildingtype code from FKB, I used table \ref{tab:fkbtoosmdel1} and \ref{tab:fkbtoosmdel1}. See listing \ref{eq:luabuldtype} for the code snip checking the building value. This code snip checks the $BYGGTYP\_NBR$ attribute value to determine the buildings particular usage. The building=* key-value pair will be placed on the buildings footprint, since only building feature in FKB has this attribute value. 
+
+It is not possible to add height in ways and node representations. Another problem with the sosi2osm script is that it do not consider height values, creating one node for each north, east coordinate pair. If two crossing building lines have different height values they should not share the same node \cite{OpenStreetMap2015}. This is a problem, especially when considering 3D modeling of buildings. 
 
 
 \section{How to map FKB buildings in 3D}
 %Her kan jeg lage et eksempel på hvordan 3D bygg kan moduleres i OSM XML format. 
-In order to create a XML representation capable of modeling FKB buildings in 3D, a standard approach should be developed. Members of the OpenStreetMap community, with interest in 3D mapping, started in March 2012 to unite all the separated approaches to model 3D buildings using OSM XML \cite{OpenStreetMapm}. They arranged workshops, which resulted in a suggestion for a simple 3D building schema. This is the approach mentioned in section \ref{buildOSM}. This approach is fairly easy to implement, if the building's roof shape is known. This is not the case for the FKB buildings, so the simple 3D building schema needs modification. Buildings in FKB is modelled with ridge and edge lines and they can be used to create 3D models, see the figures in section \ref{sec:FKBbuilding}. When using ridge and edge modeling roof shape tags are ignored, meaning the shape of the roof is not needed. Collecting ridge- and edge-lines for one building, creating one way-representation of each line with height-tags on ridge-lines. The listing shown in \ref{eq:3D_fkbbuilding} creates a 3D representation of a house in OSM from FKB data. The house is shown in figure \ref{fig:3DFKBbuild}, using the JOSM editor to generate the code in listing \ref{eq:3D_fkbbuilding} and getting 3D visualization.
+In order to create a XML representation capable of modeling FKB buildings in 3D, a standard approach should be developed. Members of the OpenStreetMap community, with interest in 3D mapping, started in March 2012 to unite all the separated approaches to model 3D buildings using OSM XML \cite{OpenStreetMapm}. They arranged workshops, which resulted in a suggestion for a simple 3D building schema. This is the approach mentioned in section \ref{buildOSM}. This approach is fairly easy to implement, if the building's roof shape is known. This is not the case for the FKB buildings, so the simple 3D building schema needs modification. Buildings in FKB is modelled with ridge and edge lines and they can be used to create 3D models, see the figures in section \ref{sec:FKBbuilding}. When using ridge and edge modeling, roof shape tags are ignored, meaning the shape of the roof is not needed. Collecting ridge- and edge-lines for one building, creating a way-representation for each line with roof:edge and roof:ridge key's on each. The way representing the  height-tags on ridge-lines.*%Feil
+ The listing shown in \ref{eq:3D_fkbbuilding} creates a 3D representation of a house in OSM from FKB data. The house is shown in figure \ref{fig:3DFKBbuild}, using the JOSM editor to generate the code in listing \ref{eq:3D_fkbbuilding} and getting 3D visualization.
 
 \begin{figure}[H]
     \centering
@@ -104,6 +81,8 @@ There are different tools developed to visualizing 3D buildings with data from O
 2D renderers ignore building:part=* tags, only displaying the building outline. 
 
 An example of 3D building generated from FKB data is shown in listing xx. This use the simple 3D building schema. 
+
+
 
 \section{Evaluation}
 

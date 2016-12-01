@@ -9,18 +9,25 @@ for i, indent, tokens in tokens, info, 0 do
 			out["building"]="yes"
             out["height"]="7" 
             out["roof:height"]="1.57"
+            out[tokens[1]] = tokens[2]
         elseif tokens[2] == "Mønelinje" then
             out["roof:ridge"]="yes"
+            out[tokens[1]] = tokens[2]
         elseif tokens[2] == "Bygningslinje" then
             out["roof:edge"]="yes"
+            out[tokens[1]] = tokens[2]
         elseif tokens[2] == "Taksprang" then
             out["roof:edge"]="yes"
+            out[tokens[1]] = tokens[2]
         elseif tokens[2] == "Grunnmur" then
             out["building"]="foundation"
+            out[tokens[1]] = tokens[2]
         elseif tokens[2] == "TaksprangBunn" then
             out["roof:edge"]="yes"
+            out[tokens[1]] = tokens[2]
         elseif tokens[2] == "Veranda" then
             out["balcony"]="yes"
+            out[tokens[1]] = tokens[2]
         else
             out[tokens[1]] = tokens[2]
 		end
