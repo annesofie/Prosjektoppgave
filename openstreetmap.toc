@@ -23,13 +23,13 @@
 \contentsline {section}{\numberline {6.3}Import based on micro-tasking}{34}{section.6.3}
 \contentsline {section}{\numberline {6.4}Evaluation}{36}{section.6.4}
 \contentsline {chapter}{\numberline {7}Suggested method for importing FKB into OpenStreetMap}{38}{chapter.7}
-\contentsline {section}{\numberline {7.1}Method - Microtasking?}{38}{section.7.1}
-\contentsline {section}{\numberline {7.2}FKB to OSM tagging}{38}{section.7.2}
-\contentsline {section}{\numberline {7.3}Conversion using existing script}{39}{section.7.3}
-\contentsline {section}{\numberline {7.4}How to map FKB buildings in 3D}{40}{section.7.4}
-\contentsline {section}{\numberline {7.5}Evaluation}{41}{section.7.5}
-\contentsline {chapter}{\numberline {8}Source - OSM mailing lists}{48}{chapter.8}
-\contentsline {chapter}{\numberline {9}Appendix}{49}{chapter.9}
-\contentsline {section}{\numberline {9.1}FKB building type to OSM building value}{49}{section.9.1}
-\contentsline {section}{\numberline {9.2}Code snip from .lua file, setting building=* value}{50}{section.9.2}
-\contentsline {section}{\numberline {9.3}XML code: 3D representation of a house from FKB data}{52}{section.9.3}
+\contentsline {section}{\numberline {7.1}Micro-tasking method?}{38}{section.7.1}
+\contentsline {section}{\numberline {7.2}FKB to OSM tagging}{39}{section.7.2}
+\contentsline {section}{\numberline {7.3}Conversion using existing script}{40}{section.7.3}
+\contentsline {section}{\numberline {7.4}How to map FKB buildings in 3D}{41}{section.7.4}
+\contentsline {section}{\numberline {7.5}Evaluation}{43}{section.7.5}
+\contentsline {chapter}{\numberline {8}Source - OSM mailing lists}{51}{chapter.8}
+\contentsline {chapter}{\numberline {9}Appendix}{52}{chapter.9}
+\contentsline {section}{\numberline {9.1}FKB building type to OSM building value}{52}{section.9.1}
+\contentsline {section}{\numberline {9.2}Code snip from .lua file, setting building=* value}{53}{section.9.2}
+\contentsline {section}{\numberline {9.3}XML code: 3D representation of a house from FKB data}{55}{section.9.3}

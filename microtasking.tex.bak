@@ -1,7 +1,6 @@
 
-\chapter{Micro-tasking}
-
-This chapter will give an introduction to the micro-tasking method. It will describe how the method was initially introduced in OpenStreetMap, what micro-tasking is and introduce related tools.
+\chapter{Micro-tasking}\label{ch:microtask}
+To be able to import FKB building data into OpenStreetMap a import method is desired. A promising method is micro-tasking. This chapter will give an introduction to what the micro-tasking method is. It will describe how the method was initially introduced in OpenStreetMap, what micro-tasking is and introduce related tools using this method. 
 
 \section{Background}
 After the Haiti earthquake in 2010 Humanitarian OpenStreetMap (HOT) was formally registered as a non-profit organization \cite{Soden}. During a 3-week period 600 remotely located volunteer mappers built a base layer map for Haiti nearly from scratch \cite{Soden}. The Haiti mappers were loosely organized through public lists, real-time chat (IRC) discussion and a wiki page \cite{Palen2015}. One organizer wrote to the OSM mailing list "\textit{What tools are available to see in real time which areas have been mapped recently? [...] This would be helpful for general coordination among us mapping in Haiti}". The request was unfulfilled. In the Palen paper from 2015, they found a case of duplication of two changesets created less than 1 minute apart contained four duplicate road sections created by two mappers. Findings like this one illustrate how high tempo mapping in a limited region can result in collisions. 

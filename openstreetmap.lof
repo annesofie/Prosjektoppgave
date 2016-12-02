@@ -7,17 +7,19 @@
 \contentsline {figure}{\numberline {3.2}{\ignorespaces 3D representation of \textit {Vaar frues kirke}, result of listing \ref {eq:reltag}. Source: osmbuildings.org}}{11}{figure.3.2}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces \textit {Sydkapell} with gabled shaped roof, result of listing \ref {eq:waytag}. \textit {Source: osmbuildings.org}}}{13}{figure.3.3}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Roof edge (red), roof overhang (blue), ridge line (green) and building line (brown) \cite {Kartverket2013a}}}{18}{figure.4.1}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Most common feature types in Trondheim}}{17}{figure.4.1}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Roof edge (red), roof overhang (blue), ridge line (green) and building line (brown) \cite {Kartverket2013a}}}{18}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Roof overhang bottom (blue), roof edge (red) and roof overhang (green)}}{19}{figure.4.3}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Roof edge (red), roof overhang (blue) and veranda (turquoise) \cite {Kartverket2013a}}}{20}{figure.4.4}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Roof edge representation}}{24}{figure.4.5}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Roof edge (red), roof overhang (blue), ridge line (green) and building line (brown) \cite {Kartverket2013a}}}{19}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Roof overhang bottom (blue), roof edge (red) and roof overhang (green)}}{19}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Roof edge (red), roof overhang (blue) and veranda (turquoise) \cite {Kartverket2013a}}}{20}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Roof edge representation}}{24}{figure.4.6}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Project 2261- Tanzania Development, source: tasks.hotosm.org}}{27}{figure.5.1}
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Project 2 0- Southeast - LABuildings Import, source: labuildingsimport.com}}{28}{figure.5.2}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces 20 most common building types in Trondheim, source: postgis query in the cadastre}}{39}{figure.7.1}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces 3D representation of a FKB building, result of listing \ref {eq:3D_fkbbuilding}}}{41}{figure.7.2}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces 20 most common building types in Trondheim, source: postgis query in the cadastre}}{40}{figure.7.1}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces 3D representation of a FKB building, result of listing \ref {eq:3D_fkbbuilding}}}{42}{figure.7.2}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces 3D representation of a FKB building}}{43}{figure.7.3}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

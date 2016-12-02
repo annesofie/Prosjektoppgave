@@ -4,7 +4,6 @@ The top-level auxiliary file: openstreetmap.aux
 The style file: apalike.bst
 Database file #1: prosjektoppg.bib.bib
 Warning--I didn't find a database entry for "Sambale2016s"
-Warning--I didn't find a database entry for "HOT"
 Warning--empty journal in Bernstein
 Warning--empty journal in Chilton
 Warning--empty year in OpenStreetMapg
@@ -38,45 +37,45 @@ Warning--empty year in OSMF
 Warning--empty publisher in Skogseth2014
 Warning--empty journal in Soden
 Warning--empty year in SOSI-sekretariatet
-You've used 74 entries,
+You've used 75 entries,
             1935 wiz_defined-function locations,
-            823 strings with 14714 characters,
-and the built_in function-call counts, 20408 in all, are:
-= -- 2087
-> -- 727
-< -- 67
-+ -- 246
-- -- 226
-* -- 1360
-:= -- 3921
-add.period$ -- 213
-call.type$ -- 74
-change.case$ -- 483
+            825 strings with 14873 characters,
+and the built_in function-call counts, 20653 in all, are:
+= -- 2113
+> -- 734
+< -- 68
++ -- 249
+- -- 228
+* -- 1375
+:= -- 3969
+add.period$ -- 216
+call.type$ -- 75
+change.case$ -- 489
 chr.to.int$ -- 54
-cite$ -- 107
-duplicate$ -- 812
-empty$ -- 1255
-format.name$ -- 310
-if$ -- 3791
-int.to.chr$ -- 21
+cite$ -- 108
+duplicate$ -- 822
+empty$ -- 1270
+format.name$ -- 313
+if$ -- 3836
+int.to.chr$ -- 22
 int.to.str$ -- 0
 missing$ -- 17
-newline$ -- 364
-num.names$ -- 222
-pop$ -- 362
+newline$ -- 369
+num.names$ -- 225
+pop$ -- 365
 preamble$ -- 1
-purify$ -- 483
+purify$ -- 489
 quote$ -- 0
-skip$ -- 662
+skip$ -- 671
 stack$ -- 0
-substring$ -- 1027
+substring$ -- 1039
 swap$ -- 25
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 442
+type$ -- 448
 warning$ -- 33
-while$ -- 160
+while$ -- 162
 width$ -- 0
-write$ -- 854
-(There were 35 warnings)
+write$ -- 866
+(There were 34 warnings)
