@@ -36,6 +36,13 @@ Therefore this dataset is a good representative of the average municipality in N
 
 There are 24 different feature types in the FKB building dataset. Where two features are point data,  three features are area  (\textit{flate}) data and the rest is line (\textit{kurve}) data.  The features are grouped into four categories, building and building refinement (\textit{bygningsavgrensning}), descriptive building lines, building appendage (\textit{bygningsvedheng}) and lastly roof covering (\textit{takoverbygg}). 
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.5]{figures/FixedByMe/comm_feature_type.png}
+    \caption{Most common feature types in Trondheim}
+    \label{fig:commfeattypes}
+\end{figure} 
+
 When considering an import to OpenStreetMap there will be features that are not as relevant. Adding all buildings as point data does not seem relevant. The two feature types within point data are building and assistantpoint3D (\textit{hjelpepunkt3D}). The building feature comes as both point and area, containing exactly the same attributes. If the building footprint is available, points should not be imported, as mentioned in section \ref{buildOSM}.  Therefore, the building feature as point data should not be imported into OSM, it will not add additional information. The assistantpoint3D will not be imported when excluding the building point feature. Conclusion is that no point data will be relevant for import.* %Rewrite?
 
 %Starting with line data, which in the FKB dataset covering Trondheim consist of 618 710 rows. 

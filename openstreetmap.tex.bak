@@ -37,7 +37,7 @@
 \newcommand{\hsp}{\hspace{20pt}}
 \titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\Huge\bfseries}
 
-\title{Micro tasking, an efficient method for data acquisition for digital maps?}
+\title{Micro-tasking, an efficient method for data acquisition for digital maps?}
 \author{Anne Sofie Strand Erichsen}
 %\date{}							% Activate to display a given date or no date
 
@@ -54,9 +54,30 @@ TB!
 
 \chapter{Introduction}\label{sec:intro}
 
-Voluntary acquisition of data for digital mapping has become quite popular over the last years. This is also a cornerstone for Open Street Map (OSM), which is a global open access database for digital maps. To establish data sets (for maps) is a comprehensive task. By dividing the work into many small sub-tasks, each of these tasks may be possible to handle by voluntary enthusiasts. This is called Microtasking.
+Voluntary acquisition of data for digital mapping has become quite popular over the last years. This is also a cornerstone for OpenStreetMap (OSM), which is a global open access database for digital maps. To establish data sets (for maps) is a comprehensive task. By dividing the work into many small sub-tasks, each of these tasks may be possible to handle by voluntary enthusiasts. This is called micro-tasking.
 
-The Norwegian government has indicated that the most detailed map data for Norway (FKB) may become freely available within a few years. If so, these data may be included in the database of OSM.   
+The Norwegian government has indicated that the most detailed map data for Norway (FKB) may become freely available within a few years. If so, these data may be included in the database of OSM. This paper will look at the FKB building datasets.    
+
+An import of FKB building data could result in a 3D modell of the entire country, free and available for everyone. FKB contain very detailed building data and gives a good foundation for 3D modelling of buildings. Trondheim will be a test municipality in this paper. Here buildings are today added manually by users drawing over aerial photos. Height and roof shape is not included, making 3D modelling of buildings very difficult. An example of 3D modeling of buildings in Trondheim added manually from aerial photo is shown in figure \ref{fig:3Dekstrd}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.5]{figures/FixedByMe/3DmodellTRD.png}
+    \caption{3D modeling of buildings in Trondheim, source: osmbuildings.org}
+    \label{fig:3Dekstrd}
+\end{figure}  
+
+The same buildings 3D modeled with FKB building data is shown in figure \ref{fig:3DekstrdFKB}. This model is created by Norkart. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.3]{figures/FixedByMe/3DmodelTRD-FKB.png}
+    \caption{3D modeling of buildings in Trondheim, source: 3d.kommunekart.com}
+    \label{fig:3DekstrdFKB}
+\end{figure}  
+
+Importing data into OSM can be tricky and finding the most optimal approach is not easy. An import should always follow the OSM import guidelines. In OSM imports must be planned and executed with more care and sensitivity than other edits. A bad import can have significant impacts on both existing data and the local mapping community. Finding a balance between manual verification and automatic import is the key. An import should not demand more time than manually drawing buildings into OSM. %The import should require more work than a manual import. 
+When importing data into OSM the team needs a plan on how to The micro-tasking method may be a solution. Two big building imports has used this method and this paper will look at how they did it, and how it worked and what didn't work. 
 
 \textit{During this paper the student is suppose to:} \\
 - Study relevant literature \\
@@ -65,34 +86,15 @@ The Norwegian government has indicated that the most detailed map data for Norwa
 - Investigate if Microtasking is a possible method for including FKB in OSM \\
 
 
-%This paper will inform you on the technical challenges regarding OpenStreetMap and governmental data \cite{Exel2010}. For a summary of papers you can see on page \pageref{sec:wang}
 
-%In theory micotasking seems to solve a lot of OSM problems like overlapping data, deletion of good metadata (read: tags) when running import-scripts and makes it easier to control, both the workflow and quality of the data. Microtasking splits a task into multiple subtasks and distributing these subtasks to humans over the internet.  The OSM mindset  of schema-less datasets and tags differs from many organizations. With the success of OSM it is time to start taking this mindset serious. OSM also has its weaknesses , but many people believe microtasking solves the majority of them. By using FKB building dataset I will try too look further into mapping governmental data over to the OSM format, also trying to experience if microtasking is the solution of the weaknesses of OSM, like the ones I mentioned above. 
+%In theory micotasking seems to solve a lot of OSM problems like overlapping data, deletion of good metadata (read: tags) when running import-scripts and makes it easier to control, both the workflow and quality of the data. Microtasking splits a task into multiple subtasks and distributes these subtasks to humans over the internet.  The OSM mindset  of schema-less datasets and tags differs from many organizations. With the success of OSM it is time to start taking this mindset serious. OSM also has its weaknesses , but many people believe microtasking solves the majority of them. By using FKB building dataset I will try too look further into mapping governmental data over to the OSM format, also trying to experience if microtasking is the solution of the weaknesses of OSM, like the ones I mentioned above. 
 
 
-\chapter{Motivation}
-There are two types of people in the free and open source software for Geoinformatics community: First type are they who has an geomatics background and learned ICT afterwards and second type are they who has an ICT background and learned geomatics on their own afterwards. The last type has a much higher percentage in the community. 
+\chapter{Background}
+There are two types of people in the free and open source software for Geoinformatics community: Those who have an geomatics background and learned ICT afterwards and those who have an ICT background and learned geomatics on their own afterwards. The last type has a much higher percentage in the OSM community. 
 
 %Importing FKB data into OpenStreetMap would increase the coverage in Norway tremendously.... 
-An import of FKB data could result in a 3D modell of the entire country, free and available for everyone. FKB contain very detailed building data and gives a good foundation for 3D modelling of buildings. Trondheim will be a test municipality in this paper. Here buildings are added manually by users drawing manually over aerial photos. Height and roof shape are not added, making 3D modelling of buildings very difficult. An example of 3D modeling of buildings in Trondheim added manually from aerial photo is shown in figure \ref{fig:3Dekstrd}.
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.4]{figures/FixedByMe/3DmodellTRD.png}
-    \caption{3D modeling of buildings in Trondheim, source: osmbuildings.org}
-    \label{fig:3Dekstrd}
-\end{figure}  
-
-The same buildings 3D modeled with building data from FKB is shown in figure \ref{fig:3DekstrdFKB}. This model is created by Norkart. 
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.4]{figures/FixedByMe/3DmodelTRD-FKB.png}
-    \caption{3D modeling of buildings in Trondheim, source: 3d.kommunekart.com}
-    \label{fig:3DekstrdFKB}
-\end{figure}  
-
-Importing data into OSM is not easy. Finding the most optimal approach is not easy. An import should follow the OSM import guidelines. Finding a balance between manual verification and automatic import is not easy. The import should require more work than a manual import. Here is the micro-tasking method maybe a solution. Two big building imports has used this method and this paper will look at how they did it, and how it worked and what didn't work. 
 
 %\input{TechnicalOSM.tex}
 %\input{ExistingScriptOSM.tex}
