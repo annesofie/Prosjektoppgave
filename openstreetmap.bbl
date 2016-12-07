@@ -80,6 +80,10 @@ Gnonthgol (2013).
 \newblock {[NUUG kart] sosi2osm}.
 \newblock https://lists.nuug.no/pipermail/kart/2013-October/004314.html.
 
+\bibitem[Goodchild, 2007]{Goodchild2007}
+Goodchild, M.~F. (2007).
+\newblock {Citizens as sensors: the world of volunteered geography}.
+
 \bibitem[Gutwin et~al., 2004]{Gutwin2004}
 Gutwin, C., Penner, R., and Schneider, K. (2004).
 \newblock {Group Awareness in Distributed Software Development}.
@@ -251,37 +255,43 @@ OpenStreetMap, C.
 \newblock {Changeset - OpenStreetMap Wiki}.
 \newblock https://wiki.openstreetmap.org/wiki/Changeset.
 
-\bibitem[OpenStreetMap, d]{Learnosm}
+\bibitem[OpenStreetMap, d]{OpenStreetMapn}
+OpenStreetMap, C.
+\newblock {Import/Catalogue/Topography import for Norway - OpenStreetMap Wiki}.
+\newblock
+  http://wiki.openstreetmap.org/wiki/Import/Catalogue/Topography{\_}import{\_}for{\_}Norway.
+
+\bibitem[OpenStreetMap, e]{Learnosm}
 OpenStreetMap, C.
 \newblock {LearnOSM}.
 \newblock http://learnosm.org/en/osm-data/file-formats/.
 
-\bibitem[OpenStreetMap, e]{OpenStreetMapk}
+\bibitem[OpenStreetMap, f]{OpenStreetMapk}
 OpenStreetMap, C.
 \newblock {MapRoulette - OpenStreetMap Wiki}.
 \newblock http://wiki.openstreetmap.org/wiki/MapRoulette.
 
-\bibitem[OpenStreetMap, f]{OpenStreetMapc}
+\bibitem[OpenStreetMap, g]{OpenStreetMapc}
 OpenStreetMap, C.
 \newblock {Node - OpenStreetMap Wiki}.
 \newblock http://wiki.openstreetmap.org/wiki/Node.
 
-\bibitem[OpenStreetMap, g]{OpenStreetMap2015}
+\bibitem[OpenStreetMap, h]{OpenStreetMap2015}
 OpenStreetMap, C.
 \newblock {Node - OpenStreetMap Wiki}.
 \newblock http://wiki.openstreetmap.org/wiki/Node.
 
-\bibitem[OpenStreetMap, h]{OpenStreetMape}
+\bibitem[OpenStreetMap, i]{OpenStreetMape}
 OpenStreetMap, C.
 \newblock {Relation - OpenStreetMap Wiki}.
 \newblock http://wiki.openstreetmap.org/wiki/Relation.
 
-\bibitem[OpenStreetMap, i]{OpenStreetMapj}
+\bibitem[OpenStreetMap, j]{OpenStreetMapj}
 OpenStreetMap, C.
 \newblock {State Of The Map - OpenStreetMap Wiki}.
 \newblock http://wiki.openstreetmap.org/wiki/State{\_}Of{\_}The{\_}Map.
 
-\bibitem[OpenStreetMap, j]{OpenStreetMapd}
+\bibitem[OpenStreetMap, k]{OpenStreetMapd}
 OpenStreetMap, C.
 \newblock {Way - OpenStreetMap Wiki}.
 \newblock http://wiki.openstreetmap.org/wiki/Way.
@@ -309,12 +319,12 @@ OpenStreetMap, C. (2016).
 \newblock
   http://wiki.openstreetmap.org/w/index.php?title=Simple{\_}3D{\_}buildings{\&}oldid=1389188.
 
-\bibitem[OpenStreetMap, k]{OSMDWG}
+\bibitem[OpenStreetMap, l]{OSMDWG}
 OpenStreetMap, D.
 \newblock {Data working group - OpenStreetMap Wiki}.
 \newblock http://wiki.openstreetmap.org/wiki/Data{\_}working{\_}group.
 
-\bibitem[OpenStreetMap, l]{OSMimport}
+\bibitem[OpenStreetMap, m]{OSMimport}
 OpenStreetMap, I.
 \newblock {Import - OpenStreetMap Wiki}.
 \newblock http://wiki.openstreetmap.org/wiki/Import.
@@ -376,11 +386,17 @@ Solhagen (2015).
 \newblock {User:Solhagen - OpenStreetMap Wiki}.
 \newblock http://wiki.openstreetmap.org/wiki/User:Solhagen.
 
-\bibitem[SOSI-sekretariatet, ]{SOSI-sekretariatet}
+\bibitem[SOSI-sekretariatet, a]{SOSI-sekretariatet}
 SOSI-sekretariatet.
 \newblock {BygningstypeKode - Geonorge objektregister}.
 \newblock
   https://objektkatalog.geonorge.no/Objekttype/Index/EAID{\_}A408BF17{\_}3017{\_}41c7{\_}BC37{\_}D6AADDD6634B.
+
+\bibitem[SOSI-sekretariatet, b]{SOSI-sekreteriatet}
+SOSI-sekretariatet.
+\newblock {Takriss - Geonorge objektregister}.
+\newblock
+  https://objektkatalog.geonorge.no/Objekttype/Index/EAID{\_}C8451D92{\_}8DC5{\_}4c38{\_}A09E{\_}3DDC03C35FE3.
 
 \bibitem[TagInfo, 2016]{TagInfo2016}
 TagInfo (2016).
@@ -392,6 +408,11 @@ Wang, M., Li, Q., Hu, Q., and Zhou, M. (2013).
 \newblock {Quality analysis of open street map data}.
 \newblock {\em 8th International Symposium on Spatial Data Quality},
   40(June):155--158.
+
+\bibitem[Weber, 2008]{Weber2008}
+Weber, P. (2008).
+\newblock {User-Generated Street Maps}.
+\newblock pages 12--18.
 
 \bibitem[Willis, 2007]{Willis2007}
 Willis, N. (2007).

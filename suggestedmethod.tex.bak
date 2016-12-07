@@ -1,4 +1,4 @@
-\chapter{Suggested method for importing FKB into OpenStreetMap}
+\chapter{Suggested method for importing FKB into OpenStreetMap}\label{ch:suggmethod}
 Proof of concept 
 
 \section{Micro-tasking method?}
@@ -11,7 +11,7 @@ The micro-tasking method is of course dependent on a good tool that organize the
 
 The first challenge when using the micro-tasking method is dividing the dataset into smaller parts which give manageable sized tasks. Dividing the building datasets was a challenge in both the New York- and Los Angeles building import, introduced in section \ref{sec:importmicro}. Both solved this issue by dividing it into smaller parts using already defined subregions.*%Gir denne setningen mening?
  When considering the FKB building datasets, instead of dividing it into predefined regions, another alternative is to create subregions by counting buildings. The density of buildings varies between different areas in Norway. %The building density differs between city centers in the municipalities, and between regions outside the city center. 
- The counting approach would ensure that every task has a manageable size. The number of buildings within each task could be from 20-30 units. This number must off course be tested with a test import before a final decision is made. What's important is that finishing a task should not take more than a few hours maximum, but at the same time should not be too small either. Too small tasks can result in too many tasks. *%And? finish the sentence
+ The counting approach would ensure that every task has a manageable size. The number of buildings within each task could be from 20-30 units. This number must off course be tested with a test import before a final decision is made. What's important is that finishing a task should not take more than a few hours maximum, but at the same time should not be too small either. Too small tasks will result in too many tasks. *%And? finish the sentence
   
 A huge advantage in both New York and Los Angeles import was Mapbox. Having a company involved with professional staff who gets paid is challenging to replace. Luckily the tools created during both imports is open source, available at GitHub. Before implementing any new tool, the FKB building import team should look at already created tools. For instance, the LA-building team developed a plugin for JOSM called \textit{Auto-tools}. This tool makes it much easier to combine two overlapping buildings.*%hva vil jeg ha ut av dette? 
 
@@ -19,11 +19,11 @@ Another challenge that will emerge in a import is overlapping buldings. There ar
 Overlapping layers needs to be merged. A reasonably safe assumption is that the building geometry is more accurate in FKB than in the manually drawn buildings. In JOSM there are a replace geometry tool. This tool replaces the geometry of the old building with the geometry of the new building while keeping all the tags and relations of the old one.*%Test, beholder den også den nye bygningens tags og relations?
 When the LA team worked on a task, they had at least two layers in JOSM, one with current OSM data and the other with the imported data. Both layers are reviewed for possible conflicts. If data in OSM was better than the imported data, only tags are transferred. %https://github.com/osmlab/labuildings/blob/master/IMPORTING.md  
 
-\section{FKB to OSM tagging}
+\section{FKB metadata to OSM key-value pairs}
 %Hvilke tagger skal brukes for hva
 %Skal vi bruke relations med 3D støtte? 
 
-An example of a area representation of a building feature type is shown in listing \ref{eq:buildingfootpr}. This can be used as the building footprint when converting FKB to OSM. This will create the 2D modeling. 
+An example of an area representation of a building feature type is shown in listing \ref{eq:buildingfootpr}. This can be used as the building footprint when converting FKB to OSM. This will create the 2D outline. 
 
 \lstset{
     language=XML,
@@ -51,7 +51,7 @@ Using figure \ref{fig:buildtypTrd} of the twenty most common building types in T
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.5]{figures/FixedByMe/buildtypestrd.png}
+    \includegraphics[scale=0.6]{figures/FixedByMe/buildtypestrd.png}
     \caption{20 most common building types in Trondheim, source: postgis query in the cadastre} 
     \label{fig:buildtypTrd}
 \end{figure}
@@ -62,22 +62,31 @@ These values will represent the value for the building key given to the building
 \section{Conversion using existing script}\label{sec:sosi2osm}
 % fkbbuilding.lua
 %Lage utkast til en luafil, vise hvordan xml oppsettet blir 
-
-The sosi2osm script was developed in 2013 by the github user Gnonthgol. It was created during the N50 imports initial stages.*%Finn kilden   
+Before implementing a new script to convert the FKB SOSI files to OSM XML-files, existing scripts should be evaluated. There are at least one script that converts SOSI files to OSM XML-files. This script was used by the N50 import team. The script is called sosi2osm and was developed in 2013 by the github user Gnonthgol.
  The script is open source and the repository is available at Gnonthgol's GitHub account. The sosi2osm repository do not have any documentation, the only available help is a wiki page who shortly explain how to install and run the code. It is very difficult to install, especially if you don't have a linux operating system. 
  
 The script depends on fyba. An open source code distributed by the National Mapping Authority of Norway (Kartverket) to read and write SOSI files. Sosi2osm do not support SOSI files encoded in UTF-8. This is a challenge since FKB sosi files can be UTF-8 encoded.*%Er FKB alltid UTF8 eller bare i noen kommuner?
  This is a major drawback with this script. To test the script, after managing to install it correctly, the first step is to encode the FKB SOSI file into ISO8859-10. This step should not have been necessary.  %Er alle SOSI filer i UTF 8 idag?
 
-When running the script, input is a sosi file and a lua script. A new lua script needs to be created for every conversion desired. In the N50 import they created a lua file for land cover (\textit{arealdekke}), there is also a lua file for address import. The lua file creates key-value pairs from the metadata of the input file. Important metadata in sosi files is the feature type (\textit{OBJTYPE}). In FKB building another important attribute is $BYGGTYP\_NBR$ which give information of what kind of building it is. 
+When running the script the input is a sosi file and a lua script. A new lua script needs to be created for every new dataset. The lua script needs to fit the metadata present in the dataset the user is converting. In the N50 import they created a lua script for land cover (\textit{arealdekke}) without water and one lua script for only water \cite{OpenStreetMapn}. The lua script creates key-value pairs from the metadata of the input file. Important metadata in SOSI files is the feature type (\textit{OBJTYPE}). In FKB building files, another important attribute is $BYGGTYP\_NBR$ which give information of what kind of building it is. 
 
 To test the sosi2osm script on the FKB building dataset a fkbbuilding.lua file was created. Using only the most common feature type in the dataset shown in figure \ref{fig:commfeattypes}*.%Ref tabell
-  Adding values to the building key, which depend on the buildingtype code from FKB, I used table \ref{tab:fkbtoosmdel1} and \ref{tab:fkbtoosmdel1}. See listing \ref{eq:luabuldtype} for the code snip checking the building value. This code snip checks the $BYGGTYP\_NBR$ attribute value to determine the buildings particular usage. The building=* key-value pair will be placed on the buildings footprint, since only building feature in FKB has this attribute value. 
+  Adding values to the building key, which depend on the buildingtype code from FKB, I used table \ref{tab:fkbtoosmdel1} and \ref{tab:fkbtoosmdel2}. See listing \ref{eq:luabuldtype} for the code snip checking the building value. This code snip checks the $BYGGTYP\_NBR$ attribute value to determine the buildings particular usage. The building=* key-value pair will be placed on the buildings footprint, since only building feature in FKB has this attribute value. 
 
-It is not possible to add height in ways and node representations. Another problem with the sosi2osm script is that it do not consider height values, creating one node for each north, east coordinate pair. If two crossing building lines have different height values they should not share the same node \cite{OpenStreetMap2015}. This is a problem, especially when considering 3D modeling of buildings. 
+A problem with the sosi2osm script is that it do not consider height values, creating one node for each north, east coordinate pair. If two crossing building lines have different height values they should not share the same node \cite{OpenStreetMap2015}. This is a problem, especially when considering 3D modeling of buildings. More about this in section \ref{sec:3D_OSM}.
 
+The resulting OSM XML-file created by the sosi2osm script made an functional representation of building outlines. The output file was tested using the JOSM editor. Some buildings was withdrawn from the file and then imported into JOSM for testing. The conversion worked in creating the building outline with the roof lines, shown in figure \ref{fig:2D_sosi2osm}. The key-value pairs was set correctly and a representation was created for the building outline. 
 
-\section{How to map FKB buildings in 3D}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.6]{figures/FixedByMe/2Doutlinesosi2osm.png}
+    \caption{Building footprint created with sosi2osm script} 
+    \label{fig:2D_sosi2osm}
+\end{figure}
+
+The script didn't work when considering 3D modeling. It worked on some buildings, but far from all. More about this in section \ref{sec:3D_OSM}.
+
+\section{How to map FKB buildings in 3D}\label{sec:3D_OSM}
 %Her kan jeg lage et eksempel på hvordan 3D bygg kan moduleres i OSM XML format. 
 In order to create a XML representation capable of modeling FKB buildings in 3D, a standard approach should be developed. Members of the OpenStreetMap community, with interest in 3D mapping, started in March 2012 to unite all the separated approaches to model 3D buildings using OSM XML \cite{OpenStreetMapm}. They arranged workshops, which resulted in a suggestion for a simple 3D building schema. This is the approach mentioned in section \ref{buildOSM}. This approach is fairly easy to implement, if the building's roof shape is known. This is not the case for the FKB buildings, so the simple 3D building schema needs modifications. Buildings in FKB is modelled with ridge and edge lines and they can be used to create 3D models, see the figures in section \ref{sec:FKBbuilding}. When using ridge and edge modeling, roof shape tags are ignored, meaning the shape of the roof is not needed. Collecting ridge- and edge-lines for one building, creating a way-representation for each line with roof:edge and roof:ridge key's. The way-tag representing the building outline, most often the roof-edge feature, holds the height and roof:height information.*%Funker ikke paa alle type bygninger, bare de som har en closed-way rundt hele omrisset
  The listing shown in \ref{eq:3D_fkbbuilding} creates a 3D representation of a house in OSM from FKB data. The house is shown in figure \ref{fig:3DFKBbuild}, using the JOSM editor to generate the code in listing \ref{eq:3D_fkbbuilding} and getting 3D visualization using the JSOM plugin kendzi3d. 
