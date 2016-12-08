@@ -75,6 +75,18 @@ Freyfogle, E. (2016).
 \newblock
   http://blog.opencagedata.com/post/145261049883/open-geo-interview-the-makers-of-weeklyosm.
 
+\bibitem[Geonorge, ]{Geonorge}
+Geonorge.
+\newblock {N50 Kartdata - Kartverket - Kartkatalogen}.
+\newblock
+  https://kartkatalog.geonorge.no/metadata/kartverket/n50-kartdata/ea192681-d039-42ec-b1bc-f3ce04c189ac.
+
+\bibitem[Geonorge, 2014]{Geonorge2014}
+Geonorge (2014).
+\newblock {Felles KartdataBase (FKB) - Kartverket - Kartkatalogen}.
+\newblock
+  https://kartkatalog.geonorge.no/metadata/geovekst/felles-kartdatabase-fkb/0e90ca71-6a02-4036-bd94-f219fe64645f.
+
 \bibitem[Gnonthgol, 2013]{Gnonthgol2013}
 Gnonthgol (2013).
 \newblock {[NUUG kart] sosi2osm}.
@@ -312,6 +324,18 @@ OpenStreetMap, C. (2014).
 \newblock {Import/Catalogue/N50 import (Norway) - OpenStreetMap Wiki}.
 \newblock
   http://wiki.openstreetmap.org/wiki/Import/Catalogue/N50{\_}import{\_}(Norway).
+
+\bibitem[OpenStreetMap, 2015a]{OpenStreetMapo}
+OpenStreetMap, C. (2015a).
+\newblock {ProposedRoofLines - OpenStreetMap Wiki}.
+\newblock
+  http://wiki.openstreetmap.org/w/index.php?title=ProposedRoofLines{\&}oldid=1193866.
+
+\bibitem[OpenStreetMap, 2015b]{OpenStreetMap2015a}
+OpenStreetMap, C. (2015b).
+\newblock {Simple 3D Buildings/Example Models - OpenStreetMap Wiki}.
+\newblock
+  http://wiki.openstreetmap.org/w/index.php?title=Simple{\_}3D{\_}Buildings/Example{\_}Models{\&}oldid=1194811.
 
 \bibitem[OpenStreetMap, 2016]{OSMwikipage2016}
 OpenStreetMap, C. (2016).

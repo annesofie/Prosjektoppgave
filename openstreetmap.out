@@ -20,14 +20,15 @@
 \BOOKMARK [1][-]{section.6.2}{Guided automatic import}{chapter.6}% 20
 \BOOKMARK [1][-]{section.6.3}{Import based on micro-tasking}{chapter.6}% 21
 \BOOKMARK [1][-]{section.6.4}{Evaluation}{chapter.6}% 22
-\BOOKMARK [0][-]{chapter.7}{Suggested method for importing FKB into OpenStreetMap}{}% 23
+\BOOKMARK [0][-]{chapter.7}{How to import FKB into OpenStreetMap}{}% 23
 \BOOKMARK [1][-]{section.7.1}{Micro-tasking method?}{chapter.7}% 24
 \BOOKMARK [1][-]{section.7.2}{FKB metadata to OSM key-value pairs}{chapter.7}% 25
 \BOOKMARK [1][-]{section.7.3}{Conversion using existing script}{chapter.7}% 26
 \BOOKMARK [1][-]{section.7.4}{How to map FKB buildings in 3D}{chapter.7}% 27
-\BOOKMARK [1][-]{section.7.5}{Evaluation}{chapter.7}% 28
-\BOOKMARK [0][-]{chapter.8}{Source - OSM mailing lists}{}% 29
-\BOOKMARK [0][-]{chapter.9}{Appendix}{}% 30
-\BOOKMARK [1][-]{section.9.1}{FKB building type to OSM building value}{chapter.9}% 31
-\BOOKMARK [1][-]{section.9.2}{Code snip from .lua file, setting building=* value}{chapter.9}% 32
-\BOOKMARK [1][-]{section.9.3}{XML code: 3D representation of a house from FKB data}{chapter.9}% 33
+\BOOKMARK [0][-]{chapter.8}{Discussion}{}% 28
+\BOOKMARK [0][-]{chapter.9}{Conclusion}{}% 29
+\BOOKMARK [0][-]{chapter.10}{Source - OSM mailing lists}{}% 30
+\BOOKMARK [0][-]{chapter.11}{Appendix}{}% 31
+\BOOKMARK [1][-]{section.11.1}{FKB building type to OSM building value}{chapter.11}% 32
+\BOOKMARK [1][-]{section.11.2}{Code snip from .lua file, setting building=* value}{chapter.11}% 33
+\BOOKMARK [1][-]{section.11.3}{XML code: 3D representation of a house from FKB data}{chapter.11}% 34

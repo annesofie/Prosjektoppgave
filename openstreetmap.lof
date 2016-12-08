@@ -17,9 +17,12 @@
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Project 2 0- Southeast - LABuildings Import, source: labuildingsimport.com\relax }}{28}{figure.caption.14}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces 20 most common building types in Trondheim, source: postgis query in the cadastre\relax }}{41}{figure.caption.15}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Building footprint created with sosi2osm script\relax }}{43}{figure.caption.16}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces 3D representation of a FKB building, result of listing \ref {eq:3D_fkbbuilding}\relax }}{44}{figure.caption.17}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces 3D representation of a FKB building\relax }}{45}{figure.caption.18}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces 20 most common building types in Trondheim, see table \ref {tab:fkbtoosmdel1} for building type conversion. Source: postgis query in the cadastre\relax }}{41}{figure.caption.15}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Building footprint with roof edges and roof ridges created with sosi2osm script\relax }}{43}{figure.caption.17}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Roof lines in OpenStreetMap, source: \cite {OpenStreetMapo}\relax }}{44}{figure.caption.18}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces 3D representation of a FKB building, result of listing \ref {eq:3D_fkbbuilding}\relax }}{45}{figure.caption.19}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces 3D representation of a FKB building, showing the problem with overlapping points with different heights in OSM\relax }}{46}{figure.caption.20}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

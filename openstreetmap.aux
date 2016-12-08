@@ -19,7 +19,8 @@
 \citation{Kartverket2013a}
 \citation{Kartverket2013a}
 \citation{Kartverket2013a}
-\@writefile{toc}{\contentsline {section}{\hbox to\@tempdima {\hfil }List of Figures}{i}{chapter*.2}}
+\citation{OpenStreetMapo}
+\@writefile{toc}{\contentsline {section}{\hbox to\@tempdima {\hfil }List of Figures}{1}{chapter*.2}}
 \citation{Goodchild2007}
 \citation{Zielstra2013}
 \citation{Chilton}
@@ -66,6 +67,7 @@
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{toc}{\contentsline {section}{\numberline {3.1}Data structure}{7}{section.3.1}}
+\newlabel{sec:datastructure}{{3.1}{7}{Data structure}{section.3.1}{}}
 \citation{OpenStreetMapi}
 \citation{Learnosm}
 \citation{OpenStreetMapc}
@@ -108,6 +110,7 @@
 \citation{Kartverket2013}
 \citation{Kartverket2013a}
 \@writefile{toc}{\contentsline {section}{\numberline {4.2}FKB and data quality}{16}{section.4.2}}
+\newlabel{sec:FKB_quality}{{4.2}{16}{FKB and data quality}{section.4.2}{}}
 \citation{Kartverket2016a}
 \citation{Kartverket}
 \citation{Kartverket}
@@ -219,35 +222,61 @@
 \citation{Barth2014}
 \citation{Barth2014b}
 \@writefile{toc}{\contentsline {section}{\numberline {6.4}Evaluation}{36}{section.6.4}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {7}Suggested method for importing FKB into OpenStreetMap}{38}{chapter.7}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {7}How to import FKB into OpenStreetMap}{38}{chapter.7}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{ch:suggmethod}{{7}{38}{Suggested method for importing FKB into OpenStreetMap}{chapter.7}{}}
+\newlabel{ch:suggmethod}{{7}{38}{How to import FKB into OpenStreetMap}{chapter.7}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {7.1}Micro-tasking method?}{38}{section.7.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.2}FKB metadata to OSM key-value pairs}{39}{section.7.2}}
-\newlabel{eq:buildingfootpr}{{7.1}{39}{Example of a area representation of a building feature type in SOSI}{lstlisting.7.1}{}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {7.1}Example of a area representation of a building feature type in SOSI.}{39}{lstlisting.7.1}}
 \citation{SOSI-sekretariatet}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.1}{\ignorespaces 20 most common building types in Trondheim, source: postgis query in the cadastre\relax }}{41}{figure.caption.15}}
-\newlabel{fig:buildtypTrd}{{7.1}{41}{20 most common building types in Trondheim, source: postgis query in the cadastre\relax }{figure.caption.15}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.3}Conversion using existing script}{41}{section.7.3}}
-\newlabel{sec:sosi2osm}{{7.3}{41}{Conversion using existing script}{section.7.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.2}FKB metadata to OSM key-value pairs}{40}{section.7.2}}
+\newlabel{eq:buildingfootpr}{{7.1}{40}{Example of a area representation of a building feature type in SOSI}{lstlisting.7.1}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {7.1}Example of a area representation of a building feature type in SOSI.}{40}{lstlisting.7.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.1}{\ignorespaces 20 most common building types in Trondheim, see table \ref  {tab:fkbtoosmdel1} for building type conversion. Source: postgis query in the cadastre\relax }}{41}{figure.caption.15}}
+\newlabel{fig:buildtypTrd}{{7.1}{41}{20 most common building types in Trondheim, see table \ref {tab:fkbtoosmdel1} for building type conversion. Source: postgis query in the cadastre\relax }{figure.caption.15}{}}
 \citation{OpenStreetMapn}
+\@writefile{lot}{\contentsline {table}{\numberline {7.1}{\ignorespaces Translating FKB feature types to OpenStreetMap key-value pairs\relax }}{42}{table.caption.16}}
+\newlabel{tab:featuretypesinOSM}{{7.1}{42}{Translating FKB feature types to OpenStreetMap key-value pairs\relax }{table.caption.16}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.3}Conversion using existing script}{42}{section.7.3}}
+\newlabel{sec:sosi2osm}{{7.3}{42}{Conversion using existing script}{section.7.3}{}}
 \citation{OpenStreetMap2015}
 \citation{OpenStreetMapm}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.2}{\ignorespaces Building footprint created with sosi2osm script\relax }}{43}{figure.caption.16}}
-\newlabel{fig:2D_sosi2osm}{{7.2}{43}{Building footprint created with sosi2osm script\relax }{figure.caption.16}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.4}How to map FKB buildings in 3D}{43}{section.7.4}}
-\newlabel{sec:3D_OSM}{{7.4}{43}{How to map FKB buildings in 3D}{section.7.4}{}}
+\newlabel{fig:2D2}{{7.2a}{43}{Building footprint 1\relax }{figure.caption.17}{}}
+\newlabel{sub@fig:2D2}{{a}{43}{Building footprint 1\relax }{figure.caption.17}{}}
+\newlabel{fig:2D1}{{7.2b}{43}{Building footprint 2\relax }{figure.caption.17}{}}
+\newlabel{sub@fig:2D1}{{b}{43}{Building footprint 2\relax }{figure.caption.17}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.2}{\ignorespaces Building footprint with roof edges and roof ridges created with sosi2osm script\relax }}{43}{figure.caption.17}}
+\newlabel{fig:2d_sosi2osm}{{7.2}{43}{Building footprint with roof edges and roof ridges created with sosi2osm script\relax }{figure.caption.17}{}}
+\citation{OpenStreetMapo}
+\citation{OpenStreetMapo}
+\citation{OpenStreetMap2015a}
+\@writefile{toc}{\contentsline {section}{\numberline {7.4}How to map FKB buildings in 3D}{44}{section.7.4}}
+\newlabel{sec:3D_OSM}{{7.4}{44}{How to map FKB buildings in 3D}{section.7.4}{}}
+\newlabel{fig:roofridge}{{7.3a}{44}{Roof ridges\relax }{figure.caption.18}{}}
+\newlabel{sub@fig:roofridge}{{a}{44}{Roof ridges\relax }{figure.caption.18}{}}
+\newlabel{fig:roofedge}{{7.3b}{44}{Roof edges\relax }{figure.caption.18}{}}
+\newlabel{sub@fig:roofedge}{{b}{44}{Roof edges\relax }{figure.caption.18}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.3}{\ignorespaces Roof lines in OpenStreetMap, source: \cite  {OpenStreetMapo}\relax }}{44}{figure.caption.18}}
+\newlabel{fig:ridgeedge}{{7.3}{44}{Roof lines in OpenStreetMap, source: \cite {OpenStreetMapo}\relax }{figure.caption.18}{}}
 \citation{OSMwikipage2016}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.3}{\ignorespaces 3D representation of a FKB building, result of listing \ref  {eq:3D_fkbbuilding}\relax }}{44}{figure.caption.17}}
-\newlabel{fig:3DFKBbuild}{{7.3}{44}{3D representation of a FKB building, result of listing \ref {eq:3D_fkbbuilding}\relax }{figure.caption.17}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.4}{\ignorespaces 3D representation of a FKB building, result of listing \ref  {eq:3D_fkbbuilding}\relax }}{45}{figure.caption.19}}
+\newlabel{fig:3DFKBbuild}{{7.4}{45}{3D representation of a FKB building, result of listing \ref {eq:3D_fkbbuilding}\relax }{figure.caption.19}{}}
+\newlabel{fig:3DFKBbuildFail}{{7.5a}{46}{Building who share nodes placed at the same position but have different heights\relax }{figure.caption.20}{}}
+\newlabel{sub@fig:3DFKBbuildFail}{{a}{46}{Building who share nodes placed at the same position but have different heights\relax }{figure.caption.20}{}}
+\newlabel{fig:3DFKBbuildFail2}{{7.5b}{46}{Building in 3d.kommunekart.com\relax }{figure.caption.20}{}}
+\newlabel{sub@fig:3DFKBbuildFail2}{{b}{46}{Building in 3d.kommunekart.com\relax }{figure.caption.20}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.5}{\ignorespaces 3D representation of a FKB building, showing the problem with overlapping points with different heights in OSM\relax }}{46}{figure.caption.20}}
+\newlabel{fig:3dfail}{{7.5}{46}{3D representation of a FKB building, showing the problem with overlapping points with different heights in OSM\relax }{figure.caption.20}{}}
+\citation{Geonorge}
+\citation{Geonorge2014}
 \citation{Barth2014b}
+\@writefile{toc}{\contentsline {chapter}{\numberline {8}Discussion}{47}{chapter.8}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
 \bibstyle{apalike}
 \bibdata{prosjektoppg.bib}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.4}{\ignorespaces 3D representation of a FKB building\relax }}{45}{figure.caption.18}}
-\newlabel{fig:3DFKBbuildFail}{{7.4}{45}{3D representation of a FKB building\relax }{figure.caption.18}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.5}Evaluation}{45}{section.7.5}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {9}Conclusion}{49}{chapter.9}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
 \bibcite{Barth2014a}{Barth, 2014a}
 \bibcite{Barth2014}{Barth, 2014b}
 \bibcite{Barth2014b}{Barth, 2014c}
@@ -261,6 +290,8 @@
 \bibcite{Exelvan2010}{Exel\nobreakspace  {}van, 2010}
 \bibcite{Exelvan2013}{Exel\nobreakspace  {}van, 2013}
 \bibcite{Freyfogle2016}{Freyfogle, 2016}
+\bibcite{Geonorge}{Geonorge, }
+\bibcite{Geonorge2014}{Geonorge, 2014}
 \bibcite{Gnonthgol2013}{Gnonthgol, 2013}
 \bibcite{Goodchild2007}{Goodchild, 2007}
 \bibcite{Gutwin2004}{Gutwin et\nobreakspace  {}al., 2004}
@@ -305,6 +336,8 @@
 \bibcite{WikiOSMTIGER2007}{OpenStreetMap, 2007}
 \bibcite{OpenStreetMapm}{OpenStreetMap, 2013}
 \bibcite{OSMN502014}{OpenStreetMap, 2014}
+\bibcite{OpenStreetMapo}{OpenStreetMap, 2015a}
+\bibcite{OpenStreetMap2015a}{OpenStreetMap, 2015b}
 \bibcite{OSMwikipage2016}{OpenStreetMap, 2016}
 \bibcite{OSMDWG}{OpenStreetMap, l}
 \bibcite{OSMimport}{OpenStreetMap, m}
@@ -335,23 +368,23 @@
 \citation{Hansen2007b}
 \citation{Hansen2007}
 \citation{Mehus2014}
-\@writefile{toc}{\contentsline {chapter}{\numberline {8}Source - OSM mailing lists}{53}{chapter.8}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {10}Source - OSM mailing lists}{57}{chapter.10}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{mail:nuugkart}{{1}{53}{Source - OSM mailing lists}{Item.1}{}}
-\newlabel{mail:osmtalk}{{2}{53}{Source - OSM mailing lists}{Item.2}{}}
-\newlabel{mail:imports}{{3}{53}{Source - OSM mailing lists}{Item.3}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {9}Appendix}{54}{chapter.9}}
+\newlabel{mail:nuugkart}{{1}{57}{Source - OSM mailing lists}{Item.1}{}}
+\newlabel{mail:osmtalk}{{2}{57}{Source - OSM mailing lists}{Item.2}{}}
+\newlabel{mail:imports}{{3}{57}{Source - OSM mailing lists}{Item.3}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {11}Appendix}{58}{chapter.11}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {9.1}FKB building type to OSM building value}{54}{section.9.1}}
-\@writefile{lot}{\contentsline {table}{\numberline {9.1}{\ignorespaces Translating FKB buildingtypes to OpenStreetMap values, part 1\relax }}{54}{table.caption.20}}
-\newlabel{tab:fkbtoosmdel1}{{9.1}{54}{Translating FKB buildingtypes to OpenStreetMap values, part 1\relax }{table.caption.20}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {9.2}{\ignorespaces Translating FKB buildingtypes to OpenStreetMap values, part 2\relax }}{55}{table.caption.21}}
-\newlabel{tab:fkbtoosmdel2}{{9.2}{55}{Translating FKB buildingtypes to OpenStreetMap values, part 2\relax }{table.caption.21}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {9.2}Code snip from .lua file, setting building=* value}{55}{section.9.2}}
-\newlabel{eq:luabuldtype}{{9.1}{55}{Code snip from Lua file}{lstlisting.9.1}{}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {9.1}Code snip from Lua file}{55}{lstlisting.9.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {9.3}XML code: 3D representation of a house from FKB data}{57}{section.9.3}}
-\newlabel{eq:3D_fkbbuilding}{{9.2}{57}{3D representation of a house from FKB data in OSM XML}{lstlisting.9.2}{}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {9.2}3D representation of a house from FKB data in OSM XML}{57}{lstlisting.9.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {11.1}FKB building type to OSM building value}{58}{section.11.1}}
+\@writefile{lot}{\contentsline {table}{\numberline {11.1}{\ignorespaces Translating FKB buildingtypes to OpenStreetMap values, part 1\relax }}{58}{table.caption.22}}
+\newlabel{tab:fkbtoosmdel1}{{11.1}{58}{Translating FKB buildingtypes to OpenStreetMap values, part 1\relax }{table.caption.22}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {11.2}{\ignorespaces Translating FKB buildingtypes to OpenStreetMap values, part 2\relax }}{59}{table.caption.23}}
+\newlabel{tab:fkbtoosmdel2}{{11.2}{59}{Translating FKB buildingtypes to OpenStreetMap values, part 2\relax }{table.caption.23}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {11.2}Code snip from .lua file, setting building=* value}{59}{section.11.2}}
+\newlabel{eq:luabuldtype}{{11.1}{59}{Code snip from Lua file}{lstlisting.11.1}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {11.1}Code snip from Lua file}{59}{lstlisting.11.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {11.3}XML code: 3D representation of a house from FKB data}{61}{section.11.3}}
+\newlabel{eq:3D_fkbbuilding}{{11.2}{61}{3D representation of a house from FKB data in OSM XML}{lstlisting.11.2}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {11.2}3D representation of a house from FKB data in OSM XML}{61}{lstlisting.11.2}}

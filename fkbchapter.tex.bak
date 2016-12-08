@@ -9,7 +9,7 @@ The Norwegian map authority has established a general feature directory \textit{
 SOSI data can be presented on four different levels, each level represents a different data quality. %Level 1 is the simplest form, representing the data with feature type  x, y and H, no further properties. 
 A SOSI dataset contains information on three levels. First are the \textit{Head} containing shared information about the dataset, this information applies to all data. Then comes the \textit{Data itself} containing properties and location coordinates (N, E and height). The SOSI dataset is finished with an \textit{End} which is the end of the data series \cite{Skogseth2014}.  
 
-\section{FKB and data quality}
+\section{FKB and data quality}\label{sec:FKB_quality}
 
 FKB, \textit{Felles Kartdatabase} in Norwegian, is a collection of structured datasets that contains the most detailed vector data of Norway. FKB data is collected through a collaboration called Geovekst. This is a collaboration between the Norwegian mapping authority, the Norwegian road authority, Telenor, Energy Norway, the Norwegian Association of Local and Regional Authorities, the ministry of Agriculture and the Norwegian Water Resources and Energy Directorate. \cite{Kartverketc}. FKB data comes as vector data in SOSI format \cite{Kartverket2011}. 
 

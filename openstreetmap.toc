@@ -1,4 +1,4 @@
-\contentsline {section}{\hbox to\@tempdima {\hfil }List of Figures}{i}{chapter*.2}
+\contentsline {section}{\hbox to\@tempdima {\hfil }List of Figures}{1}{chapter*.2}
 \contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}
 \contentsline {chapter}{\numberline {2}Background}{4}{chapter.2}
 \contentsline {section}{\numberline {2.1}Organization}{5}{section.2.1}
@@ -20,14 +20,15 @@
 \contentsline {section}{\numberline {6.2}Guided automatic import}{32}{section.6.2}
 \contentsline {section}{\numberline {6.3}Import based on micro-tasking}{34}{section.6.3}
 \contentsline {section}{\numberline {6.4}Evaluation}{36}{section.6.4}
-\contentsline {chapter}{\numberline {7}Suggested method for importing FKB into OpenStreetMap}{38}{chapter.7}
+\contentsline {chapter}{\numberline {7}How to import FKB into OpenStreetMap}{38}{chapter.7}
 \contentsline {section}{\numberline {7.1}Micro-tasking method?}{38}{section.7.1}
-\contentsline {section}{\numberline {7.2}FKB metadata to OSM key-value pairs}{39}{section.7.2}
-\contentsline {section}{\numberline {7.3}Conversion using existing script}{41}{section.7.3}
-\contentsline {section}{\numberline {7.4}How to map FKB buildings in 3D}{43}{section.7.4}
-\contentsline {section}{\numberline {7.5}Evaluation}{45}{section.7.5}
-\contentsline {chapter}{\numberline {8}Source - OSM mailing lists}{53}{chapter.8}
-\contentsline {chapter}{\numberline {9}Appendix}{54}{chapter.9}
-\contentsline {section}{\numberline {9.1}FKB building type to OSM building value}{54}{section.9.1}
-\contentsline {section}{\numberline {9.2}Code snip from .lua file, setting building=* value}{55}{section.9.2}
-\contentsline {section}{\numberline {9.3}XML code: 3D representation of a house from FKB data}{57}{section.9.3}
+\contentsline {section}{\numberline {7.2}FKB metadata to OSM key-value pairs}{40}{section.7.2}
+\contentsline {section}{\numberline {7.3}Conversion using existing script}{42}{section.7.3}
+\contentsline {section}{\numberline {7.4}How to map FKB buildings in 3D}{44}{section.7.4}
+\contentsline {chapter}{\numberline {8}Discussion}{47}{chapter.8}
+\contentsline {chapter}{\numberline {9}Conclusion}{49}{chapter.9}
+\contentsline {chapter}{\numberline {10}Source - OSM mailing lists}{57}{chapter.10}
+\contentsline {chapter}{\numberline {11}Appendix}{58}{chapter.11}
+\contentsline {section}{\numberline {11.1}FKB building type to OSM building value}{58}{section.11.1}
+\contentsline {section}{\numberline {11.2}Code snip from .lua file, setting building=* value}{59}{section.11.2}
+\contentsline {section}{\numberline {11.3}XML code: 3D representation of a house from FKB data}{61}{section.11.3}
