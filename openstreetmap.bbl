@@ -4,19 +4,22 @@
 Barth, A. (2014a).
 \newblock {[Imports-us] Restarting NYC building and address imports}.
 \newblock
-  https://lists.openstreetmap.org/pipermail/imports-us/2014-February/000521.html.
+  https://lists.openstreetmap.org/pipermail/imports-us/2014-February/000521.html
+  Date accessed: 2016-11-02.
 
 \bibitem[Barth, 2014b]{Barth2014}
 Barth, A. (2014b).
 \newblock {OpenStreetMap | lxbarth sin dagbok | Importing 1 million New York
   City buildings and addresses}.
-\newblock http://www.openstreetmap.org/user/lxbarth/diary/23588.
+\newblock http://www.openstreetmap.org/user/lxbarth/diary/23588 Date accessed:
+  2016-11-02.
 
 \bibitem[Barth, 2014c]{Barth2014b}
 Barth, A. (2014c).
 \newblock {Over 1 million New York City buildings and addresses imported to
   OpenStreetMap | Mapbox}.
-\newblock https://www.mapbox.com/blog/nyc-buildings-openstreetmap/.
+\newblock https://www.mapbox.com/blog/nyc-buildings-openstreetmap/ Date
+  accessed: 2016-12-02.
 
 \bibitem[Bernstein et~al., 2013]{Bernstein}
 Bernstein, M., Bright, M., Cutrell, E., Dow, S., Gerber, E., Jain, A., and
@@ -33,7 +36,14 @@ Bernstein, M.~S., Little, G., Miller, R.~C., Hartmann, B., Ackerman, M.~S.,
 Bishop, D. (2007).
 \newblock {[OSM-talk] TIGER, which states next?}
 \newblock
-  https://lists.openstreetmap.org/pipermail/talk/2007-October/019228.html.
+  https://lists.openstreetmap.org/pipermail/talk/2007-October/019228.html Date
+  accessed: 2016-10-27.
+
+\bibitem[Building, 2016]{Building2016}
+Building, L. (2016).
+\newblock {List of usernames participating in the import}.
+\newblock https://github.com/osmlab/labuildings/issues/40 Date accessed:
+  2016-12-16.
 
 \bibitem[Chilton et~al., 2009]{Chilton}
 Chilton, S., Building, F., and Burroughs, T. (2009).
@@ -43,7 +53,8 @@ Chilton, S., Building, F., and Burroughs, T. (2009).
 \bibitem[community OpenStreetMap, ]{OpenStreetMapg}
 community OpenStreetMap.
 \newblock {Elements - OpenStreetMap Wiki}.
-\newblock https://wiki.openstreetmap.org/wiki/Elements.
+\newblock https://wiki.openstreetmap.org/wiki/Elements Date accessed:
+  2016-11-21.
 
 \bibitem[Debruyne et~al., 2015]{Debruyne2015}
 Debruyne, C., Panetto, H., Meersman, R., Dillon, T., Weichhart, G., An, Y., and
@@ -54,43 +65,49 @@ Debruyne, C., Panetto, H., Meersman, R., Dillon, T., Weichhart, G., An, Y., and
 \bibitem[edits OpenStreetMap, ]{OSMAutiEdit}
 edits OpenStreetMap, A.
 \newblock {Automated edits - OpenStreetMap Wiki}.
-\newblock http://wiki.openstreetmap.org/wiki/Automated{\_}edits.
+\newblock http://wiki.openstreetmap.org/wiki/Automated{\_}edits Date accessed:
+  2016-10-26.
 
 \bibitem[Exel~van, 2010]{Exelvan2010}
 Exel~van, M. (2010).
 \newblock {Data Imports In OpenStreetMap – Love ‘Em Or Loathe ‘Em? |
   oegeo}.
-\newblock https://oegeo.wordpress.com/2010/10/22/data-imports-openstreetmap/.
+\newblock https://oegeo.wordpress.com/2010/10/22/data-imports-openstreetmap/
+  Date accessed: 2016-10-21.
 
 \bibitem[Exel~van, 2013]{Exelvan2013}
 Exel~van, M. (2013).
 \newblock {State of the Map US: San Francisco 2013 - MapRoulette, one year
   later}.
-\newblock https://vimeo.com/68098505.
+\newblock https://vimeo.com/68098505 Date accessed: 2016-11-24.
 
 \bibitem[Freyfogle, 2016]{Freyfogle2016}
 Freyfogle, E. (2016).
 \newblock {OpenCage Data Blog — Open Geo interview - the makers of
   WeeklyOSM}.
 \newblock
-  http://blog.opencagedata.com/post/145261049883/open-geo-interview-the-makers-of-weeklyosm.
+  http://blog.opencagedata.com/post/145261049883/open-geo-interview-the-makers-of-weeklyosm
+  Date accessed: 2016-11-14.
 
 \bibitem[Geonorge, ]{Geonorge}
 Geonorge.
 \newblock {N50 Kartdata - Kartverket - Kartkatalogen}.
 \newblock
-  https://kartkatalog.geonorge.no/metadata/kartverket/n50-kartdata/ea192681-d039-42ec-b1bc-f3ce04c189ac.
+  https://kartkatalog.geonorge.no/metadata/kartverket/n50-kartdata/ea192681-d039-42ec-b1bc-f3ce04c189ac
+  Date accessed: 2016-12-08.
 
 \bibitem[Geonorge, 2014]{Geonorge2014}
 Geonorge (2014).
 \newblock {Felles KartdataBase (FKB) - Kartverket - Kartkatalogen}.
 \newblock
-  https://kartkatalog.geonorge.no/metadata/geovekst/felles-kartdatabase-fkb/0e90ca71-6a02-4036-bd94-f219fe64645f.
+  https://kartkatalog.geonorge.no/metadata/geovekst/felles-kartdatabase-fkb/0e90ca71-6a02-4036-bd94-f219fe64645f
+  Date accessed: 2016-12-08.
 
 \bibitem[Gnonthgol, 2013]{Gnonthgol2013}
 Gnonthgol (2013).
 \newblock {[NUUG kart] sosi2osm}.
-\newblock https://lists.nuug.no/pipermail/kart/2013-October/004314.html.
+\newblock https://lists.nuug.no/pipermail/kart/2013-October/004314.html Date
+  accessed: 2016-11-08.
 
 \bibitem[Goodchild, 2007]{Goodchild2007}
 Goodchild, M.~F. (2007).
@@ -104,47 +121,60 @@ Gutwin, C., Penner, R., and Schneider, K. (2004).
 \bibitem[Hagen, 2014]{Didriksen2014}
 Hagen, S.~O. (2014).
 \newblock {Re: [NUUG kart] M{\o}svatn}.
-\newblock https://www.mail-archive.com/kart@nuug.no/msg01508.html.
+\newblock https://www.mail-archive.com/kart@nuug.no/msg01508.html Date
+  accessed: 2016-10-31.
 
 \bibitem[Hansen, 2007a]{Hansen2007b}
 Hansen, D. (2007a).
 \newblock {[OSM-talk] TIGER update (need more suggestions)}.
 \newblock
-  https://lists.openstreetmap.org/pipermail/talk/2007-November/019880.html.
+  https://lists.openstreetmap.org/pipermail/talk/2007-November/019880.html Date
+  accessed: 2016-10-27.
 
 \bibitem[Hansen, 2007b]{Hansen2007a}
 Hansen, D. (2007b).
 \newblock {[OSM-talk] TIGER upload queue (maps of entire US)}.
 \newblock
-  https://lists.openstreetmap.org/pipermail/talk/2007-September/017621.html.
+  https://lists.openstreetmap.org/pipermail/talk/2007-September/017621.html
+  Date accessed: 2016-10-26.
 
 \bibitem[Hansen, 2007c]{Hansen2007}
 Hansen, D. (2007c).
 \newblock {[OSM-talk] TIGER upload queue (maps of entire US)}.
 \newblock
-  https://lists.openstreetmap.org/pipermail/talk/2007-September/017744.html.
+  https://lists.openstreetmap.org/pipermail/talk/2007-September/017744.html
+  Date accessed: 2016-10-27.
 
-\bibitem[{HOT Tasking Manager}, 2016]{HOTTaskingManager2016}
-{HOT Tasking Manager} (2016).
+\bibitem[{HOT Tasking Manager}, 2016a]{HOTTaskingManager2016a}
+{HOT Tasking Manager} (2016a).
 \newblock {HOT Tasking Manager - {\#}2261 - Tanzania Development Trust:
   Serengeti district mapping project part 2}.
-\newblock http://tasks.hotosm.org/project/2261.
+\newblock http://tasks.hotosm.org/project/2261 Date accessed: 2016-12-16.
+
+\bibitem[{HOT Tasking Manager}, 2016b]{HOTTaskingManager2016}
+{HOT Tasking Manager} (2016b).
+\newblock {HOT Tasking Manager - {\#}2261 - Tanzania Development Trust:
+  Serengeti district mapping project part 2}.
+\newblock http://tasks.hotosm.org/project/2261 Date accessed: 2016-11-21.
 
 \bibitem[J{\o}rgenrud, 2013]{Jorgenrud2013}
 J{\o}rgenrud, M. (2013).
 \newblock {Kartskatt til alle - Digi.no}.
-\newblock http://www.digi.no/artikler/kartskatt-til-alle/286539.
+\newblock http://www.digi.no/artikler/kartskatt-til-alle/286539 Date accessed:
+  2016-11-25.
 
 \bibitem[Kartverket, a]{Kartverketc}
 Kartverket.
 \newblock {Om Geovekst-samarbeidet | Kartverket}.
 \newblock
-  http://www.kartverket.no/geodataarbeid/geovekst/Om-Geovekst-samarbeidet/.
+  http://www.kartverket.no/geodataarbeid/geovekst/Om-Geovekst-samarbeidet/ Date
+  accessed: 2016-11-19.
 
 \bibitem[Kartverket, b]{Kartverketa}
 Kartverket.
 \newblock {SOSI | Kartverket}.
-\newblock http://www.kartverket.no/geodataarbeid/standarder/sosi/.
+\newblock http://www.kartverket.no/geodataarbeid/standarder/sosi/ Date
+  accessed: 2016-11-11.
 
 \bibitem[Kartverket, 2006]{Kartverket2006}
 Kartverket (2006).
@@ -168,42 +198,54 @@ Kartverket (2013b).
 Kartverket (2016a).
 \newblock {Innf{\o}ring i kommunene | Kartverket}.
 \newblock
-  http://www.kartverket.no/Prosjekter/Sentral-felles-kartdatabase/sentral-lagring-av-fkb-data--innforing-i-kommunene/.
+  http://www.kartverket.no/Prosjekter/Sentral-felles-kartdatabase/sentral-lagring-av-fkb-data--innforing-i-kommunene/
+  Date accessed: 2016-11-09.
 
 \bibitem[Kartverket, 2016b]{Kartverket2016}
 Kartverket (2016b).
 \newblock {SOSI-standard del 2 Generell objektkatalog}.
 \newblock
-  http://www.kartverket.no/geodataarbeid/standarder/sosi/sosi-standarden-del-2/.
+  http://www.kartverket.no/geodataarbeid/standarder/sosi/sosi-standarden-del-2/
+  Date accessed: 2016-11-07.
 
 \bibitem[Kartverket, c]{Kartverketd}
 Kartverket, S.-s.
 \newblock {Bygningstype - Geonorge objektregister}.
-\newblock
-  https://objektkatalog.geonorge.no/Objekttype/Index/EAID{\_}7C268089{\_}ED2E{\_}494b{\_}9982{\_}FD19A55B8F07{\#}/uml.
+\newblock objektkatalog.geonorge.no/Objekttype/Index/
+  EAID{\_}7C268089{\_}ED2E{\_}494b{\_}9982{\_}FD19A55B8F07{\#}/uml Date
+  accessed: 2016-11-20.
 
 \bibitem[Kartverket, d]{Kartverket}
 Kartverket, S.-s.
 \newblock {TreDNiv{\aa} - Geonorge objektregister}.
-\newblock
-  https://objektkatalog.geonorge.no/Objekttype/Index/EAID{\_}1DA8CD10{\_}FAF4{\_}4d0f{\_}A46B{\_}BB5D8ACF13E9.
+\newblock objektkatalog.geonorge.no/Objekttype/Index/
+  EAID{\_}1DA8CD10{\_}FAF4{\_}4d0f{\_}A46B{\_}BB5D8ACF13E9 Date accessed:
+  2016-11-09.
 
 \bibitem[Kartverket, e]{Kartverketb}
 Kartverket, S.-s.
 \newblock {Veranda - Geonorge objektregister}.
-\newblock
-  https://objektkatalog.geonorge.no/Objekttype/Index/EAID{\_}3C31BCFA{\_}6CE5{\_}4af1{\_}BB76{\_}F7D2CAFD8FA8.
+\newblock objektkatalog.geonorge.no/Objekttype/Index/
+  EAID{\_}3C31BCFA{\_}6CE5{\_}4af1{\_}BB76{\_}F7D2CAFD8FA8 Date accessed:
+  2016-11-11.
 
 \bibitem[Kihle, 2014]{Kihle2014}
 Kihle, K. (2014).
 \newblock {[NUUG kart] Bruk av datasett fra Kartverket i OpenStreetMap}.
-\newblock https://lists.nuug.no/pipermail/kart/2014-August/004831.html.
+\newblock https://lists.nuug.no/pipermail/kart/2014-August/004831.html Date
+  accessed: 2016-10-25.
 
 \bibitem[Lidman, 2014]{Lidman2014}
 Lidman, A. (2014).
 \newblock {ICCM and micro-tasking tools in OpenStreetMap | Mapbox}.
 \newblock
-  https://www.mapbox.com/blog/international-conference-of-crisis-mappers-2014/.
+  https://www.mapbox.com/blog/international-conference-of-crisis-mappers-2014/
+  Date accessed: 2016-11-24.
+
+\bibitem[{Los Angeles building}, 2016]{LAOSM}
+{Los Angeles building}, O. (2016).
+\newblock {OSM Tasking Manager - {\#}20 - Southeast - LABuildings Import}.
+\newblock http://labuildingsimport.com/project/20 Date accessed: 2016-12-16.
 
 \bibitem[Madalena and Clara, 2015]{Madalena}
 Madalena, M. and Clara, B. (2015).
@@ -214,31 +256,36 @@ Madalena, M. and Clara, B. (2015).
 McAndrew, J. (2015).
 \newblock {New York City | State of the Map US 2015}.
 \newblock
-  http://stateofthemap.us/2015/less-bots-more-humans-using-maproulette-to-import-data/.
+  http://stateofthemap.us/2015/less-bots-more-humans-using-maproulette-to-import-data/
+  Date accessed: 2016-11-14.
 
 \bibitem[McConchie, 2014]{McConchie2014}
 McConchie, A. (2014).
 \newblock {How to divide up the tasks? {\#}4 Github issues, LA buildings}.
-\newblock https://github.com/osmlab/labuildings/issues/4.
+\newblock https://github.com/osmlab/labuildings/issues/4 Date accessed:
+  2016-11-06.
 
 \bibitem[Mehus, 2014]{Mehus2014}
 Mehus, T. (2014).
 \newblock {[Imports] N50 imports from Kartverket (The Norwegian Mapping
   Authority)}.
 \newblock
-  https://lists.openstreetmap.org/pipermail/imports/2014-June/003252.html.
+  https://lists.openstreetmap.org/pipermail/imports/2014-June/003252.html Date
+  accessed: 2016-10-25.
 
 \bibitem[Mielczarek, 2007]{Mielczarek2007}
 Mielczarek, T. (2007).
 \newblock {[OSM-talk] [OSM-dev] TIGER, which states next?}
 \newblock
-  https://lists.openstreetmap.org/pipermail/talk/2007-October/019231.html.
+  https://lists.openstreetmap.org/pipermail/talk/2007-October/019231.html Date
+  accessed: 2016-10-27.
 
 \bibitem[Munro, 2007]{Munro2007}
 Munro, R.~J. (2007).
 \newblock {[OSM-talk] TIGER upload status since 0.5 api}.
 \newblock
-  https://lists.openstreetmap.org/pipermail/talk/2007-October/018834.html.
+  https://lists.openstreetmap.org/pipermail/talk/2007-October/018834.html Date
+  accessed: 2016-10-27.
 
 \bibitem[Neis and Zipf, 2012]{Neis2012}
 Neis, P. and Zipf, A. (2012).
@@ -249,129 +296,134 @@ Neis, P. and Zipf, A. (2012).
 \bibitem[ODbL, ]{ODbL}
 ODbL.
 \newblock {Open Database License (ODbL) v1.0 | Open Data Commons}.
-\newblock http://opendatacommons.org/licenses/odbl/1.0/.
+\newblock http://opendatacommons.org/licenses/odbl/1.0/ Date accessed:
+  2016-10-18.
 
 \bibitem[OpenStreetMap, a]{OSMAutomaticEdits}
 OpenStreetMap, C.
 \newblock {Automated Edits code of conduct - OpenStreetMap Wiki}.
 \newblock
-  http://wiki.openstreetmap.org/wiki/Automated{\_}Edits{\_}code{\_}of{\_}conduct.
+  http://wiki.openstreetmap.org/wiki/Automated{\_}Edits{\_}code{\_}of{\_}conduct
+  Date accessed: 2016-10-26.
 
 \bibitem[OpenStreetMap, b]{OpenStreetMapf}
 OpenStreetMap, C.
 \newblock {building | Keys | OpenStreetMap Taginfo}.
-\newblock http://taginfo.osm.org/keys/building{\#}values.
+\newblock http://taginfo.osm.org/keys/building{\#}values Date accessed:
+  2016-11-21.
 
 \bibitem[OpenStreetMap, c]{OpenStreetMapi}
 OpenStreetMap, C.
 \newblock {Changeset - OpenStreetMap Wiki}.
-\newblock https://wiki.openstreetmap.org/wiki/Changeset.
+\newblock https://wiki.openstreetmap.org/wiki/Changeset Date accessed:
+  2016-11-21.
 
 \bibitem[OpenStreetMap, d]{OpenStreetMapn}
 OpenStreetMap, C.
 \newblock {Import/Catalogue/Topography import for Norway - OpenStreetMap Wiki}.
 \newblock
-  http://wiki.openstreetmap.org/wiki/Import/Catalogue/Topography{\_}import{\_}for{\_}Norway.
+  http://wiki.openstreetmap.org/wiki/Import/Catalogue/Topography{\_}import{\_}for{\_}Norway
+  Date accessed: 2016-12-07.
 
 \bibitem[OpenStreetMap, e]{Learnosm}
 OpenStreetMap, C.
 \newblock {LearnOSM}.
-\newblock http://learnosm.org/en/osm-data/file-formats/.
+\newblock http://learnosm.org/en/osm-data/file-formats/ Date accessed:
+  2016-11-26.
 
 \bibitem[OpenStreetMap, f]{OpenStreetMapk}
 OpenStreetMap, C.
 \newblock {MapRoulette - OpenStreetMap Wiki}.
-\newblock http://wiki.openstreetmap.org/wiki/MapRoulette.
+\newblock http://wiki.openstreetmap.org/wiki/MapRoulette Date accessed:
+  2016-11-24.
 
 \bibitem[OpenStreetMap, g]{OpenStreetMapc}
 OpenStreetMap, C.
 \newblock {Node - OpenStreetMap Wiki}.
-\newblock http://wiki.openstreetmap.org/wiki/Node.
+\newblock http://wiki.openstreetmap.org/wiki/Node Date accessed: 2016-11-20.
 
 \bibitem[OpenStreetMap, h]{OpenStreetMap2015}
 OpenStreetMap, C.
 \newblock {Node - OpenStreetMap Wiki}.
-\newblock http://wiki.openstreetmap.org/wiki/Node.
+\newblock http://wiki.openstreetmap.org/wiki/Node Date accessed: 2016-12-01.
 
 \bibitem[OpenStreetMap, i]{OpenStreetMape}
 OpenStreetMap, C.
 \newblock {Relation - OpenStreetMap Wiki}.
-\newblock http://wiki.openstreetmap.org/wiki/Relation.
+\newblock http://wiki.openstreetmap.org/wiki/Relation Date accessed:
+  2016-11-21.
 
 \bibitem[OpenStreetMap, j]{OpenStreetMapj}
 OpenStreetMap, C.
 \newblock {State Of The Map - OpenStreetMap Wiki}.
-\newblock http://wiki.openstreetmap.org/wiki/State{\_}Of{\_}The{\_}Map.
+\newblock http://wiki.openstreetmap.org/wiki/State{\_}Of{\_}The{\_}Map Date
+  accessed: 2016-11-21.
 
 \bibitem[OpenStreetMap, k]{OpenStreetMapd}
 OpenStreetMap, C.
 \newblock {Way - OpenStreetMap Wiki}.
-\newblock http://wiki.openstreetmap.org/wiki/Way.
+\newblock http://wiki.openstreetmap.org/wiki/Way Date accessed: 2016-11-20.
 
 \bibitem[OpenStreetMap, 2007]{WikiOSMTIGER2007}
 OpenStreetMap, C. (2007).
 \newblock {TIGER - OpenStreetMap Wiki}.
-\newblock http://wiki.openstreetmap.org/wiki/TIGER.
+\newblock http://wiki.openstreetmap.org/wiki/TIGER Date accessed: 2016-10-21.
 
 \bibitem[OpenStreetMap, 2013]{OpenStreetMapm}
 OpenStreetMap, C. (2013).
 \newblock {Simple 3D buildings - One year experiences / OpenStreetMap 3D /
   OpenStreetMap Forum}.
-\newblock https://forum.openstreetmap.org/viewtopic.php?id=19729.
+\newblock https://forum.openstreetmap.org/viewtopic.php?id=19729 Date accessed:
+  2016-11-26.
 
 \bibitem[OpenStreetMap, 2014]{OSMN502014}
 OpenStreetMap, C. (2014).
 \newblock {Import/Catalogue/N50 import (Norway) - OpenStreetMap Wiki}.
 \newblock
-  http://wiki.openstreetmap.org/wiki/Import/Catalogue/N50{\_}import{\_}(Norway).
+  http://wiki.openstreetmap.org/wiki/Import/Catalogue/N50{\_}import{\_}(Norway)
+  Date accessed: 2016-10-25.
 
 \bibitem[OpenStreetMap, 2015a]{OpenStreetMapo}
 OpenStreetMap, C. (2015a).
 \newblock {ProposedRoofLines - OpenStreetMap Wiki}.
 \newblock
-  http://wiki.openstreetmap.org/w/index.php?title=ProposedRoofLines{\&}oldid=1193866.
+  http://wiki.openstreetmap.org/w/index.php?title=ProposedRoofLines{\&}oldid=1193866
+  Date accessed: 2016-12-08.
 
 \bibitem[OpenStreetMap, 2015b]{OpenStreetMap2015a}
 OpenStreetMap, C. (2015b).
 \newblock {Simple 3D Buildings/Example Models - OpenStreetMap Wiki}.
 \newblock
-  http://wiki.openstreetmap.org/w/index.php?title=Simple{\_}3D{\_}Buildings/Example{\_}Models{\&}oldid=1194811.
+  http://wiki.openstreetmap.org/w/index.php?title=Simple{\_}3D{\_}Buildings/Example{\_}Models{\&}oldid=1194811
+  Date accessed: 2016-12-08.
 
 \bibitem[OpenStreetMap, 2016]{OSMwikipage2016}
 OpenStreetMap, C. (2016).
 \newblock {Simple 3D buildings - OpenStreetMap Wiki}.
 \newblock
-  http://wiki.openstreetmap.org/w/index.php?title=Simple{\_}3D{\_}buildings{\&}oldid=1389188.
+  http://wiki.openstreetmap.org/w/index.php?title=Simple{\_}3D{\_}buildings{\&}oldid=1389188
+  Date accessed: 2016-11-26.
 
 \bibitem[OpenStreetMap, l]{OSMDWG}
 OpenStreetMap, D.
 \newblock {Data working group - OpenStreetMap Wiki}.
-\newblock http://wiki.openstreetmap.org/wiki/Data{\_}working{\_}group.
-
-\bibitem[OpenStreetMap, m]{OSMimport}
-OpenStreetMap, I.
-\newblock {Import - OpenStreetMap Wiki}.
-\newblock http://wiki.openstreetmap.org/wiki/Import.
+\newblock http://wiki.openstreetmap.org/wiki/Data{\_}working{\_}group Date
+  accessed: 2016-10-25.
 
 \bibitem[{OSM Tasking Manager}, ]{OSMTaskingManager}
 {OSM Tasking Manager}, L.~B.
 \newblock {OSM Tasking Manager - LA buildings import}.
-\newblock http://labuildingsimport.com/.
+\newblock http://labuildingsimport.com/ Date accessed: 2016-10-31.
 
 \bibitem[OSMF, ]{OSMF}
 OSMF.
 \newblock {About | OpenStreetMap Blog}.
-\newblock https://blog.openstreetmap.org/about/.
-
-\bibitem[OSMF, 2015]{OSMF2015}
-OSMF (2015).
-\newblock {Membership/Statistics - OpenStreetMap Foundation Wiki}.
-\newblock https://wiki.osmfoundation.org/wiki/Membership/Statistics.
+\newblock https://blog.openstreetmap.org/about/ Date accessed: 2016-10-18.
 
 \bibitem[OSMstats, 2016]{OSMstats2016}
 OSMstats (2016).
 \newblock {OSMstats - Statistics of the free wiki world map}.
-\newblock http://osmstats.neis-one.org/.
+\newblock http://osmstats.neis-one.org/ Date accessed: 2016-11-26.
 
 \bibitem[Palen et~al., 2015]{Palen2015}
 Palen, L., Soden, R., Anderson, T.~J., and Barrenechea, M. (2015).
@@ -383,12 +435,14 @@ Palen, L., Soden, R., Anderson, T.~J., and Barrenechea, M. (2015).
 Reiter, M. and Barroso, L. (2016).
 \newblock {WeeklyOSM: Why, how, what, where and where we go}.
 \newblock
-  http://2016.stateofthemap.org/2016/weeklyosm-why-how-what-where-and-where-we-go/.
+  http://2016.stateofthemap.org/2016/weeklyosm-why-how-what-where-and-where-we-go/
+  Date accessed: 2016-11-14.
 
 \bibitem[Sambale, 2016]{Sambale2016a}
 Sambale, M. (2016).
 \newblock {OpenStreetMap | manings sin dagbok | Fixing split buildings in LA}.
-\newblock http://www.openstreetmap.org/user/manings/diary/39230.
+\newblock http://www.openstreetmap.org/user/manings/diary/39230 Date accessed:
+  2016-11-06.
 
 \bibitem[Schleuss et~al., 2016]{Schleuss2016}
 Schleuss, J., Ureta, O., McConchie, A., and Sambale, M. (2016).
@@ -408,24 +462,28 @@ Soden, R. and Palen, L. (2014).
 \bibitem[Solhagen, 2015]{Solhagen2015}
 Solhagen (2015).
 \newblock {User:Solhagen - OpenStreetMap Wiki}.
-\newblock http://wiki.openstreetmap.org/wiki/User:Solhagen.
+\newblock http://wiki.openstreetmap.org/wiki/User:Solhagen Date accessed:
+  2016-11-25.
 
 \bibitem[SOSI-sekretariatet, a]{SOSI-sekretariatet}
 SOSI-sekretariatet.
 \newblock {BygningstypeKode - Geonorge objektregister}.
 \newblock
-  https://objektkatalog.geonorge.no/Objekttype/Index/EAID{\_}A408BF17{\_}3017{\_}41c7{\_}BC37{\_}D6AADDD6634B.
+  https://objektkatalog.geonorge.no/Objekttype/Index/EAID{\_}A408BF17{\_}3017{\_}41c7{\_}BC37{\_}D6AADDD6634B
+  Date accessed: 2016-11-26.
 
 \bibitem[SOSI-sekretariatet, b]{SOSI-sekreteriatet}
 SOSI-sekretariatet.
 \newblock {Takriss - Geonorge objektregister}.
 \newblock
-  https://objektkatalog.geonorge.no/Objekttype/Index/EAID{\_}C8451D92{\_}8DC5{\_}4c38{\_}A09E{\_}3DDC03C35FE3.
+  https://objektkatalog.geonorge.no/Objekttype/Index/EAID{\_}C8451D92{\_}8DC5{\_}4c38{\_}A09E{\_}3DDC03C35FE3
+  Date accessed: 2016-12-07.
 
 \bibitem[TagInfo, 2016]{TagInfo2016}
 TagInfo (2016).
 \newblock {building | Keys | OpenStreetMap Taginfo}.
-\newblock http://taginfo.openstreetmap.org/keys/building.
+\newblock http://taginfo.openstreetmap.org/keys/building Date accessed:
+  2016-11-29.
 
 \bibitem[Wang et~al., 2013]{Wang2013}
 Wang, M., Li, Q., Hu, Q., and Zhou, M. (2013).
@@ -443,14 +501,16 @@ Willis, N. (2007).
 \newblock {OpenStreetMap project imports US government maps | Linux.com | The
   source for Linux information}.
 \newblock
-  https://www.linux.com/news/openstreetmap-project-imports-us-government-maps.
+  https://www.linux.com/news/openstreetmap-project-imports-us-government-maps
+  Date accessed: 2016-10-21.
 
 \bibitem[Willis, 2008]{Willis2008}
 Willis, N. (2008).
 \newblock {OpenStreetMap project completes import of United States TIGER data |
   Linux.com | The source for Linux information}.
 \newblock
-  https://www.linux.com/news/openstreetmap-project-completes-import-united-states-tiger-data.
+  https://www.linux.com/news/openstreetmap-project-completes-import-united-states-tiger-data
+  Date accessed: 2016-10-21.
 
 \bibitem[Zielstra et~al., 2013]{Zielstra2013}
 Zielstra, D., Hochmair, H.~H., and Neis, P. (2013).

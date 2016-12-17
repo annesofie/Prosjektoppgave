@@ -1,34 +1,33 @@
 \BOOKMARK [1][-]{chapter*.2}{List of Figures}{}% 1
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 2
 \BOOKMARK [0][-]{chapter.2}{Background}{}% 3
-\BOOKMARK [1][-]{section.2.1}{Organization}{chapter.2}% 4
-\BOOKMARK [0][-]{chapter.3}{Characteristics of OpenStreetMap}{}% 5
-\BOOKMARK [1][-]{section.3.1}{Data structure}{chapter.3}% 6
-\BOOKMARK [1][-]{section.3.2}{File format, .osm files}{chapter.3}% 7
-\BOOKMARK [1][-]{section.3.3}{Mapping buildings in OSM}{chapter.3}% 8
-\BOOKMARK [0][-]{chapter.4}{SOSI and FKB building}{}% 9
-\BOOKMARK [1][-]{section.4.1}{SOSI}{chapter.4}% 10
-\BOOKMARK [1][-]{section.4.2}{FKB and data quality}{chapter.4}% 11
-\BOOKMARK [1][-]{section.4.3}{Features in FKB building}{chapter.4}% 12
-\BOOKMARK [1][-]{section.4.4}{Benefits using SOSI in context of OSM}{chapter.4}% 13
-\BOOKMARK [0][-]{chapter.5}{Micro-tasking}{}% 14
-\BOOKMARK [1][-]{section.5.1}{Micro-tasking method}{chapter.5}% 15
-\BOOKMARK [1][-]{section.5.2}{OSM Tasking Manager}{chapter.5}% 16
-\BOOKMARK [1][-]{section.5.3}{Other tools}{chapter.5}% 17
-\BOOKMARK [0][-]{chapter.6}{OSM import methods}{}% 18
-\BOOKMARK [1][-]{section.6.1}{Fully automatic import script}{chapter.6}% 19
-\BOOKMARK [1][-]{section.6.2}{Guided automatic import}{chapter.6}% 20
-\BOOKMARK [1][-]{section.6.3}{Import based on micro-tasking}{chapter.6}% 21
-\BOOKMARK [1][-]{section.6.4}{Evaluation}{chapter.6}% 22
-\BOOKMARK [0][-]{chapter.7}{How to import FKB into OpenStreetMap}{}% 23
-\BOOKMARK [1][-]{section.7.1}{Micro-tasking method?}{chapter.7}% 24
-\BOOKMARK [1][-]{section.7.2}{FKB metadata to OSM key-value pairs}{chapter.7}% 25
-\BOOKMARK [1][-]{section.7.3}{Conversion using existing script}{chapter.7}% 26
-\BOOKMARK [1][-]{section.7.4}{How to map FKB buildings in 3D}{chapter.7}% 27
-\BOOKMARK [0][-]{chapter.8}{Discussion}{}% 28
-\BOOKMARK [0][-]{chapter.9}{Conclusion}{}% 29
-\BOOKMARK [0][-]{chapter.10}{Source - OSM mailing lists}{}% 30
-\BOOKMARK [0][-]{chapter.11}{Appendix}{}% 31
-\BOOKMARK [1][-]{section.11.1}{FKB building type to OSM building value}{chapter.11}% 32
-\BOOKMARK [1][-]{section.11.2}{Code snip from .lua file, setting building=* value}{chapter.11}% 33
-\BOOKMARK [1][-]{section.11.3}{XML code: 3D representation of a house from FKB data}{chapter.11}% 34
+\BOOKMARK [0][-]{chapter.3}{Characteristics of OpenStreetMap}{}% 4
+\BOOKMARK [1][-]{section.3.1}{Data structure}{chapter.3}% 5
+\BOOKMARK [1][-]{section.3.2}{File format, .osm files}{chapter.3}% 6
+\BOOKMARK [1][-]{section.3.3}{Mapping buildings in OSM}{chapter.3}% 7
+\BOOKMARK [0][-]{chapter.4}{SOSI and FKB building}{}% 8
+\BOOKMARK [1][-]{section.4.1}{SOSI}{chapter.4}% 9
+\BOOKMARK [1][-]{section.4.2}{FKB and data quality}{chapter.4}% 10
+\BOOKMARK [1][-]{section.4.3}{Features in FKB building}{chapter.4}% 11
+\BOOKMARK [1][-]{section.4.4}{Benefits using SOSI in context of OSM}{chapter.4}% 12
+\BOOKMARK [0][-]{chapter.5}{Micro-tasking}{}% 13
+\BOOKMARK [1][-]{section.5.1}{Micro-tasking method}{chapter.5}% 14
+\BOOKMARK [1][-]{section.5.2}{OSM Tasking Manager}{chapter.5}% 15
+\BOOKMARK [1][-]{section.5.3}{Other tools}{chapter.5}% 16
+\BOOKMARK [0][-]{chapter.6}{OSM import methods}{}% 17
+\BOOKMARK [1][-]{section.6.1}{Fully automatic import method}{chapter.6}% 18
+\BOOKMARK [1][-]{section.6.2}{Guided automatic import method}{chapter.6}% 19
+\BOOKMARK [1][-]{section.6.3}{Micro-tasking import method}{chapter.6}% 20
+\BOOKMARK [1][-]{section.6.4}{Evaluation}{chapter.6}% 21
+\BOOKMARK [0][-]{chapter.7}{Purposed method}{}% 22
+\BOOKMARK [1][-]{section.7.1}{Micro-tasking method?}{chapter.7}% 23
+\BOOKMARK [1][-]{section.7.2}{FKB metadata mapped to OSM key-value pairs}{chapter.7}% 24
+\BOOKMARK [1][-]{section.7.3}{Conversion using existing script}{chapter.7}% 25
+\BOOKMARK [1][-]{section.7.4}{How to map FKB buildings in 3D}{chapter.7}% 26
+\BOOKMARK [0][-]{chapter.8}{Discussion}{}% 27
+\BOOKMARK [0][-]{chapter.9}{Conclusion}{}% 28
+\BOOKMARK [0][-]{chapter.10}{Source - OSM mailing lists}{}% 29
+\BOOKMARK [0][-]{chapter.11}{Appendix}{}% 30
+\BOOKMARK [1][-]{section.11.1}{FKB building type mapped to OSM building value}{chapter.11}% 31
+\BOOKMARK [1][-]{section.11.2}{Code snippet from .lua file, setting building=* value}{chapter.11}% 32
+\BOOKMARK [1][-]{section.11.3}{XML code: 3D representation of a house from FKB data}{chapter.11}% 33

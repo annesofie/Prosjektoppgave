@@ -11,7 +11,7 @@ Micro-tasking in OpenStreetMap is done through, among others, the OSM Tasking Ma
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.3]{figures/FixedByMe/taskingmanager.png}
-    \caption{Project 2261- Tanzania Development, source: tasks.hotosm.org}
+    \caption{Project 2261- Tanzania Development, source: \cite{HOTTaskingManager2016a}}
     \label{fig:project2261}
 \end{figure} 
 
@@ -20,7 +20,7 @@ The OSM Tasking Manager has in the aftermath developed to other projects outside
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.3]{figures/FixedByMe/taskingman2.png}
-    \caption{Project 2 0- Southeast - LABuildings Import, source: labuildingsimport.com}
+    \caption{LABuildings Import, source: \cite{LAOSM}}
     \label{fig:project20}
 \end{figure} 
 

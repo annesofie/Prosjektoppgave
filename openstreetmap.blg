@@ -4,6 +4,7 @@ The top-level auxiliary file: openstreetmap.aux
 The style file: apalike.bst
 Database file #1: prosjektoppg.bib.bib
 Warning--I didn't find a database entry for "delimitation"
+Warning--I didn't find a database entry for "sec:sosiosm"
 Warning--I didn't find a database entry for "Sambale2016s"
 Warning--empty journal in Bernstein
 Warning--empty journal in Chilton
@@ -35,7 +36,6 @@ Warning--empty year in OpenStreetMape
 Warning--empty year in OpenStreetMapj
 Warning--empty year in OpenStreetMapd
 Warning--empty year in OSMDWG
-Warning--empty year in OSMimport
 Warning--empty year in OSMTaskingManager
 Warning--empty year in OSMF
 Warning--empty publisher in Skogseth2014
@@ -43,45 +43,45 @@ Warning--empty journal in Soden
 Warning--empty year in SOSI-sekretariatet
 Warning--empty year in SOSI-sekreteriatet
 Warning--empty journal in Weber2008
-You've used 83 entries,
+You've used 84 entries,
             1935 wiz_defined-function locations,
-            859 strings with 16119 characters,
-and the built_in function-call counts, 22796 in all, are:
-= -- 2337
-> -- 790
-< -- 77
-+ -- 268
-- -- 244
-* -- 1503
-:= -- 4373
-add.period$ -- 239
-call.type$ -- 83
-change.case$ -- 537
-chr.to.int$ -- 59
+            865 strings with 17976 characters,
+and the built_in function-call counts, 23043 in all, are:
+= -- 2363
+> -- 797
+< -- 78
++ -- 270
+- -- 246
+* -- 1520
+:= -- 4424
+add.period$ -- 242
+call.type$ -- 84
+change.case$ -- 543
+chr.to.int$ -- 60
 cite$ -- 121
-duplicate$ -- 916
-empty$ -- 1412
-format.name$ -- 337
-if$ -- 4244
+duplicate$ -- 926
+empty$ -- 1427
+format.name$ -- 340
+if$ -- 4289
 int.to.chr$ -- 25
 int.to.str$ -- 0
 missing$ -- 19
-newline$ -- 408
-num.names$ -- 249
-pop$ -- 403
+newline$ -- 413
+num.names$ -- 252
+pop$ -- 404
 preamble$ -- 1
-purify$ -- 537
+purify$ -- 543
 quote$ -- 0
-skip$ -- 748
+skip$ -- 758
 stack$ -- 0
-substring$ -- 1159
+substring$ -- 1171
 swap$ -- 32
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 496
-warning$ -- 38
-while$ -- 181
+type$ -- 502
+warning$ -- 37
+while$ -- 183
 width$ -- 0
-write$ -- 957
+write$ -- 970
 (There were 40 warnings)

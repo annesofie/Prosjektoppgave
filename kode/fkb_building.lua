@@ -33,7 +33,7 @@ for i, indent, tokens in tokens, info, 0 do
 		end
     elseif tokens[1] == "BYGGTYP_NBR" then
         if tokens[2] == "181" or tokens[2] == "182" then
-            out["building"] = "garage"
+            out["building"] = "garage"r
         elseif tokens[2] == "111" or tokens[2] == "112" or tokens[2] == "141" then
             out["building"] = "detached"
         elseif tokens[2] == "121" or tokens[2] == "123" or tokens[2] == "131" or tokens[2] == "122" or tokens[2] == "133" or tokens[2] == "136" then
