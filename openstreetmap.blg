@@ -3,13 +3,8 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: openstreetmap.aux
 The style file: apalike.bst
 Database file #1: prosjektoppg.bib.bib
-Warning--I didn't find a database entry for "delimitation"
-Warning--I didn't find a database entry for "sec:sosiosm"
-Warning--I didn't find a database entry for "Sambale2016s"
 Warning--empty journal in Bernstein
 Warning--empty journal in Chilton
-Warning--empty year in OpenStreetMapg
-Warning--empty year in OSMAutiEdit
 Warning--empty year in Geonorge
 Warning--empty journal in Goodchild2007
 Warning--empty journal in Gutwin2004
@@ -24,18 +19,7 @@ Warning--empty year in Kartverket
 Warning--empty year in Kartverketb
 Warning--empty journal in Madalena
 Warning--empty year in ODbL
-Warning--empty year in OSMAutomaticEdits
-Warning--empty year in OpenStreetMapf
-Warning--empty year in OpenStreetMapi
-Warning--empty year in OpenStreetMapn
 Warning--empty year in Learnosm
-Warning--empty year in OpenStreetMapk
-Warning--empty year in OpenStreetMapc
-Warning--empty year in OpenStreetMap2015
-Warning--empty year in OpenStreetMape
-Warning--empty year in OpenStreetMapj
-Warning--empty year in OpenStreetMapd
-Warning--empty year in OSMDWG
 Warning--empty year in OSMTaskingManager
 Warning--empty year in OSMF
 Warning--empty publisher in Skogseth2014
@@ -43,45 +27,45 @@ Warning--empty journal in Soden
 Warning--empty year in SOSI-sekretariatet
 Warning--empty year in SOSI-sekreteriatet
 Warning--empty journal in Weber2008
-You've used 84 entries,
+You've used 87 entries,
             1935 wiz_defined-function locations,
-            865 strings with 17976 characters,
-and the built_in function-call counts, 23043 in all, are:
-= -- 2363
-> -- 797
-< -- 78
-+ -- 270
-- -- 246
-* -- 1520
-:= -- 4424
-add.period$ -- 242
-call.type$ -- 84
-change.case$ -- 543
+            871 strings with 18875 characters,
+and the built_in function-call counts, 23804 in all, are:
+= -- 2441
+> -- 818
+< -- 81
++ -- 279
+- -- 252
+* -- 1591
+:= -- 4582
+add.period$ -- 251
+call.type$ -- 87
+change.case$ -- 561
 chr.to.int$ -- 60
-cite$ -- 121
-duplicate$ -- 926
-empty$ -- 1427
-format.name$ -- 340
-if$ -- 4289
-int.to.chr$ -- 25
+cite$ -- 111
+duplicate$ -- 956
+empty$ -- 1472
+format.name$ -- 349
+if$ -- 4424
+int.to.chr$ -- 28
 int.to.str$ -- 0
 missing$ -- 19
-newline$ -- 413
-num.names$ -- 252
-pop$ -- 404
+newline$ -- 428
+num.names$ -- 261
+pop$ -- 387
 preamble$ -- 1
-purify$ -- 543
+purify$ -- 561
 quote$ -- 0
-skip$ -- 758
+skip$ -- 810
 stack$ -- 0
-substring$ -- 1171
+substring$ -- 1207
 swap$ -- 32
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 502
-warning$ -- 37
-while$ -- 183
+type$ -- 520
+warning$ -- 24
+while$ -- 189
 width$ -- 0
-write$ -- 970
-(There were 40 warnings)
+write$ -- 1019
+(There were 24 warnings)

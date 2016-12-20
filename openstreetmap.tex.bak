@@ -46,7 +46,7 @@
 \newcommand{\hsp}{\hspace{20pt}}
 \titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\Huge\bfseries}
 
-\title{Micro-tasking, an efficient method for data acquisition for digital maps?}
+\title{Evaluation of the Micro-Tasking Method for Importing High-Detail Building Models to OpenStreetMap}
 \author{Anne Sofie Strand Erichsen}
 %\date{}							% Activate to display a given date or no date
 
@@ -58,28 +58,18 @@
 
 
 \abstract
-TB!
-Hvorfor gjør jeg dette
-Hva gjorde jeg
-Hva var resultatet
-%A big problem with OSM is finding a good, fast and easy way of correcting data. There exists multiple tools that finds possible errors, but there also has to be a good way of fixing them. A solution to this problem can be can be microtasking. Microtasks are formed basically by dividing a project into smaller tasks, clearly defined, that can be performed independently \cite{EstellesArolas}. 
-
-%Voluntary acquisition of data for digital mapping has become quite popular over the last years. This is also a cornerstone for OpenStreetMap (OSM), which is a global open access database for digital maps. To establish data sets (for maps) is a comprehensive task. By dividing the work into many small sub-tasks, each of these tasks may be possible to handle by voluntary enthusiasts. This is called micro-tasking.
-
-%The Norwegian government has indicated that the most detailed map data for Norway (FKB) may become freely available within a few years. If so, these data may be included in the database of OSM. This paper will look at the FKB building datasets.   
+Importing large quantities of data into the OpenStreetMap (OSM) database has always been challenging. This study will investigate if the micro-tasking method makes the import process more manageable for the OSM community. In order to evaluate this method, the detailed FKB building dataset covering Norway will be used as an example dataset. This dataset will, most likely, be freely available within few years. By using the FKB building dataset this study will also provide help to the community if or when an import of the FKB data is approved. This study also looks at how the buildings can be 3D modeled in OSM. The results show that the micro-tasking method should be the preferred method when doing large imports of external data into OSM. 
+%Hvorfor gjør jeg dette, Hva gjorde jeg, Hva var resultatet
 
 \chapter{Introduction}\label{sec:intro}
-OpenStreetMap (OSM) is an international effort to create a free source of map data through volunteer effort \cite{Goodchild2007} and is the largest and probably the best-known example of geospatial data creation using Volunteered Geographic Information(VGI).  VGI is described by Goodchild as a phenomenon where volunteer citizens manage to create and share geographic information through widespread access to the internet, handheld GPS devices, and computers. The traditional way to contribute data to the OpenStreetMap project is through active users who use their GPS to track roads and their local knowledge to add information about geographic regions to the OSM database \cite{Zielstra2013}. Users also digitalize aerial photos by drawing buildings etc. from it. %Cheaper GPS receivers and more available satellite imagery with better resolution make it easier for users to contribute \cite{Chilton}. 
-The number of active users in different places varies, making some regions on the OSM map full of data while others are almost empty. The varying number of active mappers led to a second approach for getting data into the OpenStreetMap database; bulk imports \cite{Zielstra2013}.  Bulk import is the process of uploading external data into the OSM database \cite{Zielstra2013}. %and was meant for initial/preliminary object class uploads, so only if the object were none existing in the area.  It's a good alternative for countries or regions with few or none active users. 
-To get the external data into the OSM database various import methods have been developed through the years, some more successful than others. No method seem to stand out as the preferred method in the OSM community. This study will examine the micro-tasking method and evaluate its strengths and weaknesses. This is one of the methods used today to import external data into OSM. Different methods used during previous imports will be examined in this study with emphasis on the micro-tasking method. At least two imports have used the mico-tasking method with success.
+OpenStreetMap (OSM) is an international effort to create a free source of map data through volunteer effort \cite{Goodchild2007} and is the largest and probably the best-known example of geospatial data creation using Volunteered Geographic Information(VGI).  VGI is described by Goodchild as a phenomenon where volunteer citizens manage to create and share geographic information through widespread access to the internet, handheld GPS devices, and computers. The traditional way to contribute data to the OpenStreetMap project is through active users who use their GPS to track roads and their local knowledge to add information about geographic regions to the OSM database \cite{Zielstra2013}. Users also digitalize aerial photos by drawing buildings etc. from it. The number of active users in different places varies, making some regions on the OSM map full of data while others are almost empty. The varying number of active mappers led to a second approach for getting data into the OpenStreetMap database; bulk imports \cite{Zielstra2013}.  Bulk import is the process of uploading external data into the OSM database \cite{Zielstra2013}. To get external data into the OSM database various import methods have been developed throughout the years, some more successful than others. No method seem to stand out as the preferred method in the OSM community. One method used today to import external data into OSM is the micro-tasking method. This study will examine the micro-tasking method and evaluate its strengths and weaknesses. At least two large-scale imports have used the micro-tasking method and they will be an important part of the evaluation in this paper.
 
 In order to evaluate the micro-tasking method, this paper will use the FKB building datasets as test data. %This study will examine how this data can be imported into OSM by using the micro-tasking mindset. 
-The Norwegian government has indicated that FKB, the most detailed map data of Norway, may become freely available within a few years. If so, this data may be imported into OpenStreetMap. FKB is a collection of datasets containing detailed vector data of Norway, created in the SOSI format. By using the FKB building data as a test data, this paper can also provide help to the OSM community, if or when an import of FKB into OSM is approved. 
+The Norwegian government has indicated that FKB, the most detailed map data of Norway, may become freely available within a few years. If so, this data may be imported into OpenStreetMap. FKB is a collection of datasets containing detailed vector data of Norway, created in the SOSI format. By using the FKB building data, this paper can also provide help to the OSM community, if or when an import of FKB into OSM is approved. 
 
-Importing data into OSM can be tricky and finding an optimal approach is not easy. An import should always follow the OSM import guidelines. In OSM, imports must be planned and executed with more care and sensitivity than other edits. A bad import can have significant impacts on both existing data and the local mapping community. Finding a balance between manual verification and automatic import can be the core for a successful import method. The import should not demand more time than manually drawing buildings into OSM for instance. %The import should require more work than a manual import. 
- The micro-tasking method could be the solution. Examining this method and how it could be used when importing the FKB building data is the core motivation for this study. 
+Importing data into OSM can be complicated and finding an optimal approach is not easy. An import should always follow the OSM import guidelines. In OSM, imports must be planned and executed with more care and sensitivity than other edits. A bad import can have significant impacts on both existing data and the local mapping community. Finding a balance between manual verification and automatic import can be the core for a successful import method. The micro-tasking method could be the solution. Examining this method and how it could be used when importing the FKB building data is the core motivation for this study. 
 
-An import of FKB building data could result in a 3D model of buildings throughout Norway, free and available for everyone. FKB contain very detailed building data and gives a good foundation for 3D modeling of buildings. Trondheim will be a test municipality in this paper. The buildings on the OSM-map of Trondheim is today added manually by users drawing over aerial photos and by using their local knowledge. Height and roof shape is often not included; it's impossible to get this information from an aerial photo. This makes the 3D models of buildings nonrealistic in OSM. An example of 3D models of buildings from OpenStreetMap today (late 2016) is shown in figure \ref{fig:3Dekstrd}. The same buildings 3D modeled with FKB building data is shown in figure \ref{fig:3DekstrdFKB}. Norkart created the FKB 3D model in figure \ref{fig:3DekstrdFKB}. 
+An import of FKB building data could result in a 3D model of buildings throughout Norway, free and available for everyone. FKB contain very detailed building data and gives a good foundation for 3D modeling of buildings. Trondheim will be a test municipality in this paper. The buildings on the OSM-map of Trondheim is today added manually by users drawing over aerial photos and by using their local knowledge. Height and roof shape is often not included; it's hard to get this information from an aerial photo. This makes the 3D models of buildings nonrealistic in OSM. An example of 3D models of buildings from OpenStreetMap today (late 2016) is shown in figure \ref{fig:3Dekstrd}. The same buildings 3D modeled with FKB building data is shown in figure \ref{fig:3DekstrdFKB}. Norkart created the FKB 3D model in figure \ref{fig:3DekstrdFKB}. 
 
 \begin{figure}[H]
 \centering
@@ -95,32 +85,26 @@ An import of FKB building data could result in a 3D model of buildings throughou
   \caption{From FKB building data}
   \label{fig:3DekstrdFKB}
 \end{subfigure}
-\caption{3D modeling of buildings in Trondheim, source: osmbuildings.org and 3d.kommunekart.com}
+\caption{3D modeling of buildings in Trondheim, source: \cite{OSMbui2016} and \cite{NORKART2016}}
 \label{fig:test}
 \end{figure}
 
-In figure \ref{fig:3Dekstrd} the buildings have equal heights and a flat roof. This is not a realistic representation. Looking at figure \ref{fig:3DekstrdFKB} the buildings are modeled much more realistic. Finding out how to use FKB building data to create a realistic 3D modeling of buildings in OpenStreetMap will be the second motivation for this study.  *%Needs rewriting
-
- 
-%When importing data into OSM a team is often created around the import and they are managing the process. The import team needs a plan on how to import. The micro-tasking method may be a solution. Two big building imports has used this method and this paper will look at how they did it, and how it worked and what didn't work. The paper will try to evaluate and see if a team importing FKB should use the micro-tasking method. 
-
-%In theory micotasking seems to solve a lot of OSM problems like overlapping data, deletion of good metadata (read: tags) when running import-scripts and makes it easier to control, both the workflow and quality of the data. Microtasking splits a task into multiple subtasks and distributes these subtasks to humans over the internet.  The OSM mindset  of schema-less datasets and tags differs from many organizations. With the success of OSM it is time to start taking this mindset serious. OSM also has its weaknesses , but many people believe microtasking solves the majority of them. By using FKB building dataset I will try too look further into mapping governmental data over to the OSM format, also trying to experience if microtasking is the solution of the weaknesses of OSM, like the ones I mentioned above. 
+In figure \ref{fig:3Dekstrd} the buildings have equal heights and a flat roof. This is not an accurate representation of the buildings in real life. Looking at figure \ref{fig:3DekstrdFKB} the buildings are modeled much more accurate. Finding out how to use FKB building data to create a realistic 3D modeling of buildings in OpenStreetMap will be the second motivation for this study. 
 
 \chapter{Background}
 The OpenStreetMap project is one of the most impressive projects of Volunteered Geographic Information on the Internet\cite{Neis2012}. Until recent the mapping of the Earth was preserved highly skilled, well-equipped and organized individuals and groups. One important happening was in 2000 when Bill Clinton removed the selective availability of the GPS signal. This change improved the accuracy of simpler, cheaper GPS receivers so that also ordinary people could start mapping their movements \cite{Weber2008}. OpenStreetMap was founded in 2004 at University College London by Steve Coast. The goal was to gather and share geospatial data of the whole world through a free geospatial database \cite{Neis2012}. Back in 2004, the geographic data was expensive and hard to get access to. 
 
 The OSM project stands out from other data sources mainly because it's free to use and released under a license that allows for pretty much whatever the user wants to as long as the user mention the original creator and the licence\cite{Chilton}.  The most common contribution approach is to record data using a GPS receiver and edit the data using one of the free and available OSM editors \cite{Neis2012}.  
 
-The OpenStreetMap Project is supported by the OpenStreeMap Foundation (OSMF) which is a UK-registered non-profit organization. OSMF critical to the ongoing function and growth of the OpenStreetMap project. The foundation has the responsibility for the servers and services necessary for hosting the OSM project. They also support and communicates with the working groups, and delegates important tasks like web page development, etc. \cite{OSMF}. A person can contribute to the OSM project without being a member of the foundation. The project has over 3 million registered users, and around 40 000 active users each month \cite{ OSMstats2016} collecting, updating and editing the data. The crowdsourced data are then released under the Open Database License, \textit{"a license agreement intended to allow users to freely share, modify, and use this Database while maintaining this same freedom for others"} \cite{ODbL}. 
+The OpenStreetMap Project is supported by the OpenStreeMap Foundation (OSMF) which is a UK-registered non-profit organization. OSMF is critical to the ongoing function and growth of the OpenStreetMap project. The foundation has the responsibility for the servers and services necessary for hosting the OSM project. They also support and communicates with the working groups, and delegates important tasks like web page development, etc. \cite{OSMF}. A person can contribute to the OSM project without being a member of the foundation. The project has over 3 million registered users, and around 40 000 active users each month \cite{ OSMstats2016} collecting, updating and editing the data. The crowdsourced data are then released under the Open Database License, \textit{"a license agreement intended to allow users to freely share, modify, and use this Database while maintaining this same freedom for others"} \cite{ODbL}. 
 
 Communication between OSM users is done through channels like mailing lists, wiki pages, conferences and GitHub repositories. In the public mailing lists, everyone who subscribes to it is overhearing every conversation. Overhearing conversations through mailing lists is described as broadcast communication in the Gutwin paper from 2004 \cite{Gutwin2004}. The ability to speak to an expected audience rather than one individual has several advantages. Allowing people to decide for themselves whether to respond or not and as the conversation develops new people can join. In OpenStreetMap there are over 150 mailing lists \cite{Reiter2016}, keeping an overview of everything is impossible. That is why weeklyOSM was created in 2010 and is a collection of news relevant to the OSM community written in 5 different languages \cite{Freyfogle2016}.  In State of the Map 2016 conference, the WeeklyOSM team won the Influential Writing Award, nominated and voted by the community [OpenStreetMap, 2016a]. A good evidence of how important their work is to the community. State of the Map is the main OSM conference, organized by OSMF and has been held each year since 2007 \cite{OpenStreetMapj}. Important communication is also done through both issues and pull requests in the repositories at the OpenStreetMap GitHub channel, which is easy to see in on the different OSM repositories. 
 
 One of the reasons for OpenStreetMap's success is that today the world has a need for instant information, particularly in crisis situations \cite{Chilton}. Here OpenStreetMap is the leading global example of the effectiveness of crowdsourcing of geodata. Crowdsourced geographic data has characteristics or advantages of large data volume, high currency, large quantity of information and low cost \cite{Wang2013}. The project is changing the way individuals and organizations are thinking about the collection process, purchase and use of geodata \cite{Chilton}.  
 
-After the Haiti earthquake in 2010 Humanitarian OpenStreetMap (HOT) was formally registered as a non-profit organization \cite{Soden}. During a 3-week period 600 remotely located volunteer mappers built a base layer map for Haiti nearly from scratch \cite{Soden}. The Haiti mappers were loosely organized through public lists, real-time chat (IRC) discussion and a wiki page \cite{Palen2015}. One organizer wrote to the OSM mailing list "\textit{What tools are available to see in real time which areas have been mapped recently? [...] This would be helpful for general coordination among us mapping in Haiti}". The request was unfulfilled. In the Palen paper from 2015, they found a case of duplication of two changesets created less than 1 minute apart contained four duplicate road sections created by two mappers. Findings like this one illustrate how high tempo mapping in a limited region can result in collisions. 
+After the Haiti earthquake in 2010 Humanitarian OpenStreetMap (HOT) was formally registered as a non-profit organization \cite{Soden}. During a 3-week period 600 remotely located volunteer mappers built a base layer map for Haiti nearly from scratch \cite{Soden}. The Haiti mappers were loosely organized through public lists, real-time chat (IRC) discussion and a wiki page \cite{Palen2015}. One organizer wrote to the OSM mailing list "\textit{What tools are available to see in real time which areas have been mapped recently? [...] This would be helpful for general coordination among us mapping in Haiti}". The request was unfulfilled. In the Palen et al. paper from 2015, they found a case of duplication of two changesets created less than 1 minute apart contained four duplicate road sections created by two mappers. Findings like this one illustrate how high tempo mapping in a limited region can result in collisions. 
 
 Solving collisions in the aftermath of the Haiti earthquake led the HOT-team to create the OSM Tasking Manager tool, the first version finished in 2011. This tool where thought as a help to mappers to more efficiently coordinate simultaneous work. Creating a tasking manager tool reflected the growing popularity of micro-tasking, or a Find-Fix-Verify crowd programming pattern, as a solution to managing and implementing distributed work \cite{Bernstein2015}. This tool was the first introduction of the micro-tasking method in OpenStreetMap. 
-
 
 %\input{TechnicalOSM.tex}
 %\input{ExistingScriptOSM.tex}
@@ -168,29 +152,6 @@ Solving collisions in the aftermath of the Haiti earthquake led the HOT-team to 
 
 \bibliographystyle{apalike}
 \bibliography{prosjektoppg.bib}
-
-
-\chapter{Source - OSM mailing lists}
-The mailing lists and threads used as information source in this paper.\\ 
-\begin{enumerate}
- \item NUUG kart, mailing threads: \label{mail:nuugkart} 
- 	\begin{itemize}
- 		 \item sosi2osm \cite{Gnonthgol2013}
- 		 \item Bruk av datasett fra Kartverket i OpenStreetMap \cite{Kihle2014}
- 		 \item Moesvatn \cite{Didriksen2014}
- 	\end{itemize}
- \item OSM-talk, mailing threads: \label{mail:osmtalk}
- 	 \begin{itemize}
- 		\item TIGER upload status since 0.5 api \cite{Munro2007}
- 		\item TIGER, which states next? \cite{Mielczarek2007}
- 		\item TIGER update (need more suggestions) \cite{Hansen2007b}
- 		\item TIGER upload queue (maps of entire US) \cite{Hansen2007}
- 	\end{itemize}
- \item Imports, mailing threads: \label{mail:imports}
- 	 \begin{itemize}
- 		 \item N50 imports from Kartverket \cite{Mehus2014}
- 	\end{itemize}
- \end{enumerate} 
  
  \input{Appendix.tex}
 

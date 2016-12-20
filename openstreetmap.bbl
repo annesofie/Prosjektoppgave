@@ -45,16 +45,24 @@ Building, L. (2016).
 \newblock https://github.com/osmlab/labuildings/issues/40 Date accessed:
   2016-12-16.
 
+\bibitem[Buildings, 2016a]{OSMbui2016}
+Buildings, O. (2016a).
+\newblock {Trondheim (NO) • OSM Buildings}.
+\newblock
+  http://osmbuildings.org/?lat=63.42411{\&}lon=10.38373{\&}zoom=18.8{\&}rotation=0{\&}tilt=30
+  Date accessed: 2016-12-20.
+
+\bibitem[Buildings, 2016b]{Buildings2016}
+Buildings, O. (2016b).
+\newblock {Trondheim (NO) • OSM Buildings}.
+\newblock
+  http://osmbuildings.org/?lat=63.42687{\&}lon=10.39787{\&}zoom=19.6{\&}rotation=0{\&}tilt=30
+  Date accessed: 2016-12-08.
+
 \bibitem[Chilton et~al., 2009]{Chilton}
 Chilton, S., Building, F., and Burroughs, T. (2009).
 \newblock {CROWDSOURCING IS RADICALLY CHANGING THE GEODATA LANDSCAPE : CASE
   STUDY OF OPENSTREETMAP}.
-
-\bibitem[community OpenStreetMap, ]{OpenStreetMapg}
-community OpenStreetMap.
-\newblock {Elements - OpenStreetMap Wiki}.
-\newblock https://wiki.openstreetmap.org/wiki/Elements Date accessed:
-  2016-11-21.
 
 \bibitem[Debruyne et~al., 2015]{Debruyne2015}
 Debruyne, C., Panetto, H., Meersman, R., Dillon, T., Weichhart, G., An, Y., and
@@ -62,11 +70,12 @@ Debruyne, C., Panetto, H., Meersman, R., Dillon, T., Weichhart, G., An, Y., and
 \newblock {On the Move to Meaningful Internet Systems: OTM 2015 Conferences}.
 \newblock {\em Springer International Publishing}.
 
-\bibitem[edits OpenStreetMap, ]{OSMAutiEdit}
-edits OpenStreetMap, A.
+\bibitem[edits OpenStreetMap, 2016]{OSMAutiEdit}
+edits OpenStreetMap, A. (2016).
 \newblock {Automated edits - OpenStreetMap Wiki}.
-\newblock http://wiki.openstreetmap.org/wiki/Automated{\_}edits Date accessed:
-  2016-10-26.
+\newblock
+  http://wiki.openstreetmap.org/w/index.php?title=Automated{\_}edits{\&}oldid=1319652
+  Date accessed: 2016-10-26.
 
 \bibitem[Exel~van, 2010]{Exelvan2010}
 Exel~van, M. (2010).
@@ -124,22 +133,15 @@ Hagen, S.~O. (2014).
 \newblock https://www.mail-archive.com/kart@nuug.no/msg01508.html Date
   accessed: 2016-10-31.
 
-\bibitem[Hansen, 2007a]{Hansen2007b}
+\bibitem[Hansen, 2007a]{Hansen2007a}
 Hansen, D. (2007a).
-\newblock {[OSM-talk] TIGER update (need more suggestions)}.
-\newblock
-  https://lists.openstreetmap.org/pipermail/talk/2007-November/019880.html Date
-  accessed: 2016-10-27.
-
-\bibitem[Hansen, 2007b]{Hansen2007a}
-Hansen, D. (2007b).
 \newblock {[OSM-talk] TIGER upload queue (maps of entire US)}.
 \newblock
   https://lists.openstreetmap.org/pipermail/talk/2007-September/017621.html
   Date accessed: 2016-10-26.
 
-\bibitem[Hansen, 2007c]{Hansen2007}
-Hansen, D. (2007c).
+\bibitem[Hansen, 2007b]{Hansen2007}
+Hansen, D. (2007b).
 \newblock {[OSM-talk] TIGER upload queue (maps of entire US)}.
 \newblock
   https://lists.openstreetmap.org/pipermail/talk/2007-September/017744.html
@@ -197,9 +199,9 @@ Kartverket (2013b).
 \bibitem[Kartverket, 2016a]{Kartverket2016a}
 Kartverket (2016a).
 \newblock {Innf{\o}ring i kommunene | Kartverket}.
-\newblock
-  http://www.kartverket.no/Prosjekter/Sentral-felles-kartdatabase/sentral-lagring-av-fkb-data--innforing-i-kommunene/
-  Date accessed: 2016-11-09.
+\newblock http://www.kartverket.no/Prosjekter/Sentral-felles-kartdatabase/
+  sentral-lagring-av-fkb-data--innforing-i-kommunene/ Date accessed:
+  2016-11-09.
 
 \bibitem[Kartverket, 2016b]{Kartverket2016}
 Kartverket (2016b).
@@ -280,18 +282,19 @@ Mielczarek, T. (2007).
   https://lists.openstreetmap.org/pipermail/talk/2007-October/019231.html Date
   accessed: 2016-10-27.
 
-\bibitem[Munro, 2007]{Munro2007}
-Munro, R.~J. (2007).
-\newblock {[OSM-talk] TIGER upload status since 0.5 api}.
-\newblock
-  https://lists.openstreetmap.org/pipermail/talk/2007-October/018834.html Date
-  accessed: 2016-10-27.
-
 \bibitem[Neis and Zipf, 2012]{Neis2012}
 Neis, P. and Zipf, A. (2012).
 \newblock {Analyzing the Contributor Activity of a Volunteered Geographic
   Information Project — The Case of OpenStreetMap}.
 \newblock {\em ISPRS International Journal of Geo-Information}, 1(3):146--165.
+
+\bibitem[NORKART, 2016]{NORKART2016}
+NORKART (2016).
+\newblock {Kommunekart 3D}.
+\newblock http://3d.kommunekart.com/Clients/index.html?funksjon=vispunkt{\&}
+  y=269674.3363122087{\&}x=7041000.767160203{\&}z=115.8055861486594{\&}
+  lookatx=7041072.04808862{\&}lookaty=269707.5914191979{\&}lookatz=54.05506304857936{\&}
+  zoom=13{\&}srid=32633{\&}kommune=1601 Date accessed: 2016-.
 
 \bibitem[ODbL, ]{ODbL}
 ODbL.
@@ -299,70 +302,17 @@ ODbL.
 \newblock http://opendatacommons.org/licenses/odbl/1.0/ Date accessed:
   2016-10-18.
 
-\bibitem[OpenStreetMap, a]{OSMAutomaticEdits}
-OpenStreetMap, C.
-\newblock {Automated Edits code of conduct - OpenStreetMap Wiki}.
-\newblock
-  http://wiki.openstreetmap.org/wiki/Automated{\_}Edits{\_}code{\_}of{\_}conduct
-  Date accessed: 2016-10-26.
+\bibitem[OpenStreetMap, 2016a]{OpenStreetMap2016b}
+OpenStreetMap (2016a).
+\newblock {OpenStreetMap}.
+\newblock http://www.openstreetmap.org/{\#}map=19/63.43014/10.39827 Date
+  accessed: 2016-12-06.
 
-\bibitem[OpenStreetMap, b]{OpenStreetMapf}
-OpenStreetMap, C.
-\newblock {building | Keys | OpenStreetMap Taginfo}.
-\newblock http://taginfo.osm.org/keys/building{\#}values Date accessed:
-  2016-11-21.
-
-\bibitem[OpenStreetMap, c]{OpenStreetMapi}
-OpenStreetMap, C.
-\newblock {Changeset - OpenStreetMap Wiki}.
-\newblock https://wiki.openstreetmap.org/wiki/Changeset Date accessed:
-  2016-11-21.
-
-\bibitem[OpenStreetMap, d]{OpenStreetMapn}
-OpenStreetMap, C.
-\newblock {Import/Catalogue/Topography import for Norway - OpenStreetMap Wiki}.
-\newblock
-  http://wiki.openstreetmap.org/wiki/Import/Catalogue/Topography{\_}import{\_}for{\_}Norway
-  Date accessed: 2016-12-07.
-
-\bibitem[OpenStreetMap, e]{Learnosm}
+\bibitem[OpenStreetMap, ]{Learnosm}
 OpenStreetMap, C.
 \newblock {LearnOSM}.
 \newblock http://learnosm.org/en/osm-data/file-formats/ Date accessed:
   2016-11-26.
-
-\bibitem[OpenStreetMap, f]{OpenStreetMapk}
-OpenStreetMap, C.
-\newblock {MapRoulette - OpenStreetMap Wiki}.
-\newblock http://wiki.openstreetmap.org/wiki/MapRoulette Date accessed:
-  2016-11-24.
-
-\bibitem[OpenStreetMap, g]{OpenStreetMapc}
-OpenStreetMap, C.
-\newblock {Node - OpenStreetMap Wiki}.
-\newblock http://wiki.openstreetmap.org/wiki/Node Date accessed: 2016-11-20.
-
-\bibitem[OpenStreetMap, h]{OpenStreetMap2015}
-OpenStreetMap, C.
-\newblock {Node - OpenStreetMap Wiki}.
-\newblock http://wiki.openstreetmap.org/wiki/Node Date accessed: 2016-12-01.
-
-\bibitem[OpenStreetMap, i]{OpenStreetMape}
-OpenStreetMap, C.
-\newblock {Relation - OpenStreetMap Wiki}.
-\newblock http://wiki.openstreetmap.org/wiki/Relation Date accessed:
-  2016-11-21.
-
-\bibitem[OpenStreetMap, j]{OpenStreetMapj}
-OpenStreetMap, C.
-\newblock {State Of The Map - OpenStreetMap Wiki}.
-\newblock http://wiki.openstreetmap.org/wiki/State{\_}Of{\_}The{\_}Map Date
-  accessed: 2016-11-21.
-
-\bibitem[OpenStreetMap, k]{OpenStreetMapd}
-OpenStreetMap, C.
-\newblock {Way - OpenStreetMap Wiki}.
-\newblock http://wiki.openstreetmap.org/wiki/Way Date accessed: 2016-11-20.
 
 \bibitem[OpenStreetMap, 2007]{WikiOSMTIGER2007}
 OpenStreetMap, C. (2007).
@@ -379,36 +329,113 @@ OpenStreetMap, C. (2013).
 \bibitem[OpenStreetMap, 2014]{OSMN502014}
 OpenStreetMap, C. (2014).
 \newblock {Import/Catalogue/N50 import (Norway) - OpenStreetMap Wiki}.
-\newblock
-  http://wiki.openstreetmap.org/wiki/Import/Catalogue/N50{\_}import{\_}(Norway)
-  Date accessed: 2016-10-25.
+\newblock http://wiki.openstreetmap.org/wiki/Import/Catalogue/
+  N50{\_}import{\_}(Norway) Date accessed: 2016-10-25.
 
-\bibitem[OpenStreetMap, 2015a]{OpenStreetMapo}
+\bibitem[OpenStreetMap, 2015a]{OpenStreetMapc}
 OpenStreetMap, C. (2015a).
-\newblock {ProposedRoofLines - OpenStreetMap Wiki}.
-\newblock
-  http://wiki.openstreetmap.org/w/index.php?title=ProposedRoofLines{\&}oldid=1193866
-  Date accessed: 2016-12-08.
+\newblock {Node - OpenStreetMap Wiki}.
+\newblock http://wiki.openstreetmap.org/w/index.php?title=Node{\&}oldid=1189910
+  Date accessed: 2016-11-20.
 
-\bibitem[OpenStreetMap, 2015b]{OpenStreetMap2015a}
+\bibitem[OpenStreetMap, 2015b]{OpenStreetMap2015}
 OpenStreetMap, C. (2015b).
+\newblock {Node - OpenStreetMap Wiki}.
+\newblock http://wiki.openstreetmap.org/w/index.php?title=Node{\&}oldid=1189910
+  Date accessed: 2016-12-01.
+
+\bibitem[OpenStreetMap, 2015c]{OpenStreetMapo}
+OpenStreetMap, C. (2015c).
+\newblock {ProposedRoofLines - OpenStreetMap Wiki}.
+\newblock http://wiki.openstreetmap.org/w/index.php?title=
+  ProposedRoofLines{\&}oldid=1193866 Date accessed: 2016-12-08.
+
+\bibitem[OpenStreetMap, 2015d]{OpenStreetMap2015a}
+OpenStreetMap, C. (2015d).
 \newblock {Simple 3D Buildings/Example Models - OpenStreetMap Wiki}.
 \newblock
-  http://wiki.openstreetmap.org/w/index.php?title=Simple{\_}3D{\_}Buildings/Example{\_}Models{\&}oldid=1194811
-  Date accessed: 2016-12-08.
+  http://wiki.openstreetmap.org/w/index.php?title=Simple{\_}3D{\_}Buildings/
+  Example{\_}Models{\&}oldid=1194811 Date accessed: 2016-12-08.
 
-\bibitem[OpenStreetMap, 2016]{OSMwikipage2016}
-OpenStreetMap, C. (2016).
+\bibitem[OpenStreetMap, 2016b]{OSMAutomaticEdits}
+OpenStreetMap, C. (2016b).
+\newblock {Automated Edits code of conduct - OpenStreetMap Wiki}.
+\newblock
+  http://wiki.openstreetmap.org/w/index.php?title=Automated{\_}Edits{\_}code{\_}of{\_}conduct{\&}
+  oldid=1351097 Date accessed: 2016-10-26.
+
+\bibitem[OpenStreetMap, 2016c]{OpenStreetMapf}
+OpenStreetMap, C. (2016c).
+\newblock {building | Keys | OpenStreetMap Taginfo}.
+\newblock http://taginfo.osm.org/keys/building{\#}values Date accessed:
+  2016-11-21.
+
+\bibitem[OpenStreetMap, 2016d]{OpenStreetMapi}
+OpenStreetMap, C. (2016d).
+\newblock {Changeset - OpenStreetMap Wiki}.
+\newblock
+  https://wiki.openstreetmap.org/w/index.php?title=Changeset{\&}oldid=1345995
+  Date accessed: 2016-11-21.
+
+\bibitem[OpenStreetMap, 2016e]{OSMDWG}
+OpenStreetMap, C. (2016e).
+\newblock {Data working group - OpenStreetMap Wiki}.
+\newblock
+  http://wiki.openstreetmap.org/w/index.php?title=Data{\_}working{\_}group{\&}oldid=1404356
+  Date accessed: 2016-10-25.
+
+\bibitem[OpenStreetMap, 2016f]{OpenStreetMapg}
+OpenStreetMap, C. (2016f).
+\newblock {Elements - OpenStreetMap Wiki}.
+\newblock https://wiki.openstreetmap.org/w/index.php?title=Elements{\&}
+  oldid=1339476 Date accessed: 2016-11-21.
+
+\bibitem[OpenStreetMap, 2016g]{OpenStreetMapn}
+OpenStreetMap, C. (2016g).
+\newblock {Import/Catalogue/Topography import for Norway - OpenStreetMap Wiki}.
+\newblock http://wiki.openstreetmap.org/w/index.php?title=Import/Catalogue/
+  Topography{\_}import{\_}for{\_}Norway{\&}oldid=1342240 Date accessed:
+  2016-12-07.
+
+\bibitem[OpenStreetMap, 2016h]{OpenStreetMap2016a}
+OpenStreetMap, C. (2016h).
+\newblock {Import/Guidelines - OpenStreetMap Wiki}.
+\newblock http://wiki.openstreetmap.org/w/index.php?title=Import/
+  Guidelines{\&}oldid=1396104 Date accessed: 2016-12-19.
+
+\bibitem[OpenStreetMap, 2016i]{OpenStreetMapk}
+OpenStreetMap, C. (2016i).
+\newblock {MapRoulette - OpenStreetMap Wiki}.
+\newblock
+  http://wiki.openstreetmap.org/w/index.php?title=MapRoulette{\&}oldid=1280971
+  Date accessed: 2016-11-24.
+
+\bibitem[OpenStreetMap, 2016j]{OpenStreetMape}
+OpenStreetMap, C. (2016j).
+\newblock {Relation - OpenStreetMap Wiki}.
+\newblock
+  http://wiki.openstreetmap.org/w/index.php?title=Relation{\&}oldid=1318323
+  Date accessed: 2016-11-21.
+
+\bibitem[OpenStreetMap, 2016k]{OSMwikipage2016}
+OpenStreetMap, C. (2016k).
 \newblock {Simple 3D buildings - OpenStreetMap Wiki}.
 \newblock
   http://wiki.openstreetmap.org/w/index.php?title=Simple{\_}3D{\_}buildings{\&}oldid=1389188
   Date accessed: 2016-11-26.
 
-\bibitem[OpenStreetMap, l]{OSMDWG}
-OpenStreetMap, D.
-\newblock {Data working group - OpenStreetMap Wiki}.
-\newblock http://wiki.openstreetmap.org/wiki/Data{\_}working{\_}group Date
-  accessed: 2016-10-25.
+\bibitem[OpenStreetMap, 2016l]{OpenStreetMapj}
+OpenStreetMap, C. (2016l).
+\newblock {State Of The Map - OpenStreetMap Wiki}.
+\newblock
+  http://wiki.openstreetmap.org/w/index.php?title=State{\_}Of{\_}The{\_}Map{\&}oldid=1372231
+  Date accessed: 2016-11-21.
+
+\bibitem[OpenStreetMap, 2016m]{OpenStreetMapd}
+OpenStreetMap, C. (2016m).
+\newblock {Way - OpenStreetMap Wiki}.
+\newblock http://wiki.openstreetmap.org/w/index.php?title=Way{\&}oldid=1293953
+  Date accessed: 2016-11-20.
 
 \bibitem[{OSM Tasking Manager}, ]{OSMTaskingManager}
 {OSM Tasking Manager}, L.~B.

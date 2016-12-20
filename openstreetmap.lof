@@ -1,28 +1,27 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces 3D modeling of buildings in Trondheim, source: osmbuildings.org and 3d.kommunekart.com\relax }}{3}{figure.caption.3}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces 3D modeling of buildings in Trondheim, source: \cite {OSMbui2016} and \cite {NORKART2016}\relax }}{3}{figure.caption.3}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces 2D representation of \textit {Vaar frues kirke}, result of listing \ref {eq:waytag1}. Source: openstreetmap.org\relax }}{11}{figure.caption.4}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces 3D representation of \textit {Vaar frues kirke}, result of listing \ref {eq:reltag}. Source: osmbuildings.org\relax }}{13}{figure.caption.5}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces \textit {Sydkapell} with gabled shaped roof, result of listing \ref {eq:waytag}. \textit {Source: osmbuildings.org}\relax }}{15}{figure.caption.6}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces 2D representation of \textit {Vaar frues kirke}, result of listing \ref {eq:waytag1}. Source: \cite {OpenStreetMap2016b}\relax }}{11}{figure.caption.4}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces 3D representation of \textit {Vaar frues kirke}, result of listing \ref {eq:reltag}. Source: \cite {Buildings2016}\relax }}{12}{figure.caption.5}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces \textit {Sydkapell} with gabled shaped roof, result of listing \ref {eq:waytag}. Source: \cite {Buildings2016}\relax }}{14}{figure.caption.6}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Most common feature types in Trondheim\relax }}{19}{figure.caption.7}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Roof edge (red), roof overhang (blue), ridge line (green) and building line (brown) \cite {Kartverket2013a}\relax }}{20}{figure.caption.8}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Roof edge (red), roof overhang (blue), ridge line (green) and building line (brown) \cite {Kartverket2013a}\relax }}{21}{figure.caption.9}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Roof overhang bottom (blue), roof edge (red) and roof overhang (green)\relax }}{21}{figure.caption.10}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Roof edge (red), roof overhang (blue) and veranda (turquoise) \cite {Kartverket2013a}\relax }}{22}{figure.caption.11}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Roof edge representation\relax }}{26}{figure.caption.12}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Most common feature types in Trondheim\relax }}{18}{figure.caption.7}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Roof edge (red), roof overhang (blue), ridge line (green) and building line (brown) \cite {Kartverket2013a}\relax }}{19}{figure.caption.8}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Roof edge (red), roof overhang (blue), ridge line (green) and building line (brown) \cite {Kartverket2013a}\relax }}{20}{figure.caption.9}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Roof overhang bottom (blue), roof edge (red) and roof overhang (green)\relax }}{20}{figure.caption.10}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Roof edge (red), roof overhang (blue) and veranda (turquoise) \cite {Kartverket2013a}\relax }}{21}{figure.caption.11}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Roof edge representation\relax }}{25}{figure.caption.12}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Project 2261- Tanzania Development, source: \cite {HOTTaskingManager2016a}\relax }}{28}{figure.caption.13}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces LABuildings Import, source: \cite {LAOSM}\relax }}{29}{figure.caption.14}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Project 2261- Tanzania Development, source: \cite {HOTTaskingManager2016a}\relax }}{27}{figure.caption.13}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces LABuildings Import, source: \cite {LAOSM}\relax }}{28}{figure.caption.14}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Building footprint with roof edges and roof ridges created with sosi2osm script\relax }}{45}{figure.caption.16}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Roof lines in OpenStreetMap, source: \cite {OpenStreetMapo}\relax }}{46}{figure.caption.17}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces 3D representation of a FKB building, result of listing \ref {eq:3D_fkbbuilding}\relax }}{47}{figure.caption.18}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces 3D representation of a FKB building, showing the problem with overlapping points with different heights in OSM\relax }}{48}{figure.caption.19}
-\contentsline {figure}{\numberline {7.5}{\ignorespaces 20 most common building types in Trondheim, see table \ref {tab:fkbtoosmdel1} for building type conversion. Source: postgis query in the cadastre\relax }}{49}{figure.caption.20}
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Building footprint with roof edges and roof ridges created with sosi2osm script\relax }}{43}{figure.caption.16}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Roof lines in OpenStreetMap, source: \cite {OpenStreetMapo}\relax }}{44}{figure.caption.17}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces 3D representation of a FKB building, result of listing \ref {eq:3D_fkbbuilding}\relax }}{45}{figure.caption.18}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces 3D representation of a FKB building, showing the problem with overlapping points with different heights in OSM\relax }}{46}{figure.caption.19}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces 20 most common building types in Trondheim, see table \ref {tab:fkbtoosmdel1} for building type conversion. Source: PostGIS query in the cadastre\relax }}{47}{figure.caption.20}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
