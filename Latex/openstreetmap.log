@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.9.27)  11 JAN 2017 10:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.9.27)  11 JAN 2017 11:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -753,32 +753,25 @@ LaTeX Info: Redefining \nameref on input line 54.
 \c@lstlisting=\count139
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
- (./tableofcontent.tex
-LaTeX Font Info:    Try loading font information for U+msa on input line 5.
+LaTeX Font Info:    Try loading font information for U+msa on input line 57.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 5.
+LaTeX Font Info:    Try loading font information for U+msb on input line 57.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./open
-streetmap.tocpdfTeX warning (ext4): destination with the same identifier (name{
-page.i}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.24 ...on using existing script}{41}{section.7.3}
-                                                   [1
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./tableofcontent.tex [1] (./openstreetmap.toc [2
 
 ])
 \tf@toc=\write4
 \openout4 = `openstreetmap.toc'.
 
- [2]
-(./openstreetmap.lof
+ [3] (./openstreetmap.lof
 Overfull \hbox (16.54272pt too wide) in paragraph at lines 7--7
  [][] [][]\T1/cmr/m/it/12 Sydkapell \T1/cmr/m/n/12 with gabled shaped roof, re-
 sult of list-ing []3.4[]. Source: [[]Build-ings, 
@@ -806,7 +799,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.24 ...e cadastre\relax }}{47}{figure.caption.20}
+l.24 ...e cadastre\relax }}{46}{figure.caption.20}
                                                    [1
 
 
@@ -818,19 +811,24 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.15 \cleardoublepage
-                      [2]) [1
-
-]
+l.13 \cleardoublepage
+                      [2])
 Chapter 1.
-[2
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.72 I
+      mporting data into OSM can be complicated and finding an optimal appro...
+[1
+
 
 ] <figures/FixedByMe/3DmodellTRD.png, id=281, 475.7775pt x 313.17pt>
 File: figures/FixedByMe/3DmodellTRD.png Graphic file (type png)
 
 <use figures/FixedByMe/3DmodellTRD.png>
-Package pdftex.def Info: figures/FixedByMe/3DmodellTRD.png used on input line 7
-9.
+Package pdftex.def Info: figures/FixedByMe/3DmodellTRD.png used on input line 8
+0.
 (pdftex.def)             Requested size: 193.50075pt x 127.36835pt.
 
 <figures/FixedByMe/3DmodelTRD-FKB.png, id=283, 949.5475pt x 507.8975pt>
@@ -838,26 +836,26 @@ File: figures/FixedByMe/3DmodelTRD-FKB.png Graphic file (type png)
 
 <use figures/FixedByMe/3DmodelTRD-FKB.png>
 Package pdftex.def Info: figures/FixedByMe/3DmodelTRD-FKB.png used on input lin
-e 85.
+e 86.
 (pdftex.def)             Requested size: 215.0023pt x 115.00049pt.
- [3 <./figures/FixedByMe/3DmodellTRD.png> <./figures/FixedByMe/3DmodelTRD-FKB.p
-ng>] [4]
+ [2 <./figures/FixedByMe/3DmodellTRD.png> <./figures/FixedByMe/3DmodelTRD-FKB.p
+ng>] [3]
 Chapter 2.
 
-Overfull \hbox (21.36388pt too wide) in paragraph at lines 100--101
+Overfull \hbox (21.36388pt too wide) in paragraph at lines 101--102
 \T1/cmr/m/n/12 func-tion and growth of the Open-StreetMap project. The foun-da-
 tion has the re-spon-si-bil-ity
  []
 
-[5
+[4
 
 ]
-Overfull \hbox (4.35611pt too wide) in paragraph at lines 106--107
+Overfull \hbox (4.35611pt too wide) in paragraph at lines 107--108
 []\T1/cmr/m/n/12 After the Haiti earth-quake in 2010 Hu-man-i-tar-ian Open-Stre
 etMap (HOT) was for-mally
  []
 
-[6] (./generalOSM.tex [7]
+[5] (./generalOSM.tex [6]
 Chapter 3.
 
 Overfull \hbox (45.04364pt too wide) in paragraph at lines 1--1
@@ -870,7 +868,7 @@ Overfull \hbox (17.03069pt too wide) in paragraph at lines 2--3
 nal data into Open-StreetMap
  []
 
-[8
+[7
 
 ]
 Overfull \hbox (33.99463pt too wide) in paragraph at lines 9--10
@@ -896,7 +894,7 @@ Overfull \hbox (42.23415pt too wide) in paragraph at lines 25--26
 [][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[9]
+[8]
 Overfull \hbox (42.23415pt too wide) in paragraph at lines 41--42
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -906,7 +904,7 @@ Overfull \hbox (49.28249pt too wide) in paragraph at lines 42--43
 [][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[10] <figures/FixedByMe/fruekirke2D.png, id=413, 552.0625pt x 227.85126pt>
+[9] <figures/FixedByMe/fruekirke2D.png, id=413, 552.0625pt x 227.85126pt>
 File: figures/FixedByMe/fruekirke2D.png Graphic file (type png)
 
 <use figures/FixedByMe/fruekirke2D.png>
@@ -919,7 +917,7 @@ Overfull \hbox (40.54648pt too wide) in paragraph at lines 89--90
 ple parts, tagged with build-ing:part=*,
  []
 
-[11 <./figures/FixedByMe/fruekirke2D.png>]
+[10 <./figures/FixedByMe/fruekirke2D.png>]
 Overfull \hbox (70.4275pt too wide) in paragraph at lines 98--99
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -942,7 +940,7 @@ Overfull \hbox (12.09659pt too wide) in paragraph at lines 122--123
 ld-ing tag in node rep-re-sen-ta-tions
  []
 
-[12 <./figures/FixedByMe/fruekirke.png>]
+[11 <./figures/FixedByMe/fruekirke.png>]
 Overfull \hbox (56.33083pt too wide) in paragraph at lines 133--134
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -952,14 +950,14 @@ Overfull \hbox (49.28249pt too wide) in paragraph at lines 134--135
 [][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[13] <figures/FixedByMe/nidaros3D.png, id=493, 299.1175pt x 295.1025pt>
+[12] <figures/FixedByMe/nidaros3D.png, id=493, 299.1175pt x 295.1025pt>
 File: figures/FixedByMe/nidaros3D.png Graphic file (type png)
 
 <use figures/FixedByMe/nidaros3D.png>
 Package pdftex.def Info: figures/FixedByMe/nidaros3D.png used on input line 158
 .
 (pdftex.def)             Requested size: 149.55838pt x 147.55087pt.
-) (./fkbchapter.tex [14 <./figures/FixedByMe/nidaros3D.png>]
+) (./fkbchapter.tex [13 <./figures/FixedByMe/nidaros3D.png>]
 Chapter 4.
 
 Overfull \hbox (12.8756pt too wide) in paragraph at lines 2--3
@@ -973,15 +971,15 @@ Overfull \hbox (1.16791pt too wide) in paragraph at lines 5--6
 cre-ated by the Nor-we-gian
  []
 
-[15
+[14
 
-] [16]
+] [15]
 Overfull \hbox (28.19882pt too wide) in paragraph at lines 27--28
 \T1/cmr/m/n/12 fea-ture types, shown in fig-ure []4.1[], will be in-tro-duced t
 o cre-ate a fun-da-men-tal un-der-stand-ing
  []
 
-[17]
+[16]
 <figures/FixedByMe/comm_feature_type.jpg, id=555, 372.39125pt x 294.09875pt>
 File: figures/FixedByMe/comm_feature_type.jpg Graphic file (type jpg)
 
@@ -996,14 +994,14 @@ File: figures/kurve_4tak_fkb.png Graphic file (type png)
 <use figures/kurve_4tak_fkb.png>
 Package pdftex.def Info: figures/kurve_4tak_fkb.png used on input line 43.
 (pdftex.def)             Requested size: 274.02307pt x 172.64456pt.
- [18 <./figures/FixedByMe/comm_feature_type.jpg>] <figures/kurve_4tak_fkb2.png,
+ [17 <./figures/FixedByMe/comm_feature_type.jpg>] <figures/kurve_4tak_fkb2.png,
  id=570, 583.17876pt x 320.19624pt>
 File: figures/kurve_4tak_fkb2.png Graphic file (type png)
 
 <use figures/kurve_4tak_fkb2.png>
 Package pdftex.def Info: figures/kurve_4tak_fkb2.png used on input line 52.
 (pdftex.def)             Requested size: 291.58867pt x 160.09772pt.
- [19 <./figures/kurve_4tak_fkb.png>]
+ [18 <./figures/kurve_4tak_fkb.png>]
 Overfull \hbox (24.11508pt too wide) in paragraph at lines 57--58
 []\T1/cmr/m/n/12 Fourth most com-mon line fea-ture in Trond-heim is roof over-h
 ang bot-tom (\T1/cmr/m/it/12 Tak-Sprang-Bunn\T1/cmr/m/n/12 )
@@ -1016,7 +1014,7 @@ File: figures/FixedByMe/kurve_3fkb_tak.png Graphic file (type png)
 Package pdftex.def Info: figures/FixedByMe/kurve_3fkb_tak.png used on input lin
 e 61.
 (pdftex.def)             Requested size: 211.18526pt x 162.20311pt.
- [20 <./figures/kurve_4tak_fkb2.png> <./figures/FixedByMe/kurve_3fkb_tak.png>]
+ [19 <./figures/kurve_4tak_fkb2.png> <./figures/FixedByMe/kurve_3fkb_tak.png>]
 <figures/veranda_fkb.png, id=594, 950.55125pt x 441.65pt>
 File: figures/veranda_fkb.png Graphic file (type png)
 
@@ -1055,20 +1053,20 @@ Overfull \hbox (19.59053pt too wide) in paragraph at lines 77--78
 m\T1/cmr/m/n/12 )
  []
 
-[21 <./figures/veranda_fkb.png>]
+[20 <./figures/veranda_fkb.png>]
 Overfull \hbox (20.12796pt too wide) in paragraph at lines 79--80
 \T1/cmr/m/n/12 that are com-pletely ac-cu-rate. The build-ings will al-ways be 
 sub-ject to some gen-er-al-iza-tion.
  []
 
-[22] [23] [24] <figures/FixedByMe/sosiArea.png, id=705, 160.6pt x 140.525pt>
+[21] [22] [23] <figures/FixedByMe/sosiArea.png, id=705, 160.6pt x 140.525pt>
 File: figures/FixedByMe/sosiArea.png Graphic file (type png)
 
 <use figures/FixedByMe/sosiArea.png>
 Package pdftex.def Info: figures/FixedByMe/sosiArea.png used on input line 198.
 
 (pdftex.def)             Requested size: 144.53865pt x 126.47131pt.
-) (./microtasking.tex [25 <./figures/FixedByMe/sosiArea.png>]
+) (./microtasking.tex [24 <./figures/FixedByMe/sosiArea.png>]
 Chapter 5.
 
 Overfull \hbox (2.24207pt too wide) in paragraph at lines 5--6
@@ -1076,7 +1074,7 @@ Overfull \hbox (2.24207pt too wide) in paragraph at lines 5--6
 gths of us-ing micro-tasks
  []
 
-[26
+[25
 
 ] <figures/FixedByMe/taskingmanager.png, id=737, 882.29625pt x 619.31375pt>
 File: figures/FixedByMe/taskingmanager.png Graphic file (type png)
@@ -1085,7 +1083,7 @@ File: figures/FixedByMe/taskingmanager.png Graphic file (type png)
 Package pdftex.def Info: figures/FixedByMe/taskingmanager.png used on input lin
 e 12.
 (pdftex.def)             Requested size: 264.69092pt x 185.79555pt.
- [27 <./figures/FixedByMe/taskingmanager.png>] <figures/FixedByMe/taskingman2.p
+ [26 <./figures/FixedByMe/taskingmanager.png>] <figures/FixedByMe/taskingman2.p
 ng, id=751, 950.55125pt x 762.85pt>
 File: figures/FixedByMe/taskingman2.png Graphic file (type png)
 
@@ -1093,23 +1091,23 @@ File: figures/FixedByMe/taskingman2.png Graphic file (type png)
 Package pdftex.def Info: figures/FixedByMe/taskingman2.png used on input line 2
 1.
 (pdftex.def)             Requested size: 285.16757pt x 228.85677pt.
-) (./ImportMethods.tex [28 <./figures/FixedByMe/taskingman2.png>] [29]
+) (./ImportMethods.tex [27 <./figures/FixedByMe/taskingman2.png>] [28]
 Chapter 6.
-[30
+[29
 
-] [31]
+] [30]
 Overfull \hbox (13.93369pt too wide) in paragraph at lines 16--17
 \T1/cmr/m/it/12 To-pog-ra-phy im-port for Nor-way \T1/cmr/m/n/12 wiki page. The
  map-ping team im-ported one mu-nic-i-pal-ity
  []
 
-[32] [33]
+[31] [32]
 Overfull \hbox (8.3713pt too wide) in paragraph at lines 31--32
 \T1/cmr/m/n/12 ex-pe-ri-enced users. The micro-tasking method to-gether with th
 e OSM Task-ing Man-ager
  []
 
-[34]) (./suggestedmethod.tex [35] [36]
+[33]) (./suggestedmethod.tex [34] [35]
 Chapter 7.
 
 Overfull \hbox (8.51141pt too wide) in paragraph at lines 6--7
@@ -1117,15 +1115,15 @@ Overfull \hbox (8.51141pt too wide) in paragraph at lines 6--7
 a-tive when con-sid-er-ing
  []
 
-[37
+[36
 
-] [38]
+] [37]
 Overfull \hbox (1.97679pt too wide) in paragraph at lines 18--19
 \T1/cmr/m/n/12 it pro-vides tasks with less com-plex-ity. An im-port of ex-ist-
 ing data into Open-StreetMap
  []
 
-[39]
+[38]
 Overfull \hbox (22.85934pt too wide) in paragraph at lines 22--22
 |[]\T1/cmr/bx/n/17.28 FKB meta-data mapped to OSM key-value pairs| 
  []
@@ -1136,7 +1134,7 @@ Overfull \hbox (11.90982pt too wide) in paragraph at lines 49--50
 T1/cmr/m/it/12 tag-info.openstreetmap.org\T1/cmr/m/n/12 )
  []
 
-[40] [41]
+[39] [40]
 <figures/FixedByMe/2Doutlinesosi2osm.png, id=937, 233.87375pt x 300.12125pt>
 File: figures/FixedByMe/2Doutlinesosi2osm.png Graphic file (type png)
 
@@ -1152,7 +1150,7 @@ File: figures/FixedByMe/2Doutline.png Graphic file (type png)
 Package pdftex.def Info: figures/FixedByMe/2Doutline.png used on input line 91.
 
 (pdftex.def)             Requested size: 161.10147pt x 169.63333pt.
- [42]
+ [41]
 Overfull \hbox (26.0857pt too wide) in paragraph at lines 100--101
 \T1/cmr/m/n/12 unite all the sep-a-rate ap-proaches to model 3D build-ings us-i
 ng OSM XML [[]Open-StreetMap,
@@ -1173,7 +1171,7 @@ File: figures/FixedByMe/roof-edges.png Graphic file (type png)
 Package pdftex.def Info: figures/FixedByMe/roof-edges.png used on input line 11
 2.
 (pdftex.def)             Requested size: 134.90503pt x 154.17719pt.
- [43 <./figures/FixedByMe/2Doutlinesosi2osm.png> <./figures/FixedByMe/2Doutline
+ [42 <./figures/FixedByMe/2Doutlinesosi2osm.png> <./figures/FixedByMe/2Doutline
 .png>]
 <figures/FixedByMe/3DFKBbuilding.png, id=971, 370.38374pt x 241.90375pt>
 File: figures/FixedByMe/3DFKBbuilding.png Graphic file (type png)
@@ -1182,7 +1180,7 @@ File: figures/FixedByMe/3DFKBbuilding.png Graphic file (type png)
 Package pdftex.def Info: figures/FixedByMe/3DFKBbuilding.png used on input line
  126.
 (pdftex.def)             Requested size: 185.1914pt x 120.95157pt.
- [44 <./figures/FixedByMe/roof-ridges.jpg> <./figures/FixedByMe/roof-edges.png>
+ [43 <./figures/FixedByMe/roof-ridges.jpg> <./figures/FixedByMe/roof-edges.png>
 ]
 Overfull \hbox (11.42236pt too wide) in paragraph at lines 133--134
 \T1/cmr/m/n/12 con-tact and the top of the roof of the build-ing, ex-clud-ing a
@@ -1208,7 +1206,7 @@ Package pdftex.def Info: figures/FixedByMe/112building_nodes_with_diff_height.p
 ng used on input line 147.
 (pdftex.def)             Requested size: 172.00249pt x 141.32349pt.
 
-[45 <./figures/FixedByMe/3DFKBbuilding.png>]
+[44 <./figures/FixedByMe/3DFKBbuilding.png>]
 <figures/FixedByMe/buildtypestrd.png, id=996, 602.25pt x 372.39125pt>
 File: figures/FixedByMe/buildtypestrd.png Graphic file (type png)
 
@@ -1216,13 +1214,13 @@ File: figures/FixedByMe/buildtypestrd.png Graphic file (type png)
 Package pdftex.def Info: figures/FixedByMe/buildtypestrd.png used on input line
  161.
 (pdftex.def)             Requested size: 361.35278pt x 223.43646pt.
- [46 <./figures/FixedByMe/samenode_but_have_diff_height.png> <./figures/FixedBy
-Me/112building_nodes_with_diff_height.png>] [47 <./figures/FixedByMe/buildtypes
+ [45 <./figures/FixedByMe/samenode_but_have_diff_height.png> <./figures/FixedBy
+Me/112building_nodes_with_diff_height.png>] [46 <./figures/FixedByMe/buildtypes
 trd.png>]
 Chapter 8.
-[48
+[47
 
-] [49]
+] [48]
 Chapter 9.
 
 Overfull \hbox (19.82733pt too wide) in paragraph at lines 178--179
@@ -1231,12 +1229,12 @@ asets into Open-StreetMap,
  []
 
 )
-Overfull \hbox (0.33209pt too wide) in paragraph at lines 180--119
+Overfull \hbox (0.33209pt too wide) in paragraph at lines 180--120
 \T1/cmr/m/n/12 make the im-port pro-cess eas-ier for both the ex-pe-ri-enced us
 er but even more im-por-tant
  []
 
-(./openstreetmap.bbl [50
+(./openstreetmap.bbl [49
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 4--9
@@ -1311,7 +1309,7 @@ Overfull \hbox (39.35948pt too wide) in paragraph at lines 49--54
 ation=0&tilt=30
  []
 
-[51
+[50
 
 ]
 Overfull \hbox (39.35948pt too wide) in paragraph at lines 56--61
@@ -1405,7 +1403,7 @@ Underfull \hbox (badness 1448) in paragraph at lines 116--120
 te ac-cessed:
  []
 
-[52]
+[51]
 Underfull \hbox (badness 10000) in paragraph at lines 131--135
 []\T1/cmr/m/n/12 Hagen, S. O. (2014).  Re: [NUUG kart] Møs-vatn.
  []
@@ -1480,7 +1478,7 @@ Underfull \hbox (badness 1502) in paragraph at lines 182--185
 []\T1/cmr/m/n/12 Kartverket (2006).  SOSI stan-dard -versjon 4.0 1 Del 1:
  []
 
-[53]
+[52]
 Underfull \hbox (badness 10000) in paragraph at lines 200--205
 []\T1/cmr/m/n/12 Kartverket (2016a).  In-n-føring i kom-munene |
  []
@@ -1577,7 +1575,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 248--251
 \T1/cmr/m/n/12 Task-ing Man-ager - #20 - South-east - LABuild-ings Im-port.
  []
 
-[54]
+[53]
 Overfull \hbox (40.66498pt too wide) in paragraph at lines 258--263
 \T1/cmr/m/n/12 http://stateofthemap.us/2015/less-bots-more-humans-using-maproul
 ette-to-import-data/
@@ -1642,7 +1640,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 312--316
 []\T1/cmr/m/n/12 OpenStreetMap, C.  LearnOSM.
  []
 
-[55]
+[54]
 Underfull \hbox (badness 2698) in paragraph at lines 323--328
 []\T1/cmr/m/n/12 OpenStreetMap, C. (2013).  Sim-ple 3D build-ings -
  []
@@ -1746,7 +1744,7 @@ Overfull \hbox (43.37114pt too wide) in paragraph at lines 381--386
 group&oldid=1404356
  []
 
-[56]
+[55]
 Underfull \hbox (badness 10000) in paragraph at lines 388--392
 \T1/cmr/m/n/12 Wiki.  https://wiki.openstreetmap.org/w/index.php?title=Elements
 &
@@ -1835,7 +1833,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 446--449
 []\T1/cmr/m/n/12 OSMF.  About | Open-StreetMap Blog.
  []
 
-[57]
+[56]
 Underfull \hbox (badness 10000) in paragraph at lines 462--467
 []\T1/cmr/m/n/12 Reiter, M. and Bar-roso, L. (2016).
  []
@@ -1883,7 +1881,7 @@ Underfull \hbox (badness 1852) in paragraph at lines 510--514
 []\T1/cmr/m/n/12 TagInfo (2016).  build-ing | Keys | Open-StreetMap Tag-info.
  []
 
-[58]
+[57]
 Underfull \hbox (badness 10000) in paragraph at lines 527--533
 []\T1/cmr/m/n/12 Willis, N. (2007).  Open-StreetMap project im-ports US
  []
@@ -1906,9 +1904,9 @@ Overfull \hbox (71.59906pt too wide) in paragraph at lines 535--541
 t-united-states-tiger-data
  []
 
-) (./Appendix.tex [59]
+) (./Appendix.tex [58]
 Chapter 10.
-[60
+[59
 
 ] (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
@@ -1943,12 +1941,12 @@ Overfull \hbox (40.84708pt too wide) in paragraph at lines 81--82
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[61]
+[60]
 Overfull \hbox (48.25534pt too wide) in paragraph at lines 82--83
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[62]
+[61]
 Overfull \hbox (56.47234pt too wide) in paragraph at lines 139--140
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -1998,7 +1996,7 @@ Overfull \hbox (56.47234pt too wide) in paragraph at lines 148--150
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[63]
+[62]
 Overfull \hbox (56.47234pt too wide) in paragraph at lines 176--177
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -2018,7 +2016,7 @@ Overfull \hbox (56.47234pt too wide) in paragraph at lines 197--198
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[64]
+[63]
 Overfull \hbox (49.93954pt too wide) in paragraph at lines 208--209
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -2034,20 +2032,20 @@ Overfull \hbox (49.93954pt too wide) in paragraph at lines 210--211
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 159.
- [65]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 159.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 160.
+ [64]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 160.
  (./openstreetmap.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 159.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 159.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 160.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 160.
 Package rerunfilecheck Info: File `openstreetmap.out' has not changed.
 (rerunfilecheck)             Checksum: E88F15D17C8FE9522F6A2E945FA24547;2057.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 159.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 160.
  ) 
 Here is how much of TeX's memory you used:
  10885 strings out of 493014
- 160466 string characters out of 6133351
- 290705 words of memory out of 5000000
+ 160467 string characters out of 6133351
+ 290704 words of memory out of 5000000
  13722 multiletter control sequences out of 15000+600000
  21152 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2065,7 +2063,7 @@ xlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texl
 ive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/texliv
 e/2016/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/
 2016/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on openstreetmap.pdf (70 pages, 2747886 bytes).
+Output written on openstreetmap.pdf (70 pages, 2747903 bytes).
 PDF statistics:
  1383 PDF objects out of 1440 (max. 8388607)
  1231 compressed objects within 13 object streams

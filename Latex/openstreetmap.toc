@@ -1,31 +1,31 @@
 \contentsline {section}{\hbox to\@tempdima {\hfil }List of Figures}{ii}{chapter*.2}
-\contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}
-\contentsline {chapter}{\numberline {2}Background}{5}{chapter.2}
-\contentsline {chapter}{\numberline {3}Characteristics of OpenStreetMap}{8}{chapter.3}
-\contentsline {section}{\numberline {3.1}Data structure}{8}{section.3.1}
-\contentsline {section}{\numberline {3.2}File format, .osm files}{9}{section.3.2}
-\contentsline {section}{\numberline {3.3}Mapping buildings in OSM}{13}{section.3.3}
-\contentsline {chapter}{\numberline {4}SOSI and FKB building}{15}{chapter.4}
-\contentsline {section}{\numberline {4.1}SOSI}{15}{section.4.1}
-\contentsline {section}{\numberline {4.2}FKB and data quality}{16}{section.4.2}
-\contentsline {section}{\numberline {4.3}Features in FKB building}{17}{section.4.3}
-\contentsline {section}{\numberline {4.4}Benefits using SOSI in context of OSM}{22}{section.4.4}
-\contentsline {chapter}{\numberline {5}Micro-tasking}{26}{chapter.5}
-\contentsline {section}{\numberline {5.1}Micro-tasking method}{26}{section.5.1}
-\contentsline {section}{\numberline {5.2}OSM Tasking Manager}{27}{section.5.2}
-\contentsline {section}{\numberline {5.3}Other tools}{28}{section.5.3}
-\contentsline {chapter}{\numberline {6}OSM import methods}{30}{chapter.6}
-\contentsline {section}{\numberline {6.1}Fully automatic import method}{30}{section.6.1}
-\contentsline {section}{\numberline {6.2}Guided automatic import method}{32}{section.6.2}
-\contentsline {section}{\numberline {6.3}Micro-tasking import method}{34}{section.6.3}
-\contentsline {chapter}{\numberline {7}Proposed method}{37}{chapter.7}
-\contentsline {section}{\numberline {7.1}Micro-tasking method?}{37}{section.7.1}
-\contentsline {section}{\numberline {7.2}FKB metadata mapped to OSM key-value pairs}{40}{section.7.2}
-\contentsline {section}{\numberline {7.3}Conversion using existing script}{41}{section.7.3}
-\contentsline {section}{\numberline {7.4}How to map FKB buildings in 3D}{43}{section.7.4}
-\contentsline {chapter}{\numberline {8}Discussion}{48}{chapter.8}
-\contentsline {chapter}{\numberline {9}Conclusion}{50}{chapter.9}
-\contentsline {chapter}{\numberline {10}Appendix}{60}{chapter.10}
-\contentsline {section}{\numberline {10.1}FKB building type mapped to OSM building value}{60}{section.10.1}
-\contentsline {section}{\numberline {10.2}Code snippet from .lua file, setting building=* value}{61}{section.10.2}
-\contentsline {section}{\numberline {10.3}XML code: 3D representation of a house from FKB data}{63}{section.10.3}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Background}{4}{chapter.2}
+\contentsline {chapter}{\numberline {3}Characteristics of OpenStreetMap}{7}{chapter.3}
+\contentsline {section}{\numberline {3.1}Data structure}{7}{section.3.1}
+\contentsline {section}{\numberline {3.2}File format, .osm files}{8}{section.3.2}
+\contentsline {section}{\numberline {3.3}Mapping buildings in OSM}{12}{section.3.3}
+\contentsline {chapter}{\numberline {4}SOSI and FKB building}{14}{chapter.4}
+\contentsline {section}{\numberline {4.1}SOSI}{14}{section.4.1}
+\contentsline {section}{\numberline {4.2}FKB and data quality}{15}{section.4.2}
+\contentsline {section}{\numberline {4.3}Features in FKB building}{16}{section.4.3}
+\contentsline {section}{\numberline {4.4}Benefits using SOSI in context of OSM}{21}{section.4.4}
+\contentsline {chapter}{\numberline {5}Micro-tasking}{25}{chapter.5}
+\contentsline {section}{\numberline {5.1}Micro-tasking method}{25}{section.5.1}
+\contentsline {section}{\numberline {5.2}OSM Tasking Manager}{26}{section.5.2}
+\contentsline {section}{\numberline {5.3}Other tools}{27}{section.5.3}
+\contentsline {chapter}{\numberline {6}OSM import methods}{29}{chapter.6}
+\contentsline {section}{\numberline {6.1}Fully automatic import method}{29}{section.6.1}
+\contentsline {section}{\numberline {6.2}Guided automatic import method}{31}{section.6.2}
+\contentsline {section}{\numberline {6.3}Micro-tasking import method}{33}{section.6.3}
+\contentsline {chapter}{\numberline {7}Proposed method}{36}{chapter.7}
+\contentsline {section}{\numberline {7.1}Micro-tasking method?}{36}{section.7.1}
+\contentsline {section}{\numberline {7.2}FKB metadata mapped to OSM key-value pairs}{39}{section.7.2}
+\contentsline {section}{\numberline {7.3}Conversion using existing script}{40}{section.7.3}
+\contentsline {section}{\numberline {7.4}How to map FKB buildings in 3D}{42}{section.7.4}
+\contentsline {chapter}{\numberline {8}Discussion}{47}{chapter.8}
+\contentsline {chapter}{\numberline {9}Conclusion}{49}{chapter.9}
+\contentsline {chapter}{\numberline {10}Appendix}{59}{chapter.10}
+\contentsline {section}{\numberline {10.1}FKB building type mapped to OSM building value}{59}{section.10.1}
+\contentsline {section}{\numberline {10.2}Code snippet from .lua file, setting building=* value}{60}{section.10.2}
+\contentsline {section}{\numberline {10.3}XML code: 3D representation of a house from FKB data}{62}{section.10.3}
