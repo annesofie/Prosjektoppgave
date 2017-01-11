@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.9.27)  9 JAN 2017 20:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.9.27)  11 JAN 2017 10:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1120,18 +1120,18 @@ a-tive when con-sid-er-ing
 [37
 
 ] [38]
-Overfull \hbox (1.97679pt too wide) in paragraph at lines 19--20
+Overfull \hbox (1.97679pt too wide) in paragraph at lines 18--19
 \T1/cmr/m/n/12 it pro-vides tasks with less com-plex-ity. An im-port of ex-ist-
 ing data into Open-StreetMap
  []
 
 [39]
-Overfull \hbox (22.85934pt too wide) in paragraph at lines 23--23
+Overfull \hbox (22.85934pt too wide) in paragraph at lines 22--22
 |[]\T1/cmr/bx/n/17.28 FKB meta-data mapped to OSM key-value pairs| 
  []
 
 
-Overfull \hbox (11.90982pt too wide) in paragraph at lines 50--51
+Overfull \hbox (11.90982pt too wide) in paragraph at lines 49--50
 \T1/cmr/m/n/12 FKB can di-rectly trans-late to OSM. In the tag-info web page (\
 T1/cmr/m/it/12 tag-info.openstreetmap.org\T1/cmr/m/n/12 )
  []
@@ -1142,18 +1142,18 @@ File: figures/FixedByMe/2Doutlinesosi2osm.png Graphic file (type png)
 
 <use figures/FixedByMe/2Doutlinesosi2osm.png>
 Package pdftex.def Info: figures/FixedByMe/2Doutlinesosi2osm.png used on input 
-line 87.
+line 85.
 (pdftex.def)             Requested size: 140.32532pt x 180.07413pt.
 
 <figures/FixedByMe/2Doutline.png, id=938, 322.20375pt x 339.2675pt>
 File: figures/FixedByMe/2Doutline.png Graphic file (type png)
 
 <use figures/FixedByMe/2Doutline.png>
-Package pdftex.def Info: figures/FixedByMe/2Doutline.png used on input line 93.
+Package pdftex.def Info: figures/FixedByMe/2Doutline.png used on input line 91.
 
 (pdftex.def)             Requested size: 161.10147pt x 169.63333pt.
  [42]
-Overfull \hbox (26.0857pt too wide) in paragraph at lines 102--103
+Overfull \hbox (26.0857pt too wide) in paragraph at lines 100--101
 \T1/cmr/m/n/12 unite all the sep-a-rate ap-proaches to model 3D build-ings us-i
 ng OSM XML [[]Open-StreetMap,
  []
@@ -1163,7 +1163,7 @@ File: figures/FixedByMe/roof-ridges.jpg Graphic file (type jpg)
 
 <use figures/FixedByMe/roof-ridges.jpg>
 Package pdftex.def Info: figures/FixedByMe/roof-ridges.jpg used on input line 1
-08.
+06.
 (pdftex.def)             Requested size: 132.496pt x 151.76816pt.
 
 <figures/FixedByMe/roof-edges.png, id=950, 224.84pt x 256.96pt>
@@ -1171,7 +1171,7 @@ File: figures/FixedByMe/roof-edges.png Graphic file (type png)
 
 <use figures/FixedByMe/roof-edges.png>
 Package pdftex.def Info: figures/FixedByMe/roof-edges.png used on input line 11
-4.
+2.
 (pdftex.def)             Requested size: 134.90503pt x 154.17719pt.
  [43 <./figures/FixedByMe/2Doutlinesosi2osm.png> <./figures/FixedByMe/2Doutline
 .png>]
@@ -1180,11 +1180,11 @@ File: figures/FixedByMe/3DFKBbuilding.png Graphic file (type png)
 
 <use figures/FixedByMe/3DFKBbuilding.png>
 Package pdftex.def Info: figures/FixedByMe/3DFKBbuilding.png used on input line
- 128.
+ 126.
 (pdftex.def)             Requested size: 185.1914pt x 120.95157pt.
  [44 <./figures/FixedByMe/roof-ridges.jpg> <./figures/FixedByMe/roof-edges.png>
 ]
-Overfull \hbox (11.42236pt too wide) in paragraph at lines 135--136
+Overfull \hbox (11.42236pt too wide) in paragraph at lines 133--134
 \T1/cmr/m/n/12 con-tact and the top of the roof of the build-ing, ex-clud-ing a
 n-ten-nas, etc [[]Open-StreetMap,
  []
@@ -1196,7 +1196,7 @@ File: figures/FixedByMe/samenode_but_have_diff_height.png Graphic file (type pn
 g)
  <use figures/FixedByMe/samenode_but_have_diff_height.png>
 Package pdftex.def Info: figures/FixedByMe/samenode_but_have_diff_height.png us
-ed on input line 143.
+ed on input line 141.
 (pdftex.def)             Requested size: 158.99118pt x 146.1434pt.
 
 <figures/FixedByMe/112building_nodes_with_diff_height.png, id=987, 343.2825pt x
@@ -1205,7 +1205,7 @@ File: figures/FixedByMe/112building_nodes_with_diff_height.png Graphic file (ty
 pe png)
  <use figures/FixedByMe/112building_nodes_with_diff_height.png>
 Package pdftex.def Info: figures/FixedByMe/112building_nodes_with_diff_height.p
-ng used on input line 149.
+ng used on input line 147.
 (pdftex.def)             Requested size: 172.00249pt x 141.32349pt.
 
 [45 <./figures/FixedByMe/3DFKBbuilding.png>]
@@ -1214,7 +1214,7 @@ File: figures/FixedByMe/buildtypestrd.png Graphic file (type png)
 
 <use figures/FixedByMe/buildtypestrd.png>
 Package pdftex.def Info: figures/FixedByMe/buildtypestrd.png used on input line
- 163.
+ 161.
 (pdftex.def)             Requested size: 361.35278pt x 223.43646pt.
  [46 <./figures/FixedByMe/samenode_but_have_diff_height.png> <./figures/FixedBy
 Me/112building_nodes_with_diff_height.png>] [47 <./figures/FixedByMe/buildtypes
@@ -1225,13 +1225,13 @@ Chapter 8.
 ] [49]
 Chapter 9.
 
-Overfull \hbox (19.82733pt too wide) in paragraph at lines 181--182
+Overfull \hbox (19.82733pt too wide) in paragraph at lines 178--179
 \T1/cmr/m/n/12 If or when the com-mu-nity gets ap-proval to im-port the FKB dat
 asets into Open-StreetMap,
  []
 
 )
-Overfull \hbox (0.33209pt too wide) in paragraph at lines 183--119
+Overfull \hbox (0.33209pt too wide) in paragraph at lines 180--119
 \T1/cmr/m/n/12 make the im-port pro-cess eas-ier for both the ex-pe-ri-enced us
 er but even more im-por-tant
  []
@@ -2065,7 +2065,7 @@ xlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texl
 ive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/texliv
 e/2016/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/
 2016/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on openstreetmap.pdf (70 pages, 2750993 bytes).
+Output written on openstreetmap.pdf (70 pages, 2747886 bytes).
 PDF statistics:
  1383 PDF objects out of 1440 (max. 8388607)
  1231 compressed objects within 13 object streams
