@@ -1,3 +1,3 @@
 # Evaluation of the Micro-Tasking Method for Importing High-Detail Building Models to OpenStreetMap
-## NTNU, fall 2016
+## Norwegian University of Science and Technology, fall 2016
 ### Importing large quantities of data into the OpenStreetMap (OSM) database has always been challenging. This study will investigate if the micro-tasking method makes the import process more manageable for the OSM community. In order to evaluate this method, the detailed FKB building dataset covering Norway will be used as an example dataset. This dataset will, most likely, be freely available within few years. By using the FKB building dataset this study will also provide help to the community if or when an import of the FKB data is approved. This study also looks at how the buildings can be 3D modeled in OSM. The results show that the micro-tasking method should be the preferred method when doing large imports of external data into OSM.
